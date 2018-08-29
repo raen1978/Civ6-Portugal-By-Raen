@@ -1,1 +1,1 @@
-Great People Icons only in REALEASE
+Great People Icons only in RELEASE

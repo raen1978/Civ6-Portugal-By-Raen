@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameInfo>
+  <Types>
+    <Row Type="CIVILIZATION_PORTUGAL" Kind="KIND_CIVILIZATION"/>
+    <Row Type="LEADER_JOAO_II" Kind="KIND_LEADER"/>
+    <Row Type="LEADER_MANUEL_I" Kind="KIND_LEADER"/>
+
+    <Row Type="LEADER_ALBUQUERQUE" Kind="KIND_LEADER"/>
+
+  </Types>
+  <Civilizations>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" Name="LOC_CIVILIZATION_PORTUGAL_NAME" Description="LOC_CIVILIZATION_PORTUGAL_DESCRIPTION" Adjective="LOC_CIVILIZATION_PORTUGAL_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="10" Ethnicity="ETHNICITY_EURO"/>
+  </Civilizations>
+  <CityNames>
+
+  </CityNames>
+  <Leaders>
+    <Row LeaderType="LEADER_ALBUQUERQUE" Name="LOC_LEADER_ALBUQUERQUE_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+    
+    <Row LeaderType="LEADER_JOAO_II" Name="LOC_LEADER_JOAO_II_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+    <Row LeaderType="LEADER_MANUEL_I" Name="LOC_LEADER_MANUEL_I_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+  </Leaders>
+  <CivilizationLeaders>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" LeaderType="LEADER_JOAO_II" CapitalName="Lisboa"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" LeaderType="LEADER_MANUEL_I" CapitalName="Beja"/>
+
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" LeaderType="LEADER_ALBUQUERQUE" CapitalName="Goa"/>
+  </CivilizationLeaders>
+
+  <Colors>
+    <Row Type="COLOR_PLAYER_PORTUGAL_PRIMARY" Red="0.774" Green="0.127" Blue="0.223" Alpha="1" />
+    <Row Type="COLOR_PLAYER_PORTUGAL_SECONDARY" Red="0.380" Green="0.415" Blue="0.713" Alpha="1" />
+    <Row Type="COLOR_PLAYER_PORTUGAL_TEXT" Red="0" Green="0.28" Blue="0.14" Alpha="1" />
+    <Row Type="COLOR_PLAYER_PORTUGAL_PRIMARY1" Red="0.774" Green="0.130" Blue="0.223" Alpha="1" />
+    <Row Type="COLOR_PLAYER_PORTUGAL_SECONDARY1" Red="0.380" Green="0.420" Blue="0.713" Alpha="1" />
+    <Row Type="COLOR_PLAYER_PORTUGAL_TEXT1" Red="0" Green="0.28" Blue="0.20" Alpha="1" />
+    <!--Colors City States -->
+    <Row Type="COLOR_HATTUSA" Red="0.1608"		Green="0.8118"		Blue="0.7333"		Alpha="1" />
+
+    <Row Type="COLOR_BRUSSELS" Red="1.0000"		Green="0.4980"		Blue="0.3137"		Alpha="1" />
+    <Row Type="COLOR_BUENOS_AIRES"	Red="0.3176"		Green="0.7098"		Blue="0.6275"		Alpha="1" />
+    <Row Type="COLOR_CARTHAGE" Red="0.0000"		Green="0.7686"		Blue="0.3843"		Alpha="1" />
+    <Row Type="COLOR_GENEVA" Red="0.6902"		Green="0.8863"		Blue="1.0000"		Alpha="1" />
+    <Row Type="COLOR_HONG_KONG" Red="1.0000"		Green="0.3804"		Blue="0.0118"		Alpha="1" />
+    <Row Type="COLOR_JAKARTA" Red="0.6039"		Green="1.0000"		Blue="0.6039"		Alpha="1" />
+    <Row Type="COLOR_KABUL" Red="0.6235"		Green="0.0588"		Blue="0.1725"		Alpha="1" />
+    <Row Type="COLOR_KUMASI" Red="0.8157"		Green="0.1255"		Blue="0.5647"		Alpha="1" />
+    <Row Type="COLOR_MOHENJO_DARO"	Red="0.6706"		Green="0.5098"		Blue="1.0000"		Alpha="1" />
+    <Row Type="COLOR_NAN_MADOL"	Red="0.9765"		Green="0.7176"		Blue="0.9373"		Alpha="1" />
+
+    <Row Type="COLOR_STOCKHOLM" Red="0.3922"		Green="0.5843"		Blue="0.9294"		Alpha="1" />
+    <Row Type="COLOR_TORONTO" Red="0.8157"		Green="0.3490"		Blue="0.0078"		Alpha="1" />
+    <Row Type="COLOR_VALLETTA" Red="1.0000"		Green="0.2902"		Blue="0.2902"		Alpha="1" />
+    <Row Type="COLOR_VILNIUS" Red="0.5529"		Green="0.0000"		Blue="0.7922"		Alpha="1" />
+    <Row Type="COLOR_PRESLAV" Red="0.8627"		Green="0.0784"		Blue="0.2353"		Alpha="1" />
+    <Row Type="COLOR_ZANZIBAR" Red="1.0000"		Green="1.0000"		Blue="0.5765"		Alpha="1" />
+  </Colors>
+
+  <PlayerColors>
+    <Row Type="LEADER_ALBUQUERQUE" Usage="Unique" PrimaryColor="COLOR_PLAYER_PORTUGAL_PRIMARY" SecondaryColor="COLOR_PLAYER_PORTUGAL_SECONDARY" TextColor="COLOR_PLAYER_PORTUGAL_TEXT" />
+    <Row Type="LEADER_JOAO_II" Usage="Unique" PrimaryColor="COLOR_PLAYER_PORTUGAL_PRIMARY1" SecondaryColor="COLOR_PLAYER_PORTUGAL_SECONDARY1" TextColor="COLOR_PLAYER_PORTUGAL_TEXT1" />
+    <Row Type="LEADER_MANUEL_I" Usage="Unique" PrimaryColor="COLOR_PLAYER_PORTUGAL_PRIMARY1" SecondaryColor="COLOR_PLAYER_PORTUGAL_SECONDARY1" TextColor="COLOR_PLAYER_PORTUGAL_TEXT1" />
+    <!--Colors City States -->
+    <Update>
+      <Where Type="CIVILIZATION_HATTUSA"/>
+      <Set SecondaryColor="COLOR_HATTUSA"/>
+    </Update>
+
+    <Update>
+      <Where Type="CIVILIZATION_BRUSSELS"/>
+      <Set SecondaryColor="COLOR_BRUSSELS"/>
+    </Update>
+    <Update>
+      <Where Type="CIVILIZATION_BUENOS_AIRES"/>
+      <Set SecondaryColor="COLOR_BUENOS_AIRES"/>
+    </Update>
+    <Update>
+      <Where Type="CIVILIZATION_CARTHAGE"/>
+      <Set SecondaryColor="COLOR_CARTHAGE"/>
+    </Update>
+    <Update>
+      <Where Type="CIVILIZATION_GENEVA"/>
+      <Set SecondaryColor="COLOR_GENEVA"/>
+    </Update>
+    <Update>
+      <Where Type="CIVILIZATION_HONG_KONG"/>
+      <Set SecondaryColor="COLOR_HONG_KONG"/>
+    </Update>
+    <Update>
+      <Where Type="CIVILIZATION_JAKARTA"/>
+      <Set SecondaryColor="COLOR_JAKARTA"/>
+    </Update>
+    <Update>
+      <Where Type="CIVILIZATION_KABUL"/>
+      <Set SecondaryColor="COLOR_KABUL"/>
+    </Update>
+    <Update>
+      <Where Type="CIVILIZATION_KUMASI"/>
+      <Set SecondaryColor="COLOR_KUMASI"/>
+    </Update>
+    <Update>
+      <Where Type="CIVILIZATION_MOHENJO_DARO"/>
+      <Set SecondaryColor="COLOR_MOHENJO_DARO"/>
+    </Update>
+    <Update>
+      <Where Type="CIVILIZATION_NAN_MADOL"/>
+      <Set SecondaryColor="COLOR_NAN_MADOL"/>
+    </Update>
+
+    <Update>
+      <Where Type="CIVILIZATION_STOCKHOLM"/>
+      <Set SecondaryColor="COLOR_STOCKHOLM"/>
+    </Update>
+    <Update>
+      <Where Type="CIVILIZATION_TORONTO"/>
+      <Set SecondaryColor="COLOR_TORONTO"/>
+    </Update>
+    <Update>
+      <Where Type="CIVILIZATION_VALLETTA"/>
+      <Set SecondaryColor="COLOR_VALLETTA"/>
+    </Update>
+    <Update>
+      <Where Type="CIVILIZATION_VILNIUS"/>
+      <Set SecondaryColor="COLOR_VILNIUS"/>
+    </Update>
+    <Update>
+      <Where Type="CIVILIZATION_PRESLAV"/>
+      <Set SecondaryColor="COLOR_PRESLAV"/>
+    </Update>
+    <Update>
+      <Where Type="CIVILIZATION_ZANZIBAR"/>
+      <Set SecondaryColor="COLOR_ZANZIBAR"/>
+    </Update>
+  </PlayerColors>
+
+
+  <LoadingInfo>
+    <Row LeaderType="LEADER_ALBUQUERQUE" ForegroundImage="LEADER_ALBUQUERQUE_NEUTRAL" BackgroundImage="LEADER_GORGO_BACKGROUND"    EraText="LOC_LOADING_INFO_LEADER_DEFAULT" PlayDawnOfManAudio="0"/>
+    <Row LeaderType="LEADER_JOAO_II" ForegroundImage="LEADER_JOAO_II_NEUTRAL" BackgroundImage="LEADER_GORGO_BACKGROUND"    EraText="LOC_LOADING_INFO_LEADER_DEFAULT" PlayDawnOfManAudio="0"/>
+    <Row LeaderType="LEADER_MANUEL_I" ForegroundImage="LEADER_MANUEL_I_NEUTRAL" BackgroundImage="LEADER_GORGO_BACKGROUND"    EraText="LOC_LOADING_INFO_LEADER_DEFAULT" PlayDawnOfManAudio="0"/>
+  </LoadingInfo>
+  <DiplomacyInfo>
+    <Row Type="LEADER_ALBUQUERQUE" BackgroundImage="LEADER_ALBUQUERQUE_BACKGROUND"/>
+    <Row Type="LEADER_JOAO_II" BackgroundImage="LEADER_JOAO_II_BACKGROUND"/>
+    <Row Type="LEADER_MANUEL_I" BackgroundImage="LEADER_MANUEL_I_BACKGROUND"/>
+  </DiplomacyInfo>
+
+  <CityNames>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Braga"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Coimbra"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Porto"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Viseu"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Lamego"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Lisboa"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Évora"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Silves"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Guarda"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Bragança"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Funchal"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Elvas"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Tavira"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Beja"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Angra do Heroísmo"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Faro"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Miranda do Douro"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Leiria"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Ponta Delgada"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Portalegre"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Lagos"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Aveiro"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Goa"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Penafiel"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Castelo Branco"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Viana do Castelo"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Guimarães"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Setúbal"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Santarém"/>
+ 
+  </CityNames>
+  <!-- -->
+  <LeaderQuotes>
+    <Row LeaderType="LEADER_ALBUQUERQUE" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_ALBUQUERQUE_QUOTE" />
+    <Row LeaderType="LEADER_JOAO_II" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_JOAO_II_QUOTE" />
+    <Row LeaderType="LEADER_MANUEL_I" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_MANUEL_I_QUOTE" />
+  </LeaderQuotes>
+  <CivilizationInfo>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" Header="LOC_CIVINFO_LOCATION" Caption="LOC_CIVINFO_PORTUGAL_LOCATION" SortIndex="10"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" Header="LOC_CIVINFO_SIZE" Caption="LOC_CIVINFO_PORTUGAL_SIZE" SortIndex="20"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" Header="LOC_CIVINFO_POPULATION" Caption="LOC_CIVINFO_PORTUGAL_POPULATION" SortIndex="30"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" Header="LOC_CIVINFO_CAPITAL" Caption="LOC_CIVINFO_PORTUGAL_CAPITAL" SortIndex="40"/>
+
+  
+  </CivilizationInfo>
+  <CivilizationCitizenNames>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_MALE_1"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_MALE_2"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_MALE_3"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_MALE_4"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_MALE_5"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_MALE_6"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_MALE_7"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_MALE_8"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_MALE_9"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_MALE_10"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_FEMALE_1" Female="true"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_FEMALE_2" Female="true"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_FEMALE_3" Female="true"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_FEMALE_4" Female="true"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_FEMALE_5" Female="true"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_FEMALE_6" Female="true"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_FEMALE_7" Female="true"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_FEMALE_8" Female="true"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_FEMALE_9" Female="true"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_FEMALE_10" Female="true"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_MODERN_MALE_1" Modern="true"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_MODERN_MALE_2" Modern="true"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_MODERN_MALE_3" Modern="true"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_MODERN_MALE_4" Modern="true"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_MODERN_MALE_5" Modern="true"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_MODERN_MALE_6" Modern="true"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_MODERN_MALE_7" Modern="true"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_MODERN_MALE_8" Modern="true"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_MODERN_MALE_9" Modern="true"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_MODERN_MALE_10" Modern="true"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_MODERN_FEMALE_1" Female="true" Modern="true"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_MODERN_FEMALE_2" Female="true" Modern="true"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_MODERN_FEMALE_3" Female="true" Modern="true"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_MODERN_FEMALE_4" Female="true" Modern="true"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_MODERN_FEMALE_5" Female="true" Modern="true"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_MODERN_FEMALE_6" Female="true" Modern="true"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_MODERN_FEMALE_7" Female="true" Modern="true"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_MODERN_FEMALE_8" Female="true" Modern="true"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_MODERN_FEMALE_9" Female="true" Modern="true"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CitizenName="LOC_CITIZEN_PORTUGAL_MODERN_FEMALE_10" Female="true" Modern="true"/>
+
+    
+  </CivilizationCitizenNames>
+</GameInfo>

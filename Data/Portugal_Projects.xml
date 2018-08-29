@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameInfo>
+	
+	<Types>
+		<Row Type="PROJECT_DISCOVERIES" Kind="KIND_PROJECT"/>
+    <Row Type="PROJECT_NAU_TRATO" Kind="KIND_PROJECT"/>
+    <Row Type="PROJECT_MARCHAS_POPULARES" Kind="KIND_PROJECT"/>
+	</Types>
+	<Projects>
+		<Row ProjectType="PROJECT_DISCOVERIES"   PrereqTech="TECH_NAUTICAL_SCIENCE"   Name="LOC_PROJECT_DISCOVERIES_NAME" ShortName="LOC_PROJECT_DISCOVERIES_SHORT_NAME" Description="LOC_PROJECT_DISCOVERIES_DESCRIPTION" PrereqDistrict="DISTRICT_PORTO" Cost="25" AdvisorType="ADVISOR_CONQUEST" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="1500" MaxPlayerInstances="30"/>
+    <Row ProjectType="PROJECT_NAU_TRATO" PrereqCivic="CIVIC_DIPLOMATIC_SERVICE" Name="LOC_PROJECT_NAU_TRATO_NAME" ShortName="LOC_PROJECT_NAU_TRATO_SHORT_NAME" Description="LOC_PROJECT_NAU_TRATO_DESCRIPTION" PrereqDistrict="DISTRICT_FOREIGN_PORTO" Cost="50" AdvisorType="ADVISOR_CONQUEST" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="1500" MaxPlayerInstances="30"/>
+    <Row ProjectType="PROJECT_MARCHAS_POPULARES" PrereqCivic="CIVIC_CULTURAL_HERITAGE" Name="LOC_PROJECT_MARCHAS_POPULARES_NAME" ShortName="LOC_PROJECT_MARCHAS_POPULARES_SHORT_NAME" Description="LOC_PROJECT_MARCHAS_POPULARES_DESCRIPTION" PrereqDistrict="DISTRICT_BAIRRO_ALTO" Cost="75" AdvisorType="ADVISOR_GENERIC" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="1500" MaxPlayerInstances="100"/>
+	</Projects>
+
+	<Project_GreatPersonPoints>
+		<Row ProjectType="PROJECT_DISCOVERIES" GreatPersonClassType="GREAT_PERSON_CLASS_EXPLORER" Points="10" PointProgressionModel="COST_PROGRESSION_GAME_PROGRESS" PointProgressionParam1="800"/>
+    <Row ProjectType="PROJECT_NAU_TRATO" GreatPersonClassType="GREAT_PERSON_CLASS_EXPLORER" Points="3" PointProgressionModel="COST_PROGRESSION_GAME_PROGRESS" PointProgressionParam1="800"/>
+    <Row ProjectType="PROJECT_NAU_TRATO" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" Points="5" PointProgressionModel="COST_PROGRESSION_GAME_PROGRESS" PointProgressionParam1="800"/>
+    <Row ProjectType="PROJECT_MARCHAS_POPULARES" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" Points="1" PointProgressionModel="COST_PROGRESSION_GAME_PROGRESS" PointProgressionParam1="800"/>
+    <Row ProjectType="PROJECT_MARCHAS_POPULARES" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" Points="1" PointProgressionModel="COST_PROGRESSION_GAME_PROGRESS" PointProgressionParam1="800"/>
+	</Project_GreatPersonPoints>
+	<Project_YieldConversions>
+		<Row ProjectType="PROJECT_DISCOVERIES" YieldType="YIELD_GOLD" PercentOfProductionRate="15"/>
+    <Row ProjectType="PROJECT_NAU_TRATO" YieldType="YIELD_GOLD" PercentOfProductionRate="45"/>
+    <Row ProjectType="PROJECT_MARCHAS_POPULARES" YieldType="YIELD_CULTURE" PercentOfProductionRate="10"/>
+	</Project_YieldConversions>
+	
+	
+</GameInfo>

@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+
+  <Types>
+    <Row Type="POLICY_CONNECTIVE_JUSTICE" Kind="KIND_POLICY"/>
+    <Row Type="POLICY_FAIR_TRADE" Kind="KIND_POLICY"/>
+    <Row Type="POLICY_SILENT_WAR" Kind="KIND_POLICY"/>
+    <Row Type="POLICY_MARE_NOSTRUM" Kind="KIND_POLICY"/>
+    <Row Type="POLICY_SPICES_TRADE" Kind="KIND_POLICY"/>
+    <Row Type="POLICY_TRADE_MONOPOLY" Kind="KIND_POLICY"/>
+    <Row Type="POLICY_POSTCOLONIAL_COMMUNITY" Kind="KIND_POLICY"/>
+  </Types>
+  <Policies>
+    <!-- Ancient Era-->
+    <Row PolicyType="POLICY_CONNECTIVE_JUSTICE" Name="LOC_POLICY_CONNECTIVE_JUSTICE_NAME" Description="LOC_POLICY_CONNECTIVE_JUSTICE_DESCRIPTION" PrereqCivic="CIVIC_CODE_OF_LAWS" GovernmentSlotType="SLOT_DIPLOMATIC"/>
+    <Row PolicyType="POLICY_FAIR_TRADE" Name="LOC_POLICY_FAIR_TRADE_NAME" Description="LOC_POLICY_FAIR_TRADE_DESCRIPTION" PrereqCivic="CIVIC_FOREIGN_TRADE" GovernmentSlotType="SLOT_DIPLOMATIC"/>
+    <!-- Classical Era-->
+    <Row PolicyType="POLICY_SILENT_WAR" Name="LOC_POLICY_SILENT_WAR_NAME" Description="LOC_POLICY_SILENT_WAR_DESCRIPTION" PrereqCivic="CIVIC_DEFENSIVE_TACTICS" GovernmentSlotType="SLOT_DIPLOMATIC"/>
+    <!-- Medieval Era-->
+    <Row PolicyType="POLICY_MARE_NOSTRUM" Name="LOC_POLICY_MARE_NOSTRUM_NAME" Description="LOC_POLICY_MARE_NOSTRUM_DESCRIPTION" PrereqCivic="CIVIC_NAVAL_TRADITION" GovernmentSlotType="SLOT_DIPLOMATIC"/>
+    <!-- Renaissance Era-->
+    <Row PolicyType="POLICY_SPICES_TRADE" Name="LOC_POLICY_SPICES_TRADE_NAME" Description="LOC_POLICY_SPICES_TRADE_DESCRIPTION" PrereqCivic="CIVIC_EXPLORATION" GovernmentSlotType="SLOT_DIPLOMATIC"/>
+    <Row PolicyType="POLICY_TRADE_MONOPOLY" Name="LOC_POLICY_TRADE_MONOPOLY_NAME" Description="LOC_POLICY_TRADE_MONOPOLY_DESCRIPTION" PrereqCivic="CIVIC_MERCANTILISM" GovernmentSlotType="SLOT_DIPLOMATIC"/>
+    <!-- Modern Era-->
+    <Row PolicyType="POLICY_POSTCOLONIAL_COMMUNITY" Name="LOC_POLICY_POSTCOLONIAL_COMMUNITY_NAME" Description="LOC_POLICY_POSTCOLONIAL_COMMUNITY_DESCRIPTION" PrereqCivic="CIVIC_CONSERVATION" GovernmentSlotType="SLOT_DIPLOMATIC"/>
+  </Policies>
+  <ObsoletePolicies>
+    <!-- Ancient Era-->
+    <Row PolicyType="POLICY_CONNECTIVE_JUSTICE" ObsoletePolicy="POLICY_MERCHANT_CONFEDERATION"/>
+    <Row PolicyType="POLICY_FAIR_TRADE" ObsoletePolicy="POLICY_SPICES_TRADE"/>
+    <!-- Classical Era-->
+    <Row PolicyType="POLICY_SILENT_WAR" ObsoletePolicy="POLICY_CRYPTOGRAPHY"/>
+    <!-- Medieval Era-->
+    <Row PolicyType="POLICY_MARE_NOSTRUM" ObsoletePolicy="POLICY_RAJ"/>
+    <!-- Renaissance Era-->
+    <Row PolicyType="POLICY_SPICES_TRADE" ObsoletePolicy="POLICY_POLICE_STATE"/>
+    <Row PolicyType="POLICY_TRADE_MONOPOLY" ObsoletePolicy="POLICY_GUNBOAT_DIPLOMACY"/>
+  </ObsoletePolicies>
+  <Modifiers>
+    <!-- Ancient Era-->
+    <Row>
+      <ModifierId>GODS_DOUBLESHRINE</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIER</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>GODS_DOUBLETEMPLE</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIER</ModifierType>
+    </Row>
+
+    <Row>
+      <ModifierId>POLICY_FAIR_TRADE_INCOMING_TRADE_GAIN_FOOD</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_FROM_OTHERS</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>POLICY_FAIR_TRADE_SEND_TRADE_ROUTE_BONUS</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_TO_OTHERS</ModifierType>
+    </Row>
+
+    <!-- Classical Era-->
+    <Row>
+      <ModifierId>SLIENT_WAR_DEFENSE</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_ADJUST_SPY_BONUS</ModifierType>
+    </Row>
+    <!-- Medieval Era-->
+    <Row>
+      <ModifierId>MARENOSTRUMDIPLOMACY_INFLUENCEPOINTS</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_ADJUST_INFLUENCE_POINTS_PER_TURN</ModifierType>
+    </Row>
+
+
+    <!-- Renaissance Era-->
+    <Row>
+      <ModifierId>SPICESTRADE_FOODPERTRIBUTARY</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_ADJUST_YIELD_MODIFIER_PER_TRIBUTARY</ModifierType>
+    </Row>
+
+    <Row>
+      <ModifierId>SPICESTRADE_GOLDPERTRIBUTARY</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_ADJUST_YIELD_MODIFIER_PER_TRIBUTARY</ModifierType>
+    </Row>
+
+    <Row>
+      <ModifierId>TRADEMONOPOLYDIPLOMACY_OPENBORDERS</ModifierId>
+      <ModifierType>MODIFIER_ADJUST_OPEN_BORDERS_FROM_INFLUENCE</ModifierType>
+      <SubjectRequirementSetId>PLAYER_IS_MINOR</SubjectRequirementSetId>
+    </Row>
+
+    <Row>
+      <ModifierId>TRADEMONOPOLY_DEFENSE</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_ADJUST_SPY_BONUS</ModifierType>
+    </Row>
+
+    <!-- Modern Era -->
+
+    <Row>
+      <ModifierId>POSTCOLONIALCOMMUNITY_TRADEROUTESCIENCETOALLY</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_DESTINATION_YIELD_FOR_ALLY_ROUTE</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>POSTCOLONIALCOMMUNITY_TRADEROUTECULTURETOALLY</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_DESTINATION_YIELD_FOR_ALLY_ROUTE</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>POSTCOLONIALCOMMUNITY_TRADEROUTEGOLDFROMALLY</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_ORIGIN_YIELD_FOR_ALLY_ROUTE</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>POSTCOLONIALCOMMUNITY_TRADEROUTECULTUREFROMALLY</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_ORIGIN_YIELD_FOR_ALLY_ROUTE</ModifierType>
+    </Row>
+
+  </Modifiers>
+
+
+
+  <ModifierArguments>
+    <!-- Ancient Era-->
+    <Row>
+      <ModifierId>GODS_DOUBLESHRINE</ModifierId>
+      <Name>BuildingType</Name>
+      <Value>BUILDING_SHRINE</Value>
+    </Row>
+    <Row>
+      <ModifierId>GODS_DOUBLESHRINE</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_FAITH</Value>
+    </Row>
+    <Row>
+      <ModifierId>GODS_DOUBLESHRINE</ModifierId>
+      <Name>Amount</Name>
+      <Value>50</Value>
+    </Row>
+
+
+    <Row>
+      <ModifierId>GODS_DOUBLETEMPLE</ModifierId>
+      <Name>BuildingType</Name>
+      <Value>BUILDING_TEMPLE</Value>
+    </Row>
+    <Row>
+      <ModifierId>GODS_DOUBLETEMPLE</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_FAITH</Value>
+    </Row>
+    <Row>
+      <ModifierId>GODS_DOUBLETEMPLE</ModifierId>
+      <Name>Amount</Name>
+      <Value>50</Value>
+    </Row>
+
+
+
+    <Row>
+      <ModifierId>POLICY_FAIR_TRADE_INCOMING_TRADE_GAIN_FOOD</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_FOOD</Value>
+    </Row>
+    <Row>
+      <ModifierId>POLICY_FAIR_TRADE_INCOMING_TRADE_GAIN_FOOD</ModifierId>
+      <Name>Amount</Name>
+      <Value>1</Value>
+    </Row>
+
+
+    <Row>
+      <ModifierId>POLICY_FAIR_TRADE_SEND_TRADE_ROUTE_BONUS</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_PRODUCTION</Value>
+    </Row>
+    <Row>
+      <ModifierId>POLICY_FAIR_TRADE_SEND_TRADE_ROUTE_BONUS</ModifierId>
+      <Name>Amount</Name>
+      <Value>1</Value>
+    </Row>
+
+    <!-- Classical Era-->
+    <Row>
+      <ModifierId>SLIENT_WAR_DEFENSE</ModifierId>
+      <Name>Offense</Name>
+      <Value>true</Value>
+    </Row>
+    <Row>
+      <ModifierId>SLIENT_WAR_DEFENSE</ModifierId>
+      <Name>Amount</Name>
+      <Value>1</Value>
+    </Row>
+    <!-- Medieval Era-->
+    <Row>
+      <ModifierId>MARENOSTRUMDIPLOMACY_INFLUENCEPOINTS</ModifierId>
+      <Name>Amount</Name>
+      <Value>2</Value>
+    </Row>
+
+
+
+
+    <!-- Renaissance Era-->
+
+    <Row>
+      <ModifierId>SPICESTRADE_FOODPERTRIBUTARY</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_FOOD</Value>
+    </Row>
+    <Row>
+      <ModifierId>SPICESTRADE_FOODPERTRIBUTARY</ModifierId>
+      <Name>Amount</Name>
+      <Value>10</Value>
+    </Row>
+
+
+    <Row>
+      <ModifierId>SPICESTRADE_GOLDPERTRIBUTARY</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_GOLD</Value>
+    </Row>
+    <Row>
+      <ModifierId>SPICESTRADE_GOLDPERTRIBUTARY</ModifierId>
+      <Name>Amount</Name>
+      <Value>10</Value>
+    </Row>
+
+    <Row>
+      <ModifierId>TRADEMONOPOLY_DEFENSE</ModifierId>
+      <Name>Offense</Name>
+      <Value>false</Value>
+    </Row>
+    <Row>
+      <ModifierId>TRADEMONOPOLY_DEFENSE</ModifierId>
+      <Name>Amount</Name>
+      <Value>1</Value>
+    </Row>
+
+    <!-- Modern Era -->
+
+    <Row>
+      <ModifierId>POSTCOLONIALCOMMUNITY_TRADEROUTESCIENCETOALLY</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_SCIENCE</Value>
+    </Row>
+    <Row>
+      <ModifierId>POSTCOLONIALCOMMUNITY_TRADEROUTESCIENCETOALLY</ModifierId>
+      <Name>Amount</Name>
+      <Value>4</Value>
+    </Row>
+    <Row>
+      <ModifierId>POSTCOLONIALCOMMUNITY_TRADEROUTECULTURETOALLY</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_CULTURE</Value>
+    </Row>
+    <Row>
+      <ModifierId>POSTCOLONIALCOMMUNITY_TRADEROUTECULTURETOALLY</ModifierId>
+      <Name>Amount</Name>
+      <Value>1</Value>
+    </Row>
+    <Row>
+      <ModifierId>POSTCOLONIALCOMMUNITY_TRADEROUTEGOLDFROMALLY</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_GOLD</Value>
+    </Row>
+    <Row>
+      <ModifierId>POSTCOLONIALCOMMUNITY_TRADEROUTEGOLDFROMALLY</ModifierId>
+      <Name>Amount</Name>
+      <Value>4</Value>
+    </Row>
+    <Row>
+      <ModifierId>POSTCOLONIALCOMMUNITY_TRADEROUTECULTUREFROMALLY</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_CULTURE</Value>
+    </Row>
+    <Row>
+      <ModifierId>POSTCOLONIALCOMMUNITY_TRADEROUTECULTUREFROMALLY</ModifierId>
+      <Name>Amount</Name>
+      <Value>1</Value>
+    </Row>
+
+
+  </ModifierArguments>
+  <PolicyModifiers>
+
+    <!-- Ancient Era-->
+    <Row>
+      <PolicyType>POLICY_CONNECTIVE_JUSTICE</PolicyType>
+      <ModifierId>GODS_DOUBLESHRINE</ModifierId>
+    </Row>
+
+    <Row>
+      <PolicyType>POLICY_CONNECTIVE_JUSTICE</PolicyType>
+      <ModifierId>GODS_DOUBLETEMPLE</ModifierId>
+    </Row>
+
+
+
+    <Row>
+      <PolicyType>POLICY_FAIR_TRADE</PolicyType>
+      <ModifierId>POLICY_FAIR_TRADE_INCOMING_TRADE_GAIN_FOOD</ModifierId>
+    </Row>
+
+    <Row>
+      <PolicyType>POLICY_FAIR_TRADE</PolicyType>
+      <ModifierId>POLICY_FAIR_TRADE_SEND_TRADE_ROUTE_BONUS</ModifierId>
+    </Row>
+    <!-- Classical Era-->
+    <Row>
+      <PolicyType>POLICY_SILENT_WAR</PolicyType>
+      <ModifierId>SLIENT_WAR_DEFENSE</ModifierId>
+    </Row>
+    <!-- Medieval Era-->
+    <Row>
+      <PolicyType>POLICY_MARE_NOSTRUM</PolicyType>
+      <ModifierId>MARENOSTRUMDIPLOMACY_INFLUENCEPOINTS</ModifierId>
+    </Row>
+
+
+    <!-- Renaissance Era-->
+
+    <Row>
+      <PolicyType>POLICY_SPICES_TRADE</PolicyType>
+      <ModifierId>SPICESTRADE_FOODPERTRIBUTARY</ModifierId>
+    </Row>
+    <Row>
+      <PolicyType>POLICY_SPICES_TRADE</PolicyType>
+      <ModifierId>SPICESTRADE_GOLDPERTRIBUTARY</ModifierId>
+    </Row>
+
+    <Row>
+      <PolicyType>POLICY_TRADE_MONOPOLY</PolicyType>
+      <ModifierId>TRADEMONOPOLYDIPLOMACY_OPENBORDERS</ModifierId>
+    </Row>
+
+    <Row>
+      <PolicyType>POLICY_TRADE_MONOPOLY</PolicyType>
+      <ModifierId>TRADEMONOPOLY_DEFENSE</ModifierId>
+    </Row>
+
+    <!-- Modern Era-->
+
+    <Row>
+      <PolicyType>POLICY_POSTCOLONIAL_COMMUNITY</PolicyType>
+      <ModifierId>POSTCOLONIALCOMMUNITY_TRADEROUTESCIENCETOALLY</ModifierId>
+    </Row>
+    <Row>
+      <PolicyType>POLICY_POSTCOLONIAL_COMMUNITY</PolicyType>
+      <ModifierId>POSTCOLONIALCOMMUNITY_TRADEROUTECULTURETOALLY</ModifierId>
+    </Row>
+    <Row>
+      <PolicyType>POLICY_POSTCOLONIAL_COMMUNITY</PolicyType>
+      <ModifierId>POSTCOLONIALCOMMUNITY_TRADEROUTEGOLDFROMALLY</ModifierId>
+    </Row>
+    <Row>
+      <PolicyType>POLICY_POSTCOLONIAL_COMMUNITY</PolicyType>
+      <ModifierId>POSTCOLONIALCOMMUNITY_TRADEROUTECULTUREFROMALLY</ModifierId>
+    </Row>
+  </PolicyModifiers>
+</GameInfo>

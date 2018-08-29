@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameInfo>
+  <Types>
+    <Row Type="TRAIT_CIVILIZATION_EARLY_GLOBALIZATION" Kind="KIND_TRAIT"/>
+    <Row Type="TRAIT_CIVILIZATION_UNIT_NAU" Kind="KIND_TRAIT"/>
+
+    <Row Type="TRAIT_CIVILIZATION_DISTRICT_BAIRRO_ALTO" Kind="KIND_TRAIT" />
+    <Row Type="TRAIT_CIVILIZATION_DISTRICT_PORTO" Kind="KIND_TRAIT" />
+
+    <Row Type="TRAIT_CIVILIZATION_UNIT_GRANDE_EXPLORADOR" Kind="KIND_TRAIT"/>
+    <Row Type="TRAIT_CIVILIZATION_UNIT_BOTAFOGO" Kind="KIND_TRAIT"/>
+    <Row Type="TRAIT_CIVILIZATION_UNIT_FLOR_MAR"  Kind="KIND_TRAIT"/>
+
+    <Row Type="TRAIT_CIVILIZATION_UNIT_PASTOR_LUSITANO" Kind="KIND_TRAIT"/>
+    <Row Type="TRAIT_CIVILIZATION_UNIT_BARCA" Kind="KIND_TRAIT"/>
+
+    <Row Type="TRAIT_CIVILIZATION_UNIT_JUNK" Kind="KIND_TRAIT"/>
+
+    <Row Type="TRAIT_LEADER_HENRY_LEGACY" Kind="KIND_TRAIT"/>
+    <Row Type="TRAIT_CIVILIZATION_UNIT_CARAVELA_DESCOBRIR"  Kind="KIND_TRAIT"/>
+    <Row Type="TRAIT_LEADER_BUILDING_ESCOLA_SAGRES" Kind="KIND_TRAIT"/>
+
+    <Row Type="TRAIT_LEADER_MARE_CLAUSUM" Kind="KIND_TRAIT"/>
+    <Row Type="TRAIT_CIVILIZATION_UNIT_CARAVELA" Kind="KIND_TRAIT"/>
+    <Row Type="TRAIT_AGENDA_CONQUEST_BY_SEA" Kind="KIND_TRAIT"/>
+    <Row Type="TRAIT_LEADER_BUILDING_CASA_INDIA" Kind="KIND_TRAIT"/>
+
+    <Row Type="TRAIT_LEADER_DISTRICT_FOREIGN_PORTO" Kind="KIND_TRAIT" />
+
+    <Row Type="TRAIT_LEADER_MANUELINE_STYLE" Kind="KIND_TRAIT"/>
+    <Row Type="TRAIT_DIPLOMACY_GOVERNMENT_SLOT" Kind="KIND_TRAIT"/>
+    <Row Type="TRAIT_LEADER_UNIT_MONGE_JERONIMO"  Kind="KIND_TRAIT"/>
+    <Row Type="TRAIT_LEADER_BUILDING_MOSTEIRO_JERONIMOS" Kind="KIND_TRAIT"/>
+
+    <Row Type="TRAIT_PORTUGAL_DUMMY" Kind="KIND_TRAIT" />
+
+    <Row Type="TRAIT_CIVILIZATION_UNIT_NAU_TRATO" Kind="KIND_TRAIT"/>
+  </Types>
+
+
+  <CivilizationTraits>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" TraitType="TRAIT_CIVILIZATION_EARLY_GLOBALIZATION"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" TraitType="TRAIT_CIVILIZATION_UNIT_BARCA"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" TraitType="TRAIT_CIVILIZATION_UNIT_NAU"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" TraitType="TRAIT_CIVILIZATION_UNIT_PASTOR_LUSITANO"/>
+
+    <Row CivilizationType="CIVILIZATION_CHINA" TraitType="TRAIT_CIVILIZATION_UNIT_JUNK"/>
+  </CivilizationTraits>
+  <LeaderTraits>
+    
+        <Row LeaderType="LEADER_ALBUQUERQUE" TraitType="TRAIT_LEADER_CULTURAL_MAJOR_CIV"/>
+    <Row LeaderType="LEADER_JOAO_II" TraitType="TRAIT_LEADER_CULTURAL_MAJOR_CIV"/>
+    <Row LeaderType="LEADER_MANUEL_I" TraitType="TRAIT_LEADER_CULTURAL_MAJOR_CIV"/>
+    
+    <Row LeaderType="LEADER_ALBUQUERQUE" TraitType="TRAIT_LEADER_MARE_CLAUSUM"/>
+    <Row LeaderType="LEADER_ALBUQUERQUE"  TraitType="TRAIT_CIVILIZATION_UNIT_CARAVELA"/>
+    <Row LeaderType="LEADER_ALBUQUERQUE"  TraitType="TRAIT_LEADER_DISTRICT_FOREIGN_PORTO"/>
+
+    <Row LeaderType="LEADER_JOAO_II" TraitType="TRAIT_LEADER_HENRY_LEGACY"/>
+    <Row LeaderType="LEADER_JOAO_II" TraitType="TRAIT_CIVILIZATION_UNIT_CARAVELA_DESCOBRIR"/>
+    <Row LeaderType="LEADER_JOAO_II" TraitType="TRAIT_CIVILIZATION_DISTRICT_PORTO"/>
+
+    <Row LeaderType="LEADER_MANUEL_I"  TraitType="TRAIT_LEADER_MANUELINE_STYLE"/>
+    <Row LeaderType="LEADER_MANUEL_I" TraitType="TRAIT_LEADER_UNIT_MONGE_JERONIMO"/>
+    <Row LeaderType="LEADER_MANUEL_I"  TraitType="TRAIT_LEADER_DISTRICT_FOREIGN_PORTO"/>
+  </LeaderTraits>
+  <Traits>
+    <Row TraitType="TRAIT_CIVILIZATION_EARLY_GLOBALIZATION" Name="LOC_TRAIT_CIVILIZATION_EARLY_GLOBALIZATION_NAME" Description="LOC_TRAIT_CIVILIZATION_EARLY_GLOBALIZATION_DESCRIPTION"/>
+
+    <Row TraitType="TRAIT_CIVILIZATION_DISTRICT_BAIRRO_ALTO" Name="LOC_DISTRICT_BAIRRO_ALTO_NAME" Description="LOC_DISTRICT_BAIRRO_ALTO_DESCRIPTION"/>
+
+    <Row TraitType="TRAIT_CIVILIZATION_DISTRICT_PORTO" Name="LOC_DISTRICT_PORTO_NAME" Description="LOC_DISTRICT_PORTO_DESCRIPTION"/>
+
+
+    <Row TraitType="TRAIT_CIVILIZATION_UNIT_NAU" Name="LOC_UNIT_NAU_NAME" Description="LOC_UNIT_NAU_DESCRIPTION"/>
+    <Row TraitType="TRAIT_CIVILIZATION_UNIT_BARCA" Name="LOC_UNIT_BARCA_NAME" Description="LOC_UNIT_BARCA_DESCRIPTION"/>
+
+    <Row TraitType="TRAIT_CIVILIZATION_UNIT_JUNK" Name="LOC_UNIT_JUNK_NAME" Description="LOC_UNIT_JUNK_DESCRIPTION"/>
+
+    <Row TraitType="TRAIT_CIVILIZATION_UNIT_BOTAFOGO" Name="LOC_UNIT_BOTAFOGO_NAME" Description="LOC_UNIT_BOTAFOGO_DESCRIPTION"/>
+    <Row TraitType="TRAIT_CIVILIZATION_UNIT_CARAVELA" Name="LOC_UNIT_CARAVELA_NAME" Description="LOC_UNIT_CARAVELA_DESCRIPTION"/>
+
+    <Row TraitType="TRAIT_CIVILIZATION_UNIT_CARAVELA_DESCOBRIR"        Name="LOC_UNIT_CARAVELA_DESCOBRIR_NAME" Description="LOC_UNIT_CARAVELA_DESCOBRIR_DESCRIPTION"/>
+    <Row TraitType="TRAIT_CIVILIZATION_UNIT_FLOR_MAR"                  Name="LOC_UNIT_FLOR_MAR_NAME" Description="LOC_UNIT_FLOR_MAR_DESCRIPTION"/>
+    <Row TraitType="TRAIT_CIVILIZATION_UNIT_NAU_TRATO"                 Name="LOC_UNIT_NAU_TRATO_NAME" Description="LOC_UNIT_NAU_TRATO_DESCRIPTION"/>
+    <Row TraitType="TRAIT_CIVILIZATION_UNIT_GRANDE_EXPLORADOR"         Name="LOC_UNIT_GRANDE_EXPLORADOR_NAME" Description="LOC_UNIT_GRANDE_EXPLORADOR_DESCRIPTION"/>
+    <Row TraitType="TRAIT_CIVILIZATION_UNIT_PASTOR_LUSITANO"         Name="LOC_UNIT_PASTOR_LUSITANO_NAME" Description="LOC_UNIT_PASTOR_LUSITANO_DESCRIPTION"/>
+
+    <Row TraitType="TRAIT_LEADER_MARE_CLAUSUM" Name="LOC_TRAIT_LEADER_MARE_CLAUSUM_NAME" Description="LOC_TRAIT_LEADER_MARE_CLAUSUM_DESCRIPTION"/>
+    <Row TraitType="TRAIT_LEADER_HENRY_LEGACY" Name="LOC_TRAIT_LEADER_HENRY_LEGACY_NAME" Description="LOC_TRAIT_LEADER_HENRY_LEGACY_DESCRIPTION"/>
+    <Row TraitType="TRAIT_AGENDA_CONQUEST_BY_SEA" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER"/>
+
+    <Row TraitType="TRAIT_LEADER_DISTRICT_FOREIGN_PORTO" Name="LOC_DISTRICT_PORTO_NAME" Description="LOC_DISTRICT_PORTO_DESCRIPTION"/>
+
+    <Row TraitType="TRAIT_PORTUGAL_DUMMY" Name="LOC_PORTUGAL_DUMMY_NAME" Description="LOC_PORTUGAL_DUMMY_DESCRIPTION"/>
+
+    <Row TraitType="TRAIT_LEADER_BUILDING_CASA_INDIA" Name="LOC_NATIONAL_CASA_INDIA_NAME" Description="LOC_NATIONAL_CASA_INDIA_DESCRIPTION"/>
+
+    <Row TraitType="TRAIT_LEADER_BUILDING_ESCOLA_SAGRES" Name="LOC_NATIONAL_ESCOLA_SAGRES" Description="LOC_NATIONAL_ESCOLA_SAGRES_DESCRIPTION"/>
+
+
+    <Row TraitType="TRAIT_LEADER_MANUELINE_STYLE" Name="LOC_TRAIT_LEADER_MANUELINE_STYLE_NAME" Description="LOC_TRAIT_LEADER_MANUELINE_STYLE_DESCRIPTION"/>
+
+    <Row TraitType="TRAIT_LEADER_BUILDING_MOSTEIRO_JERONIMOS"  Name="LOC_NATIONAL_MOSTEIRO_JERONIMOS_NAME" Description="LOC_NATIONAL_MOSTEIRO_JERONIMOS_DESCRIPTION"/>
+    <Row TraitType="TRAIT_LEADER_UNIT_MONGE_JERONIMO"  Name="LOC_UNIT_MONGE_JERONIMO_NAME" Description="LOC_UNIT_MONGE_JERONIMO_DESCRIPTION"/>
+  </Traits>
+
+
+
+  <Agendas>
+    <Row AgendaType="AGENDA_CONQUEST_BY_SEA" Name="LOC_AGENDA_CONQUEST_BY_SEA_NAME" Description="LOC_AGENDA_CONQUEST_BY_SEA_DESCRIPTION"/>
+  </Agendas>
+  <HistoricalAgendas>
+    <Row LeaderType="LEADER_ALBUQUERQUE" AgendaType="AGENDA_CONQUEST_BY_SEA"/>
+    <Row LeaderType="LEADER_ALBUQUERQUE" AgendaType="AGENDA_LAST_VIKING_KING"/>
+    <Row LeaderType="LEADER_ALBUQUERQUE" AgendaType="AGENDA_CITY_STATE_PROTECTOR"/>
+    <Row LeaderType="LEADER_ALBUQUERQUE" AgendaType="AGENDA_DELIAN_LEAGUE"/>
+    <Row LeaderType="LEADER_JOAO_II" AgendaType="AGENDA_CITY_STATE_PROTECTOR"/>
+    <Row LeaderType="LEADER_JOAO_II" AgendaType="AGENDA_PEACEKEEPER"/>
+    <Row LeaderType="LEADER_JOAO_II" AgendaType="AGENDA_OPTIMUS_PRINCEPS"/>
+    <Row LeaderType="LEADER_JOAO_II" AgendaType="AGENDA_BIG_STICK_POLICY"/>
+    <Row LeaderType="LEADER_JOAO_II" AgendaType="AGENDA_AYYUBID_DYNASTY"/>
+    <Row LeaderType="LEADER_JOAO_II" AgendaType="AGENDA_BACKSTAB_AVERSE"/>
+    <Row LeaderType="LEADER_JOAO_II" AgendaType="AGENDA_COUNTER_REFORMER"/>
+    <Row LeaderType="LEADER_JOAO_II" AgendaType="AGENDA_ALLY_OF_ENKIDU"/>
+  </HistoricalAgendas>
+  <AgendaTraits>
+    <Row AgendaType="AGENDA_CONQUEST_BY_SEA" TraitType="TRAIT_AGENDA_CONQUEST_BY_SEA"/>
+    <Row AgendaType="AGENDA_CONQUEST_BY_SEA" TraitType="TRAIT_AGENDA_WITH_SHIELD"/>
+    <Row AgendaType="AGENDA_CONQUEST_BY_SEA" TraitType="TRAIT_AGENDA_IGNORE_WARMONGERING"/>
+  </AgendaTraits>
+  <ExclusiveAgendas>
+    <Row AgendaOne="AGENDA_CONQUEST_BY_SEA" AgendaTwo="AGENDA_NUKE_LOVER"/>
+  </ExclusiveAgendas>
+  <AiLists>
+    <Row ListType="MoneyGrubberGoldPreference" AgendaType="TRAIT_AGENDA_CONQUEST_BY_SEA" System="Yields"/>
+  </AiLists>
+
+  <TraitModifiers>
+    <Row TraitType="TRAIT_AGENDA_CONQUEST_BY_SEA" ModifierId="AGENDA_CONQUEST_BY_SEA_HIGH_INCOME"/>
+    <Row TraitType="TRAIT_AGENDA_CONQUEST_BY_SEA" ModifierId="AGENDA_CONQUEST_BY_SEA_NEIGHBORHOOD"/>
+
+    <!-- ALBUQUERQUE -->
+    <Row TraitType="TRAIT_LEADER_MARE_CLAUSUM" ModifierId="MARE_CLAUSUM_UNIT_HEALING_MODIFIER"/>
+    <Row TraitType="TRAIT_LEADER_MARE_CLAUSUM" ModifierId="MARE_CLAUSUM_BONUS_RANGE"/>
+
+    <!-- Joao -->
+    <Row TraitType="TRAIT_LEADER_HENRY_LEGACY" ModifierId="RENAISSANCE_NAU_DISCOUNT_MODIFIER"/>
+    <Row TraitType="TRAIT_LEADER_HENRY_LEGACY" ModifierId="RENAISSANCE_CARAVELA_DISCOUNT_MODIFIER"/>
+    <Row TraitType="TRAIT_LEADER_HENRY_LEGACY" ModifierId="SEA_DEVOTION_NAU_OPEN_BORDERS"/>
+    <Row TraitType="TRAIT_LEADER_HENRY_LEGACY" ModifierId="SEA_DEVOTION_NAU_VOLTA_MAR"/>
+
+    <!-- Portugal -->
+    <Row TraitType="TRAIT_CIVILIZATION_EARLY_GLOBALIZATION" ModifierId="TRAIT_FLEETS_EARLY"/>
+    <Row TraitType="TRAIT_CIVILIZATION_EARLY_GLOBALIZATION" ModifierId="TRAIT_ARMADAS_EARLY"/>
+    <Row>
+      <TraitType>TRAIT_CIVILIZATION_EARLY_GLOBALIZATION</TraitType>
+      <ModifierId>TRAIT_PORTUGAL_EARLY_OCEAN_NAVIGATION</ModifierId>
+    </Row>
+    <Row TraitType="TRAIT_CIVILIZATION_EARLY_GLOBALIZATION" ModifierId="TRAIT_TRADE_ROUTE_CITY_STATE_GRANTS_ENVOY"/>
+    <Row TraitType="TRAIT_CIVILIZATION_EARLY_GLOBALIZATION" ModifierId="TRAIT_INTERNATIONAL_CITY_GRANTS_FREE_TRADING_POST"/>
+
+
+    <!-- Manuel -->
+    <Row TraitType="TRAIT_LEADER_MANUELINE_STYLE" ModifierId="TRAIT_DIPLOMACY_GOVERNMENT_SLOT"/>
+    <Row TraitType="TRAIT_LEADER_MANUELINE_STYLE" ModifierId="TRAIT_INTERNATIONAL_TRADE_GAIN_CULTURE"/>
+    <Row TraitType="TRAIT_LEADER_MANUELINE_STYLE" ModifierId="TRAIT_HALF_WAR_WEARINESS"/>
+
+  </TraitModifiers>
+
+  <Modifiers>
+    <Row>
+      <ModifierId>TRAIT_TRADE_ROUTE_PLUNDER_IMMUNITY_SEA</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_TRADE_ROUTE_PLUNDER_IMMUNITY</ModifierType>
+    </Row>
+
+
+    <Row ModifierId="AGENDA_CONQUEST_BY_SEA_HIGH_INCOME" ModifierType="MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER" SubjectRequirementSetId="PLAYER_HAS_HIGH_INCOME" />
+    <Row ModifierId="AGENDA_CONQUEST_BY_SEA_NEIGHBORHOOD" ModifierType="MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER" OwnerRequirementSetId="ON_TURN_STARTED" SubjectRequirementSetId="PLAYER_IS_MAJOR_CIV_KNOWN_10_TURNS" />
+    <Row ModifierId="TRAIT_ECONOMIC_GOVERNMENT_SLOT" ModifierType="MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER" />
+    <Row ModifierId="TRAIT_FLEETS_EARLY" ModifierType="MODIFIER_PLAYER_CORPS_ARMY_PREREQ" />
+    <Row ModifierId="TRAIT_ARMADAS_EARLY" ModifierType="MODIFIER_PLAYER_CORPS_ARMY_PREREQ" />
+
+
+    <Row>
+      <ModifierId>TRAIT_PORTUGAL_EARLY_OCEAN_NAVIGATION</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_VALID_TERRAIN</ModifierType>
+      <SubjectRequirementSetId>PLAYER_HAS_NAUTICALSCIENCE_TECH</SubjectRequirementSetId>
+    </Row>
+
+    <Row>
+      <ModifierId>TRAIT_DIPLOMACY_GOVERNMENT_SLOT</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
+    </Row>
+
+
+    <Row>
+      <ModifierId>TRAIT_INTERNATIONAL_TRADE_GAIN_CULTURE</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
+    </Row>
+
+    <Row>
+      <ModifierId>TRAIT_HALF_WAR_WEARINESS</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_ADJUST_WAR_WEARINESS</ModifierType>
+    </Row>
+
+
+    <Row>
+      <ModifierId>MARE_CLAUSUM_BONUS_RANGE</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_ATTACK_RANGE</ModifierType>
+      <SubjectRequirementSetId>MARE_CLAUSUM_RANGE_BONUS_REQUIREMENTS</SubjectRequirementSetId>
+    </Row>
+
+    <Row>
+      <ModifierId>MARE_CLAUSUM_UNIT_HEALING_MODIFIER</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_HEAL_PER_TURN</ModifierType>
+      <SubjectRequirementSetId>MARE_CLAUSUM_UNIT_HEALING_REQUIREMENTS</SubjectRequirementSetId>
+    </Row>
+
+    <Row>
+      <ModifierId>RENAISSANCE_NAU_DISCOUNT_MODIFIER</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PURCHASE_COST</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>RENAISSANCE_CARAVELA_DISCOUNT_MODIFIER</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PURCHASE_COST</ModifierType>
+    </Row>
+
+
+    <Row>
+      <ModifierId>SEA_DEVOTION_NAU_OPEN_BORDERS</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+      <Permanent>true</Permanent>
+    </Row>
+
+    <Row>
+      <ModifierId>SEA_DEVOTION_NAU_VOLTA_MAR</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+      <Permanent>true</Permanent>
+    </Row>
+
+
+    <Row>
+      <ModifierId>TRAIT_TRADE_ROUTE_CITY_STATE_GRANTS_ENVOY</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_GRANT_INFLUENCE_TOKEN</ModifierType>
+      <SubjectRequirementSetId>TRAIT_TRADE_ROUTE_CITY_STATE_REQUIREMENTS</SubjectRequirementSetId>
+    </Row>
+
+
+    <Row>
+      <ModifierId>TRAIT_INTERNATIONAL_CITY_GRANTS_FREE_TRADING_POST</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CITIES_GRANT_TRADING_POST</ModifierType>
+      <SubjectRequirementSetId>CITYIN_FOREIGN_CONTINENT_REQUIREMENTS</SubjectRequirementSetId>
+    </Row>
+
+  </Modifiers>
+
+  <RequirementSets>
+    <Row>
+      <RequirementSetId>CITY_HAS_ESTALEIRO</RequirementSetId>
+      <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+    </Row>
+    <Row>
+      <RequirementSetId>PLAYER_HAS_NAUTICALSCIENCE_TECH</RequirementSetId>
+      <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+    </Row>
+
+    <Row>
+      <RequirementSetId>MARE_CLAUSUM_RANGE_BONUS_REQUIREMENTS</RequirementSetId>
+      <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+    </Row>
+
+    <Row>
+      <RequirementSetId>MARE_CLAUSUM_UNIT_HEALING_REQUIREMENTS</RequirementSetId>
+      <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+    </Row>
+
+    <Row>
+      <RequirementSetId>TRAIT_TRADE_ROUTE_CITY_STATE_REQUIREMENTS</RequirementSetId>
+      <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+    </Row>
+
+    <Row>
+      <RequirementSetId>CITYIN_FOREIGN_CONTINENT_REQUIREMENTS</RequirementSetId>
+      <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+    </Row>
+  </RequirementSets>
+
+  <Requirements>
+    <Row>
+      <RequirementId>REQUIRES_CITY_HAS_ESTALEIRO</RequirementId>
+      <RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+    </Row>
+    <Row>
+      <RequirementId>REQUIRES_PLAYER_HAS_NAUTICALSCIENCE_TECH</RequirementId>
+      <RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+    </Row>
+
+    <Row>
+      <RequirementId>REQUIRES_UNIT_IS_RANGED</RequirementId>
+      <RequirementType>REQUIREMENT_UNIT_TAG_MATCHES</RequirementType>
+    </Row>
+
+    <Row>
+      <RequirementId>REQUIRES_UNIT_IS_NAVAL</RequirementId>
+      <RequirementType>REQUIREMENT_UNIT_DOMAIN_MATCHES</RequirementType>
+    </Row>
+
+
+    <Row>
+      <RequirementId>REQUIRES_A_TRADE_ROUTE_TO_CITY_STATE</RequirementId>
+      <RequirementType>REQUIREMENT_TRADE_ROUTE_DESTINATION_IS_CITY_STATE</RequirementType>
+    </Row>
+
+  </Requirements>
+  <RequirementSetRequirements>
+    <Row>
+      <RequirementSetId>CITY_HAS_ESTALEIRO</RequirementSetId>
+      <RequirementId>REQUIRES_CITY_HAS_ESTALEIRO</RequirementId>
+    </Row>
+    <Row>
+      <RequirementSetId>PLAYER_HAS_NAUTICALSCIENCE_TECH</RequirementSetId>
+      <RequirementId>REQUIRES_PLAYER_HAS_NAUTICALSCIENCE_TECH</RequirementId>
+    </Row>
+
+    <Row>
+      <RequirementSetId>MARE_CLAUSUM_RANGE_BONUS_REQUIREMENTS</RequirementSetId>
+      <RequirementId>REQUIRES_UNIT_IS_RANGED</RequirementId>
+    </Row>
+
+    <Row>
+      <RequirementSetId>MARE_CLAUSUM_UNIT_HEALING_REQUIREMENTS</RequirementSetId>
+      <RequirementId>REQUIRES_UNIT_IS_NAVAL</RequirementId>
+    </Row>
+
+    <Row>
+      <RequirementSetId>TRAIT_TRADE_ROUTE_CITY_STATE_REQUIREMENTS</RequirementSetId>
+      <RequirementId>REQUIRES_A_TRADE_ROUTE_TO_CITY_STATE</RequirementId>
+    </Row>
+
+    <Row>
+      <RequirementSetId>CITYIN_FOREIGN_CONTINENT_REQUIREMENTS</RequirementSetId>
+      <RequirementId>REQUIRES_CITY_IS_NOT_OWNER_CAPITAL_CONTINENT</RequirementId>
+    </Row>
+
+
+
+  </RequirementSetRequirements>
+  <RequirementArguments>
+    <Row>
+      <RequirementId>REQUIRES_CITY_HAS_ESTALEIRO</RequirementId>
+      <Name>ImprovementType</Name>
+      <Value>IMPROVEMENT_PADRAO</Value>
+    </Row>
+    <Row>
+      <RequirementId>REQUIRES_PLAYER_HAS_NAUTICALSCIENCE_TECH</RequirementId>
+      <Name>TechnologyType</Name>
+      <Value>TECH_NAUTICAL_SCIENCE</Value>
+    </Row>
+    <Row>
+      <RequirementId>REQUIRES_UNIT_IS_RANGED</RequirementId>
+
+      <Name>Tag</Name>
+      <Value>CLASS_NAVAL_RANGED</Value>
+
+    </Row>
+
+    <Row>
+      <RequirementId>REQUIRES_UNIT_IS_NAVAL</RequirementId>
+      <Name>UnitDomain</Name>
+      <Value>DOMAIN_SEA</Value>
+
+    </Row>
+  </RequirementArguments>
+  <ModifierArguments>
+    <Row ModifierId="TRAIT_ECONOMIC_GOVERNMENT_SLOT" Name="GovernmentSlotType" Value="SLOT_ECONOMIC" />
+    <Row ModifierId="AGENDA_CONQUEST_BY_SEA_HIGH_INCOME" Name="InitialValue" Value="8" />
+    <Row ModifierId="AGENDA_CONQUEST_BY_SEA_HIGH_INCOME" Name="StatementKey" Value="LOC_DIPLO_KUDO_LEADER_ALBUQUERQUE_REASON_ANY" />
+    <Row ModifierId="AGENDA_CONQUEST_BY_SEA_HIGH_INCOME" Name="SimpleModifierDescription" Value="LOC_DIPLO_MODIFIER_LION_OF_SEAS_HIGH_INCOME" />
+    <Row ModifierId="AGENDA_CONQUEST_BY_SEA_NEIGHBORHOOD" Name="InitialValue" Value="-8" />
+    <Row ModifierId="AGENDA_CONQUEST_BY_SEA_NEIGHBORHOOD" Name="StatementKey" Value="LOC_DIPLO_KUDO_WARNING_ALBUQUERQUE_REASON_ANY" />
+    <Row ModifierId="AGENDA_CONQUEST_BY_SEA_NEIGHBORHOOD" Name="SimpleModifierDescription" Value="LOC_DIPLO_MODIFIER_LION_OF_SEAS_NEIGHBORHOOD" />
+
+
+    <Row ModifierId="TRAIT_FLEETS_EARLY" Name="Corps" Value="true" />
+    <Row ModifierId="TRAIT_FLEETS_EARLY" Name="Domain" Value="DOMAIN_SEA" />
+    <Row ModifierId="TRAIT_FLEETS_EARLY" Name="CivicType" Value="CIVIC_EXPLORATION" />
+    <Row ModifierId="TRAIT_ARMADAS_EARLY" Name="Corps" Value="false" />
+    <Row ModifierId="TRAIT_ARMADAS_EARLY" Name="Domain" Value="DOMAIN_SEA" />
+    <Row ModifierId="TRAIT_ARMADAS_EARLY" Name="CivicType" Value="CIVIC_EXPLORATION" />
+
+
+
+    <Row>
+      <ModifierId>TRAIT_PORTUGAL_EARLY_OCEAN_NAVIGATION</ModifierId>
+      <Name>TerrainType</Name>
+      <Value>TERRAIN_OCEAN</Value>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_PORTUGAL_EARLY_OCEAN_NAVIGATION</ModifierId>
+      <Name>Valid</Name>
+      <Value>true</Value>
+    </Row>
+
+
+
+    <Row>
+      <ModifierId>TRAIT_DIPLOMACY_GOVERNMENT_SLOT</ModifierId>
+      <Name>GovernmentSlotType</Name>
+      <Value>SLOT_DIPLOMATIC</Value>
+    </Row>
+
+
+
+    <Row>
+      <ModifierId>TRAIT_INTERNATIONAL_TRADE_GAIN_CULTURE</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_CULTURE</Value>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_INTERNATIONAL_TRADE_GAIN_CULTURE</ModifierId>
+      <Name>Amount</Name>
+      <Value>4</Value>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_INTERNATIONAL_TRADE_GAIN_CULTURE</ModifierId>
+      <Name>Intercontinental</Name>
+      <Value>false</Value>
+    </Row>
+
+    <Row>
+      <ModifierId>TRAIT_HALF_WAR_WEARINESS</ModifierId>
+      <Name>Amount</Name>
+      <Value>-50</Value>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_HALF_WAR_WEARINESS</ModifierId>
+      <Name>Overall</Name>
+      <Value>true</Value>
+    </Row>
+
+
+    <Row>
+      <ModifierId>MARE_CLAUSUM_BONUS_RANGE</ModifierId>
+      <Name>Amount</Name>
+      <Value>1</Value>
+    </Row>
+
+    <Row>
+      <ModifierId>MARE_CLAUSUM_UNIT_HEALING_MODIFIER</ModifierId>
+      <Name>Amount</Name>
+      <Value>40</Value>
+    </Row>
+    <Row>
+      <ModifierId>MARE_CLAUSUM_UNIT_HEALING_MODIFIER</ModifierId>
+      <Name>Type</Name>
+      <Value>ALL</Value>
+    </Row>
+
+
+    <Row>
+      <ModifierId>RENAISSANCE_NAU_DISCOUNT_MODIFIER</ModifierId>
+      <Name>UnitType</Name>
+      <Value>UNIT_NAU</Value>
+    </Row>
+    <Row>
+      <ModifierId>RENAISSANCE_NAU_DISCOUNT_MODIFIER</ModifierId>
+      <Name>Amount</Name>
+      <Value>50</Value>
+    </Row>
+
+
+    <Row>
+      <ModifierId>RENAISSANCE_CARAVELA_DISCOUNT_MODIFIER</ModifierId>
+      <Name>UnitType</Name>
+      <Value>UNIT_CARAVELA_EXPLORADORA</Value>
+    </Row>
+    <Row>
+      <ModifierId>RENAISSANCE_CARAVELA_DISCOUNT_MODIFIER</ModifierId>
+      <Name>Amount</Name>
+      <Value>50</Value>
+    </Row>
+
+
+
+    <Row>
+      <ModifierId>SEA_DEVOTION_NAU_OPEN_BORDERS</ModifierId>
+      <Name>AbilityType</Name>
+      <Value>ABILITY_NAU_ENTER_FOREIGN_LANDS</Value>
+    </Row>
+
+    <Row>
+      <ModifierId>SEA_DEVOTION_NAU_VOLTA_MAR</ModifierId>
+      <Name>AbilityType</Name>
+      <Value>ABILITY_NAU_MOVEMENT</Value>
+    </Row>
+
+
+
+    <Row>
+      <ModifierId>TRAIT_TRADE_ROUTE_CITY_STATE_GRANTS_ENVOY</ModifierId>
+      <Name>Amount</Name>
+      <Value>10</Value>
+    </Row>
+
+
+  </ModifierArguments>
+
+
+
+
+  <ModifierStrings>
+    <Row ModifierId="AGENDA_CONQUEST_BY_SEA_HIGH_INCOME" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+    <Row ModifierId="AGENDA_CONQUEST_BY_SEA_NEIGHBORHOOD" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+  </ModifierStrings>
+
+
+
+
+  <FavoredReligions>
+    <Row LeaderType="LEADER_ALBUQUERQUE" ReligionType="RELIGION_CATHOLICISM"/>
+    <Row LeaderType="LEADER_JOAO_II" ReligionType="RELIGION_CATHOLICISM"/>
+    <Row LeaderType="LEADER_MANUEL_I" ReligionType="RELIGION_CATHOLICISM"/>
+  </FavoredReligions>
+
+  <StartBiasTerrains>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" TerrainType="TERRAIN_COAST" Tier="1"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" TerrainType="TERRAIN_GRASS_HILLS" Tier="2"/>
+
+  </StartBiasTerrains>
+  <StartBiasRivers>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" Tier="1"/>
+
+  </StartBiasRivers>
+
+
+
+</GameInfo>

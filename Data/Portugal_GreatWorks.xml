@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+
+  <Types>
+
+
+    <Row Type="GREATWORK_DUARTE_PACHECO_PEREIRA" Kind="KIND_GREATWORK"/>
+    <Row Type="GREATWORK_FRANCISCO_ALVARES"       Kind="KIND_GREATWORK"/>
+    <Row Type="GREATWORK_LUIS_VAZ_CAMOES"         Kind="KIND_GREATWORK"/>
+    <Row Type="GREATWORK_ANTONIO_VIEIRA"          Kind="KIND_GREATWORK"/>
+    <Row Type="GREATWORK_MARTIM_AFONSO_DE_SOUSA"  Kind="KIND_GREATWORK"/>
+    <Row Type="GREATWORK_ROBERTO_IVENS"           Kind="KIND_GREATWORK"/>
+    <Row Type="GREATWORK_FERDINAND_MAGELLAN2"      Kind="KIND_GREATWORK"/>
+
+    <Row Type="GREATWORK_RUY_AFONSO_DE_SOUSA"      Kind="KIND_GREATWORK"/>
+    <Row Type="GREATWORK_FERNAO_MENDES_PINTO"      Kind="KIND_GREATWORK"/>
+    <Row Type="GREATWORK_SERPA_PINTO"               Kind="KIND_GREATWORK"/>
+
+    <Row Type="GREATWORK_AHMAD_IBN_MAJID"                 Kind="KIND_GREATWORK"/>
+  </Types>
+  <GreatWorks>
+    <Row GreatWorkType="GREATWORK_DUARTE_PACHECO_PEREIRA"       GreatWorkObjectType="GREATWORKOBJECT_WRITING" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_DUARTE_PACHECO_PEREIRA" Name="LOC_GREATWORK_DUARTE_PACHECO_PEREIRA_NAME"              Tourism="4"  />
+    <Row GreatWorkType="GREATWORK_FRANCISCO_ALVARES"          GreatWorkObjectType="GREATWORKOBJECT_WRITING" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FRANCISCO_ALVARES" Name="LOC_GREATWORK_FRANCISCO_ALVARES_NAME"                             Tourism="4"  />
+    <Row GreatWorkType="GREATWORK_LUIS_VAZ_CAMOES"              GreatWorkObjectType="GREATWORKOBJECT_WRITING" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_LUIS_VAZ_CAMOES" Name="LOC_GREATWORK_LUIS_VAZ_CAMOES_NAME"                                   Tourism="4"  />
+    <Row GreatWorkType="GREATWORK_ANTONIO_VIEIRA"               GreatWorkObjectType="GREATWORKOBJECT_WRITING" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ANTONIO_VIEIRA" Name="LOC_GREATWORK_ANTONIO_VIEIRA_NAME"                                      Tourism="4"  />
+    <Row GreatWorkType="GREATWORK_MARTIM_AFONSO_DE_SOUSA"         GreatWorkObjectType="GREATWORKOBJECT_WRITING" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MARTIM_AFONSO_DE_SOUSA" Name="LOC_GREATWORK_MARTIM_AFONSO_DE_SOUSA_NAME"              Tourism="4"  />
+    <Row GreatWorkType="GREATWORK_ROBERTO_IVENS"            GreatWorkObjectType="GREATWORKOBJECT_WRITING" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ROBERTO_IVENS" Name="LOC_GREATWORK_ROBERTO_IVENS_NAME"                                         Tourism="4"  />
+    <Row GreatWorkType="GREATWORK_FERDINAND_MAGELLAN2"           GreatWorkObjectType="GREATWORKOBJECT_WRITING" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FERDINAND_MAGELLAN2" Name="LOC_GREATWORK_FERDINAND_MAGELLAN2_NAME"                          Tourism="4"  />
+
+    <Row GreatWorkType="GREATWORK_RUY_AFONSO_DE_SOUSA"         GreatWorkObjectType="GREATWORKOBJECT_WRITING" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_RUY_AFONSO_DE_SOUSA" Name="LOC_GREATWORK_RUY_AFONSO_DE_SOUSA_NAME"              Tourism="4"  />
+    <Row GreatWorkType="GREATWORK_FERNAO_MENDES_PINTO"            GreatWorkObjectType="GREATWORKOBJECT_WRITING" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FERNAO_MENDES_PINTO" Name="LOC_GREATWORK_FERNAO_MENDES_PINTO_NAME"                                         Tourism="4"  />
+    <Row GreatWorkType="GREATWORK_SERPA_PINTO"           GreatWorkObjectType="GREATWORKOBJECT_WRITING" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SERPA_PINTO" Name="LOC_GREATWORK_SERPA_PINTO_NAME"                          Tourism="4"  />
+
+    <Row GreatWorkType="GREATWORK_AHMAD_IBN_MAJID"           GreatWorkObjectType="GREATWORKOBJECT_WRITING" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_AHMAD_IBN_MAJID" Name="LOC_GREATWORK_AHMAD_IBN_MAJID_NAME"                          Tourism="4"  />
+  </GreatWorks>
+  <GreatWork_YieldChanges>
+    <Row GreatWorkType="GREATWORK_DUARTE_PACHECO_PEREIRA" YieldType="YIELD_FAITH" YieldChange="2"/>
+    <Row GreatWorkType="GREATWORK_DUARTE_PACHECO_PEREIRA" YieldType="YIELD_GOLD" YieldChange="2"/>
+    <Row GreatWorkType="GREATWORK_DUARTE_PACHECO_PEREIRA" YieldType="YIELD_CULTURE" YieldChange="4"/>
+    <Row GreatWorkType="GREATWORK_FRANCISCO_ALVARES" YieldType="YIELD_FAITH" YieldChange="5"/>
+    <Row GreatWorkType="GREATWORK_FRANCISCO_ALVARES" YieldType="YIELD_GOLD" YieldChange="1"/>
+    <Row GreatWorkType="GREATWORK_FRANCISCO_ALVARES" YieldType="YIELD_CULTURE" YieldChange="2"/>
+    <Row GreatWorkType="GREATWORK_LUIS_VAZ_CAMOES" YieldType="YIELD_FAITH" YieldChange="3"/>
+    <Row GreatWorkType="GREATWORK_LUIS_VAZ_CAMOES" YieldType="YIELD_CULTURE" YieldChange="9"/>
+    <Row GreatWorkType="GREATWORK_ANTONIO_VIEIRA" YieldType="YIELD_FAITH" YieldChange="7"/>
+    <Row GreatWorkType="GREATWORK_ANTONIO_VIEIRA" YieldType="YIELD_GOLD" YieldChange="1"/>
+    <Row GreatWorkType="GREATWORK_ANTONIO_VIEIRA" YieldType="YIELD_CULTURE" YieldChange="4"/>
+    <Row GreatWorkType="GREATWORK_MARTIM_AFONSO_DE_SOUSA" YieldType="YIELD_FAITH" YieldChange="3"/>
+    <Row GreatWorkType="GREATWORK_MARTIM_AFONSO_DE_SOUSA" YieldType="YIELD_GOLD" YieldChange="5"/>
+    <Row GreatWorkType="GREATWORK_MARTIM_AFONSO_DE_SOUSA" YieldType="YIELD_CULTURE" YieldChange="1"/>
+    <Row GreatWorkType="GREATWORK_ROBERTO_IVENS" YieldType="YIELD_FAITH" YieldChange="1"/>
+    <Row GreatWorkType="GREATWORK_ROBERTO_IVENS" YieldType="YIELD_GOLD" YieldChange="2"/>
+    <Row GreatWorkType="GREATWORK_ROBERTO_IVENS" YieldType="YIELD_CULTURE" YieldChange="4"/>
+    <Row GreatWorkType="GREATWORK_FERDINAND_MAGELLAN2" YieldType="YIELD_FAITH" YieldChange="4"/>
+    <Row GreatWorkType="GREATWORK_FERDINAND_MAGELLAN2" YieldType="YIELD_GOLD" YieldChange="2"/>
+    <Row GreatWorkType="GREATWORK_FERDINAND_MAGELLAN2" YieldType="YIELD_CULTURE" YieldChange="3"/>
+
+    <Row GreatWorkType="GREATWORK_RUY_AFONSO_DE_SOUSA" YieldType="YIELD_FAITH" YieldChange="4"/>
+    <Row GreatWorkType="GREATWORK_RUY_AFONSO_DE_SOUSA" YieldType="YIELD_GOLD" YieldChange="5"/>
+    <Row GreatWorkType="GREATWORK_RUY_AFONSO_DE_SOUSA" YieldType="YIELD_CULTURE" YieldChange="1"/>
+
+    <Row GreatWorkType="GREATWORK_FERNAO_MENDES_PINTO" YieldType="YIELD_FAITH" YieldChange="5"/>
+    <Row GreatWorkType="GREATWORK_FERNAO_MENDES_PINTO" YieldType="YIELD_GOLD" YieldChange="1"/>
+    <Row GreatWorkType="GREATWORK_FERNAO_MENDES_PINTO" YieldType="YIELD_CULTURE" YieldChange="4"/>
+
+    <Row GreatWorkType="GREATWORK_SERPA_PINTO" YieldType="YIELD_FAITH" YieldChange="1"/>
+    <Row GreatWorkType="GREATWORK_SERPA_PINTO" YieldType="YIELD_GOLD" YieldChange="3"/>
+    <Row GreatWorkType="GREATWORK_SERPA_PINTO" YieldType="YIELD_CULTURE" YieldChange="5"/>
+
+    <Row GreatWorkType="GREATWORK_AHMAD_IBN_MAJID" YieldType="YIELD_FAITH" YieldChange="4"/>
+    <Row GreatWorkType="GREATWORK_AHMAD_IBN_MAJID" YieldType="YIELD_GOLD" YieldChange="1"/>
+    <Row GreatWorkType="GREATWORK_AHMAD_IBN_MAJID" YieldType="YIELD_CULTURE" YieldChange="5"/>
+  </GreatWork_YieldChanges>
+</GameInfo>
+
+

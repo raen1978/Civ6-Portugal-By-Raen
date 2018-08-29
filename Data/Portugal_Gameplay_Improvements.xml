@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+  <Types>
+    <Row Type="IMPROVEMENT_PADRAO" Kind="KIND_IMPROVEMENT"/>
+    <Row Type="IMPROVEMENT_FEITORIA" Kind="KIND_IMPROVEMENT"/>
+    <Row Type="IMPROVEMENT_NAUTICAL_VENTURE" Kind="KIND_IMPROVEMENT"/>
+  </Types>
+  <Improvements>
+    <Row ImprovementType="IMPROVEMENT_PADRAO"   PrereqTech="TECH_CARTOGRAPHY" Name="LOC_IMPROVEMENT_PADRAO_NAME" Description="LOC_IMPROVEMENT_PADRAO_DESCRIPTION" Icon="ICON_IMPROVEMENT_PADRAO" TraitType="TRAIT_PORTUGAL_DUMMY"
+         PlunderType="NO_PLUNDER" Buildable="true" CanBuildOutsideTerritory="true" SameAdjacentValid="false"  coast="true" DefenseModifier="1" Appeal="1"    MovementChange="2" RequiresAdjacentBonusOrLuxury="true"  TilesRequired="2" />
+    <Row ImprovementType="IMPROVEMENT_FEITORIA"   PrereqCivic="CIVIC_MEDIEVAL_FAIRES" Name="LOC_IMPROVEMENT_FEITORIA_NAME" Description="LOC_IMPROVEMENT_FEITORIA_DESCRIPTION" Icon="ICON_IMPROVEMENT_FEITORIA" TraitType="TRAIT_PORTUGAL_DUMMY"
+         PlunderType="NO_PLUNDER" Buildable="true" CanBuildOutsideTerritory="true" SameAdjacentValid="false"  coast="true" GrantFortification="2" DefenseModifier="6" Appeal="-1"     MovementChange="3"  ValidAdjacentTerrainAmount="1" />
+    <Row ImprovementType="IMPROVEMENT_NAUTICAL_VENTURE"  PrereqTech="TECH_NAUTICAL_SCIENCE" Name="LOC_IMPROVEMENT_NAUTICAL_VENTURE_NAME" Description="LOC_IMPROVEMENT_NAUTICAL_VENTURE_DESCRIPTION" Icon="ICON_IMPROVEMENT_NAUTICAL_VENTURE"
+     PlunderType="NO_PLUNDER" Buildable="true" CanBuildOutsideTerritory="true" SameAdjacentValid="false" RequiresRiver="true"  coast="true" Appeal="1"   MovementChange="1" />
+  </Improvements>
+  <Improvement_ValidTerrains>
+    <Row ImprovementType="IMPROVEMENT_PADRAO" TerrainType="TERRAIN_DESERT_HILLS"/>
+    <Row ImprovementType="IMPROVEMENT_PADRAO" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+    <Row ImprovementType="IMPROVEMENT_PADRAO" TerrainType="TERRAIN_PLAINS_HILLS"/>
+    <Row ImprovementType="IMPROVEMENT_PADRAO" TerrainType="TERRAIN_GRASS_HILLS"/>
+    <Row ImprovementType="IMPROVEMENT_PADRAO" TerrainType="TERRAIN_SNOW_HILLS"/>
+    <Row ImprovementType="IMPROVEMENT_FEITORIA" TerrainType="TERRAIN_DESERT"/>
+    <Row ImprovementType="IMPROVEMENT_FEITORIA" TerrainType="TERRAIN_TUNDRA"/>
+    <Row ImprovementType="IMPROVEMENT_FEITORIA" TerrainType="TERRAIN_PLAINS"/>
+    <Row ImprovementType="IMPROVEMENT_FEITORIA" TerrainType="TERRAIN_GRASS"/>
+    <Row ImprovementType="IMPROVEMENT_FEITORIA" TerrainType="TERRAIN_SNOW"/>
+    <Row ImprovementType="IMPROVEMENT_NAUTICAL_VENTURE" TerrainType="TERRAIN_DESERT"/>
+    <Row ImprovementType="IMPROVEMENT_NAUTICAL_VENTURE" TerrainType="TERRAIN_TUNDRA"/>
+    <Row ImprovementType="IMPROVEMENT_NAUTICAL_VENTURE" TerrainType="TERRAIN_PLAINS"/>
+    <Row ImprovementType="IMPROVEMENT_NAUTICAL_VENTURE" TerrainType="TERRAIN_GRASS"/>
+    <Row ImprovementType="IMPROVEMENT_NAUTICAL_VENTURE" TerrainType="TERRAIN_SNOW"/>
+  </Improvement_ValidTerrains>
+  <Improvement_ValidBuildUnits>
+    <Row ImprovementType="IMPROVEMENT_NAUTICAL_VENTURE" UnitType="UNIT_BUILDER"/>
+  </Improvement_ValidBuildUnits>
+  <Improvement_YieldChanges>
+    <!--If the yield change is zero, the value will be changed later.-->
+    <Row ImprovementType="IMPROVEMENT_PADRAO" YieldType="YIELD_FAITH" YieldChange="1"/>
+    <Row ImprovementType="IMPROVEMENT_FEITORIA" YieldType="YIELD_GOLD" YieldChange="2"/>
+    <Row ImprovementType="IMPROVEMENT_FEITORIA" YieldType="YIELD_FOOD" YieldChange="2"/>
+    <Row ImprovementType="IMPROVEMENT_FEITORIA" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+    <Row ImprovementType="IMPROVEMENT_NAUTICAL_VENTURE" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+    <Row ImprovementType="IMPROVEMENT_NAUTICAL_VENTURE" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+  </Improvement_YieldChanges>
+
+  <Improvement_Tourism>
+    <Row ImprovementType="IMPROVEMENT_PADRAO" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="50"/>
+    <Row ImprovementType="IMPROVEMENT_FEITORIA" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
+    <Row ImprovementType="IMPROVEMENT_NAUTICAL_VENTURE" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="25"/>
+  </Improvement_Tourism>
+
+
+  <Modifiers>
+    <Row>
+      <ModifierId>PADRAO_BONUSADJACENCY_FAITH</ModifierId>
+      <ModifierType>MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS</ModifierType>
+      <SubjectRequirementSetId>PLOT_ADJACENT_TO_BONUS_REQUIREMENTS</SubjectRequirementSetId>
+    </Row>
+    <Row>
+      <ModifierId>FEITORIA_LUXURYADJACENCY_GOLD</ModifierId>
+      <ModifierType>MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS</ModifierType>
+      <SubjectRequirementSetId>PLOT_ADJACENT_TO_LUXURY_REQUIREMENTS</SubjectRequirementSetId>
+    </Row>
+
+    <Row>
+      <ModifierId>NAUTICAL_VENTURE_HARBORADJACENCY_SCIENCE</ModifierId>
+      <ModifierType>MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS</ModifierType>
+      <SubjectRequirementSetId>PLOT_ADJACENT_TO_CAMPUS_REQUIREMENTS</SubjectRequirementSetId>
+    </Row>
+  </Modifiers>
+
+
+  <ModifierArguments>
+    <Row>
+      <ModifierId>PADRAO_BONUSADJACENCY_FAITH</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_FAITH</Value>
+    </Row>
+    <Row>
+      <ModifierId>PADRAO_BONUSADJACENCY_FAITH</ModifierId>
+      <Name>Amount</Name>
+      <Value>2</Value>
+    </Row>
+    <Row>
+      <ModifierId>FEITORIA_LUXURYADJACENCY_GOLD</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_GOLD</Value>
+    </Row>
+    <Row>
+      <ModifierId>FEITORIA_LUXURYADJACENCY_GOLD</ModifierId>
+      <Name>Amount</Name>
+      <Value>2</Value>
+    </Row>
+
+    <Row>
+      <ModifierId>NAUTICAL_VENTURE_HARBORADJACENCY_SCIENCE</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_SCIENCE</Value>
+    </Row>
+    <Row>
+      <ModifierId>NAUTICAL_VENTURE_HARBORADJACENCY_SCIENCE</ModifierId>
+      <Name>Amount</Name>
+      <Value>1</Value>
+    </Row>
+  </ModifierArguments>
+
+  <ImprovementModifiers>
+    <Row>
+      <ImprovementType>IMPROVEMENT_PADRAO</ImprovementType>
+      <ModifierId>PADRAO_BONUSADJACENCY_FAITH</ModifierId>
+    </Row>
+    <Row>
+      <ImprovementType>IMPROVEMENT_FEITORIA</ImprovementType>
+      <ModifierId>FEITORIA_LUXURYADJACENCY_GOLD</ModifierId>
+    </Row>
+    <Row>
+      <ImprovementType>IMPROVEMENT_NAUTICAL_VENTURE</ImprovementType>
+      <ModifierId>NAUTICAL_VENTURE_HARBORADJACENCY_SCIENCE</ModifierId>
+    </Row>
+  </ImprovementModifiers>
+
+  <RequirementSets>
+    <Row>
+      <RequirementSetId>PLOT_ADJACENT_TO_BONUS_REQUIREMENTS</RequirementSetId>
+      <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+    </Row>
+  </RequirementSets>
+  <RequirementSetRequirements>
+    <Row>
+      <RequirementSetId>PLOT_ADJACENT_TO_BONUS_REQUIREMENTS</RequirementSetId>
+      <RequirementId>REQUIRES_PLOT_ADJACENT_TO_BONUS</RequirementId>
+    </Row>
+  </RequirementSetRequirements>
+
+  <Requirements>
+    <Row>
+      <RequirementId>REQUIRES_PLOT_ADJACENT_TO_BONUS</RequirementId>
+      <RequirementType>REQUIREMENT_PLOT_ADJACENT_RESOURCE_CLASS_TYPE_MATCHES</RequirementType>
+    </Row>
+  </Requirements>
+
+  <RequirementArguments>
+    <Row>
+      <RequirementId>REQUIRES_PLOT_ADJACENT_TO_BONUS</RequirementId>
+      <Name>ResourceClassType</Name>
+      <Value>RESOURCECLASS_BONUS</Value>
+    </Row>
+  </RequirementArguments>
+</GameInfo>

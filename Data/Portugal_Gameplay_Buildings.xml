@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+  <Types>
+    <Row Type="BUILDING_FAROL" Kind="KIND_BUILDING"/>
+    <Row Type="BUILDING_ESTALEIRO" Kind="KIND_BUILDING"/>
+    <Row Type="BUILDING_PORTOMARITIMO" Kind="KIND_BUILDING"/>
+    <Row Type="BUILDING_FOREIGN_FAROL" Kind="KIND_BUILDING"/>
+    <Row Type="BUILDING_FOREIGN_ESTALEIRO" Kind="KIND_BUILDING"/>
+    <Row Type="BUILDING_FOREIGN_PORTOMARITIMO" Kind="KIND_BUILDING"/>
+    <Row Type="BUILDING_NATIONAL_ESCOLA_SAGRES" Kind="KIND_BUILDING"/>
+    <Row Type="BUILDING_NATIONAL_CASA_INDIA" Kind="KIND_BUILDING"/>
+    <Row Type="BUILDING_NATIONAL_MOSTEIRO_JERONIMOS" Kind="KIND_BUILDING"/>
+
+    <Row Type="BUILDING_GRANDE_FAROL" Kind="KIND_BUILDING"/>
+    <Row Type="BUILDING_GRANDE_FOREIGN_FAROL" Kind="KIND_BUILDING"/>
+
+    <Row Type="BUILDING_COLOSSO" Kind="KIND_BUILDING"/>
+    <Row Type="BUILDING_FOREIGN_COLOSSO" Kind="KIND_BUILDING"/>
+
+
+    <Row Type="BUILDING_MENIR" Kind="KIND_BUILDING"/>
+    <Row Type="BUILDING_CROMELEQUE" Kind="KIND_BUILDING"/>
+    <Row Type="BUILDING_ANTA" Kind="KIND_BUILDING"/>
+
+    <Row Type="BUILDING_MEGALITH" Kind="KIND_BUILDING"/>
+  </Types>
+
+  <Buildings>
+    <Row BuildingType="BUILDING_FAROL" Name="LOC_BUILDING_FAROL_NAME" Description="LOC_BUILDING_LIGHTHOUSE_DESCRIPTION" PrereqTech="TECH_SAILING" PrereqDistrict="DISTRICT_HARBOR" PurchaseYield="YIELD_GOLD" Cost="105" AdvisorType="ADVISOR_GENERIC" Housing="1" CitizenSlots="1" />
+    <Row BuildingType="BUILDING_ESTALEIRO" Name="LOC_BUILDING_ESTALEIRO_NAME" Description="LOC_BUILDING_SHIPYARD_DESCRIPTION"  PrereqCivic="CIVIC_NAVAL_TRADITION" PrereqDistrict="DISTRICT_HARBOR" PurchaseYield="YIELD_GOLD" Cost="265" AdvisorType="ADVISOR_GENERIC" Maintenance="2" CitizenSlots="1" />
+    <Row BuildingType="BUILDING_PORTOMARITIMO" Name="LOC_BUILDING_PORTOMARITIMO_NAME" Description="LOC_BUILDING_SEAPORT_DESCRIPTION" PrereqTech="TECH_MASS_PRODUCTION" PrereqDistrict="DISTRICT_HARBOR" PurchaseYield="YIELD_GOLD" Cost="525" AdvisorType="ADVISOR_GENERIC" Housing="1" CitizenSlots="1" />
+
+
+    <Row BuildingType="BUILDING_FOREIGN_FAROL" Name="LOC_BUILDING_FAROL_NAME" Description="LOC_BUILDING_LIGHTHOUSE_DESCRIPTION" PrereqTech="TECH_SAILING" PrereqDistrict="DISTRICT_HARBOR" PurchaseYield="YIELD_GOLD" Cost="105" AdvisorType="ADVISOR_GENERIC" Housing="1" CitizenSlots="1"  TraitType="TRAIT_PORTUGAL_DUMMY" />
+    <Row BuildingType="BUILDING_FOREIGN_ESTALEIRO" Name="LOC_BUILDING_ESTALEIRO_NAME" Description="LOC_BUILDING_SHIPYARD_DESCRIPTION"  PrereqCivic="CIVIC_NAVAL_TRADITION" PrereqDistrict="DISTRICT_HARBOR" PurchaseYield="YIELD_GOLD" Cost="265" AdvisorType="ADVISOR_GENERIC" Maintenance="2" CitizenSlots="1"  TraitType="TRAIT_PORTUGAL_DUMMY" />
+    <Row BuildingType="BUILDING_FOREIGN_PORTOMARITIMO" Name="LOC_BUILDING_PORTOMARITIMO_NAME" Description="LOC_BUILDING_SEAPORT_DESCRIPTION" PrereqTech="TECH_MASS_PRODUCTION" PrereqDistrict="DISTRICT_HARBOR" PurchaseYield="YIELD_GOLD" Cost="525" AdvisorType="ADVISOR_GENERIC" Housing="1" CitizenSlots="1"  TraitType="TRAIT_PORTUGAL_DUMMY" />
+
+    <Row BuildingType="BUILDING_NATIONAL_ESCOLA_SAGRES" Name="LOC_NATIONAL_ESCOLA_SAGRES" Description="LOC_NATIONAL_ESCOLA_SAGRES_DESCRIPTION" PrereqTech="TECH_NAUTICAL_SCIENCE" PrereqDistrict="DISTRICT_CAMPUS" Cost="530" AdvisorType="ADVISOR_TECHNOLOGY" Maintenance="0" CitizenSlots="1" MaxPlayerInstances="1" OuterDefenseStrength="0" OuterDefenseHitPoints="10"      TraitType="TRAIT_PORTUGAL_DUMMY"   />
+    <Row BuildingType="BUILDING_NATIONAL_CASA_INDIA" Name="LOC_NATIONAL_CASA_INDIA_NAME" Description="LOC_NATIONAL_CASA_INDIA_DESCRIPTION" PrereqCivic="CIVIC_MERCANTILISM" PrereqDistrict="DISTRICT_COMMERCIAL_HUB" Cost="530" AdvisorType="ADVISOR_TECHNOLOGY" Maintenance="0" CitizenSlots="1"  MaxPlayerInstances="1" OuterDefenseStrength="0" OuterDefenseHitPoints="10"   TraitType="TRAIT_PORTUGAL_DUMMY"  />
+    <Row BuildingType="BUILDING_NATIONAL_MOSTEIRO_JERONIMOS" Name="LOC_NATIONAL_MOSTEIRO_JERONIMOS_NAME" Description="LOC_NATIONAL_MOSTEIRO_JERONIMOS_DESCRIPTION" PrereqCivic="CIVIC_REFORMED_CHURCH" PrereqDistrict="DISTRICT_HOLY_SITE" Cost="630" AdvisorType="ADVISOR_TECHNOLOGY" Maintenance="0" CitizenSlots="1"  MaxPlayerInstances="1" OuterDefenseStrength="0" OuterDefenseHitPoints="10"  TraitType="TRAIT_PORTUGAL_DUMMY"  />
+
+    <Row BuildingType="BUILDING_GRANDE_FAROL" Name="LOC_BUILDING_GREAT_LIGHTHOUSE_NAME" Description="LOC_BUILDING_GREAT_LIGHTHOUSE_DESCRIPTION" PrereqTech="TECH_CELESTIAL_NAVIGATION" Cost="290" AdvisorType="ADVISOR_CONQUEST" AdjacentDistrict="DISTRICT_PORTO" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" MustNotBeLake="true" MustBeAdjacentLand="true" ObsoleteEra="ERA_RENAISSANCE" Quote="LOC_BUILDING_GREAT_LIGHTHOUSE_QUOTE" QuoteAudio="Play_GREATLIGHTHOUSE_QUOTE"/>
+    <Row BuildingType="BUILDING_GRANDE_FOREIGN_FAROL" Name="LOC_BUILDING_GREAT_LIGHTHOUSE_NAME" Description="LOC_BUILDING_GREAT_LIGHTHOUSE_DESCRIPTION" PrereqTech="TECH_CELESTIAL_NAVIGATION" Cost="290" AdvisorType="ADVISOR_CONQUEST" AdjacentDistrict="DISTRICT_FOREIGN_PORTO" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" MustNotBeLake="true" MustBeAdjacentLand="true" ObsoleteEra="ERA_RENAISSANCE" Quote="LOC_BUILDING_GREAT_LIGHTHOUSE_QUOTE" QuoteAudio="Play_GREATLIGHTHOUSE_QUOTE" />
+
+
+    <Row BuildingType="BUILDING_COLOSSO" Name="LOC_BUILDING_COLOSSUS_NAME" Description="LOC_BUILDING_COLOSSUS_DESCRIPTION" PrereqTech="TECH_SHIPBUILDING" Cost="400" AdvisorType="ADVISOR_GENERIC" AdjacentDistrict="DISTRICT_PORTO" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" MustNotBeLake="true" MustBeAdjacentLand="true" ObsoleteEra="ERA_RENAISSANCE" Quote="LOC_BUILDING_COLOSSUS_QUOTE" QuoteAudio="Play_COLOSSUS_QUOTE"/>
+    <Row BuildingType="BUILDING_FOREIGN_COLOSSO" Name="LOC_BUILDING_COLOSSUS_NAME" Description="LOC_BUILDING_COLOSSUS_DESCRIPTION" PrereqTech="TECH_SHIPBUILDING" Cost="400" AdvisorType="ADVISOR_GENERIC" AdjacentDistrict="DISTRICT_FOREIGN_PORTO" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" MustNotBeLake="true" MustBeAdjacentLand="true" ObsoleteEra="ERA_RENAISSANCE" Quote="LOC_BUILDING_COLOSSUS_QUOTE" QuoteAudio="Play_COLOSSUS_QUOTE" />
+
+
+    <Row BuildingType="BUILDING_MENIR" Name="LOC_BUILDING_MENIR_NAME" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="1" AdvisorType="ADVISOR_GENERIC"                 PrereqCivic="CIVIC_CONSERVATION"     />
+    <Row BuildingType="BUILDING_CROMELEQUE" Name="LOC_BUILDING_CROMELEQUE_NAME" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="1" AdvisorType="ADVISOR_GENERIC"       PrereqCivic="CIVIC_CONSERVATION"    />
+    <Row BuildingType="BUILDING_ANTA" Name="LOC_BUILDING_ANTA_NAME" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="1" AdvisorType="ADVISOR_GENERIC"                   PrereqCivic="CIVIC_CONSERVATION"    />
+
+    <Row BuildingType="BUILDING_MEGALITH" Name="LOC_BUILDING_MEGALITH_NAME" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="1" AdvisorType="ADVISOR_GENERIC"                   PrereqCivic="CIVIC_CONSERVATION"    />
+
+
+    
+
+  </Buildings>
+
+
+  <Building_YieldDistrictCopies>
+    <Row BuildingType="BUILDING_ESTALEIRO" OldYieldType="YIELD_GOLD" NewYieldType="YIELD_PRODUCTION"/>
+    <Row BuildingType="BUILDING_FOREIGN_ESTALEIRO" OldYieldType="YIELD_GOLD" NewYieldType="YIELD_PRODUCTION"/>
+    <Row BuildingType="BUILDING_NATIONAL_ESCOLA_SAGRES" OldYieldType="YIELD_SCIENCE" NewYieldType="YIELD_SCIENCE"/>
+    <Row BuildingType="BUILDING_NATIONAL_CASA_INDIA" OldYieldType="YIELD_FOOD" NewYieldType="YIELD_GOLD"/>
+  </Building_YieldDistrictCopies>
+
+  <BuildingReplaces>
+    <Row CivUniqueBuildingType="BUILDING_GRANDE_FAROL" ReplacesBuildingType="BUILDING_GREAT_LIGHTHOUSE"/>
+    <Row CivUniqueBuildingType="BUILDING_GRANDE_FOREIGN_FAROL" ReplacesBuildingType="BUILDING_GRANDE_FAROL"/>
+    <Row CivUniqueBuildingType="BUILDING_COLOSSO" ReplacesBuildingType="BUILDING_COLOSSUS"/>
+    <Row CivUniqueBuildingType="BUILDING_FOREIGN_COLOSSO" ReplacesBuildingType="BUILDING_COLOSSO"/>
+
+    <Row CivUniqueBuildingType="BUILDING_FAROL" ReplacesBuildingType="BUILDING_LIGHTHOUSE"/>
+    <Row CivUniqueBuildingType="BUILDING_ESTALEIRO" ReplacesBuildingType="BUILDING_SHIPYARD"/>
+    <Row CivUniqueBuildingType="BUILDING_PORTOMARITIMO" ReplacesBuildingType="BUILDING_SEAPORT"/>
+
+    <Row CivUniqueBuildingType="BUILDING_FOREIGN_FAROL" ReplacesBuildingType="BUILDING_LIGHTHOUSE"/>
+    <Row CivUniqueBuildingType="BUILDING_FOREIGN_ESTALEIRO" ReplacesBuildingType="BUILDING_SHIPYARD"/>
+    <Row CivUniqueBuildingType="BUILDING_FOREIGN_PORTOMARITIMO" ReplacesBuildingType="BUILDING_SEAPORT"/>
+
+
+  </BuildingReplaces>
+
+  <BuildingPrereqs>
+    <Row Building="BUILDING_ESTALEIRO" PrereqBuilding="BUILDING_FAROL"/>
+    <Row Building="BUILDING_PORTOMARITIMO" PrereqBuilding="BUILDING_ESTALEIRO"/>
+
+    <Row Building="BUILDING_FOREIGN_ESTALEIRO" PrereqBuilding="BUILDING_FOREIGN_FAROL"/>
+    <Row Building="BUILDING_FOREIGN_PORTOMARITIMO" PrereqBuilding="BUILDING_FOREIGN_ESTALEIRO"/>
+
+    <Row Building="BUILDING_GRANDE_FAROL" PrereqBuilding="BUILDING_FAROL"/>
+    <Row Building="BUILDING_GRANDE_FOREIGN_FAROL" PrereqBuilding="BUILDING_FAROL"/>
+
+    <Row Building="BUILDING_NATIONAL_ESCOLA_SAGRES" PrereqBuilding="BUILDING_ESTALEIRO"/>
+    <Row Building="BUILDING_NATIONAL_CASA_INDIA" PrereqBuilding="BUILDING_FOREIGN_PORTOMARITIMO"/>
+    <Row Building="BUILDING_NATIONAL_MOSTEIRO_JERONIMOS" PrereqBuilding="BUILDING_PORTOMARITIMO"/>
+  </BuildingPrereqs>
+
+  <Building_ValidTerrains>
+    <Row BuildingType="BUILDING_GRANDE_FAROL" TerrainType="TERRAIN_COAST"/>
+    <Row BuildingType="BUILDING_GRANDE_FOREIGN_FAROL" TerrainType="TERRAIN_COAST"/>
+
+    <Row BuildingType="BUILDING_COLOSSO" TerrainType="TERRAIN_COAST"/>
+    <Row BuildingType="BUILDING_FOREIGN_COLOSSO" TerrainType="TERRAIN_COAST"/>
+  </Building_ValidTerrains>
+
+
+  <Building_YieldChanges>
+    <Row BuildingType="BUILDING_FAROL" YieldType="YIELD_FOOD" YieldChange="1"/>
+    <Row BuildingType="BUILDING_FAROL" YieldType="YIELD_GOLD" YieldChange="1"/>
+    <Row BuildingType="BUILDING_PORTOMARITIMO" YieldType="YIELD_GOLD" YieldChange="2"/>
+    <Row BuildingType="BUILDING_PORTOMARITIMO" YieldType="YIELD_FOOD" YieldChange="2"/>
+    <Row BuildingType="BUILDING_FOREIGN_FAROL" YieldType="YIELD_FOOD" YieldChange="1"/>
+    <Row BuildingType="BUILDING_FOREIGN_FAROL" YieldType="YIELD_GOLD" YieldChange="1"/>
+    <Row BuildingType="BUILDING_FOREIGN_PORTOMARITIMO" YieldType="YIELD_GOLD" YieldChange="4"/>
+    <Row BuildingType="BUILDING_FOREIGN_PORTOMARITIMO" YieldType="YIELD_FOOD" YieldChange="2"/>
+    <Row BuildingType="BUILDING_NATIONAL_ESCOLA_SAGRES" YieldType="YIELD_SCIENCE" YieldChange="5"/>
+    <Row BuildingType="BUILDING_NATIONAL_ESCOLA_SAGRES" YieldType="YIELD_CULTURE" YieldChange="1"/>
+    <Row BuildingType="BUILDING_NATIONAL_ESCOLA_SAGRES" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+    <Row BuildingType="BUILDING_NATIONAL_CASA_INDIA" YieldType="YIELD_GOLD" YieldChange="5"/>
+    <Row BuildingType="BUILDING_NATIONAL_CASA_INDIA" YieldType="YIELD_CULTURE" YieldChange="1"/>
+    <Row BuildingType="BUILDING_NATIONAL_CASA_INDIA" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+
+    <Row BuildingType="BUILDING_NATIONAL_MOSTEIRO_JERONIMOS" YieldType="YIELD_FAITH" YieldChange="5"/>
+    <Row BuildingType="BUILDING_NATIONAL_MOSTEIRO_JERONIMOS" YieldType="YIELD_CULTURE" YieldChange="5"/>
+    <Row BuildingType="BUILDING_NATIONAL_MOSTEIRO_JERONIMOS" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+
+    <Row BuildingType="BUILDING_GRANDE_FAROL" YieldType="YIELD_GOLD" YieldChange="3"/>
+    <Row BuildingType="BUILDING_GRANDE_FOREIGN_FAROL" YieldType="YIELD_GOLD" YieldChange="3"/>
+
+    <Row BuildingType="BUILDING_COLOSSO" YieldType="YIELD_GOLD" YieldChange="3"/>
+    <Row BuildingType="BUILDING_FOREIGN_COLOSSO" YieldType="YIELD_GOLD" YieldChange="3"/>
+  </Building_YieldChanges>
+
+  <Building_GreatPersonPoints>
+    <Row BuildingType="BUILDING_FAROL" GreatPersonClassType="GREAT_PERSON_CLASS_EXPLORER" PointsPerTurn="1"/>
+    <Row BuildingType="BUILDING_ESTALEIRO" GreatPersonClassType="GREAT_PERSON_CLASS_EXPLORER" PointsPerTurn="2"/>
+    <Row BuildingType="BUILDING_PORTOMARITIMO" GreatPersonClassType="GREAT_PERSON_CLASS_EXPLORER" PointsPerTurn="2"/>
+    <Row BuildingType="BUILDING_FOREIGN_FAROL" GreatPersonClassType="GREAT_PERSON_CLASS_EXPLORER" PointsPerTurn="1"/>
+    <Row BuildingType="BUILDING_FOREIGN_ESTALEIRO" GreatPersonClassType="GREAT_PERSON_CLASS_EXPLORER" PointsPerTurn="2"/>
+    <Row BuildingType="BUILDING_FOREIGN_PORTOMARITIMO" GreatPersonClassType="GREAT_PERSON_CLASS_EXPLORER" PointsPerTurn="2"/>
+    <Row BuildingType="BUILDING_NATIONAL_ESCOLA_SAGRES" GreatPersonClassType="GREAT_PERSON_CLASS_EXPLORER" PointsPerTurn="10"/>
+    <Row BuildingType="BUILDING_NATIONAL_CASA_INDIA" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="7"/>
+    <Row BuildingType="BUILDING_NATIONAL_CASA_INDIA" GreatPersonClassType="GREAT_PERSON_CLASS_EXPLORER" PointsPerTurn="3"/>
+    <Row BuildingType="BUILDING_NATIONAL_MOSTEIRO_JERONIMOS" GreatPersonClassType="GREAT_PERSON_CLASS_EXPLORER" PointsPerTurn="3"/>
+    <Row BuildingType="BUILDING_NATIONAL_MOSTEIRO_JERONIMOS" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="7"/>
+
+    <Row BuildingType="BUILDING_GRANDE_FAROL" GreatPersonClassType="GREAT_PERSON_CLASS_EXPLORER" PointsPerTurn="1"/>
+    <Row BuildingType="BUILDING_GRANDE_FOREIGN_FAROL" GreatPersonClassType="GREAT_PERSON_CLASS_EXPLORER" PointsPerTurn="1"/>
+
+    <Row BuildingType="BUILDING_COLOSSO" GreatPersonClassType="GREAT_PERSON_CLASS_EXPLORER" PointsPerTurn="1"/>
+    <Row BuildingType="BUILDING_FOREIGN_COLOSSO" GreatPersonClassType="GREAT_PERSON_CLASS_EXPLORER" PointsPerTurn="1"/>
+  </Building_GreatPersonPoints>
+
+
+  <MutuallyExclusiveBuildings>
+    <Row Building="BUILDING_MENIR" MutuallyExclusiveBuilding="BUILDING_LIGHTHOUSE"/>
+    <Row Building="BUILDING_LIGHTHOUSE" MutuallyExclusiveBuilding="BUILDING_MENIR"/>
+    <Row Building="BUILDING_CROMELEQUE" MutuallyExclusiveBuilding="BUILDING_LIGHTHOUSE"/>
+    <Row Building="BUILDING_LIGHTHOUSE" MutuallyExclusiveBuilding="BUILDING_CROMELEQUE"/>
+    <Row Building="BUILDING_ANTA" MutuallyExclusiveBuilding="BUILDING_LIGHTHOUSE"/>
+    <Row Building="BUILDING_LIGHTHOUSE" MutuallyExclusiveBuilding="BUILDING_ANTA"/>
+
+    <Row Building="BUILDING_MENIR" MutuallyExclusiveBuilding="BUILDING_SHIPYARD"/>
+    <Row Building="BUILDING_SHIPYARD" MutuallyExclusiveBuilding="BUILDING_MENIR"/>
+    <Row Building="BUILDING_CROMELEQUE" MutuallyExclusiveBuilding="BUILDING_SHIPYARD"/>
+    <Row Building="BUILDING_SHIPYARD" MutuallyExclusiveBuilding="BUILDING_CROMELEQUE"/>
+    <Row Building="BUILDING_ANTA" MutuallyExclusiveBuilding="BUILDING_SHIPYARD"/>
+    <Row Building="BUILDING_SHIPYARD" MutuallyExclusiveBuilding="BUILDING_ANTA"/>
+
+    <Row Building="BUILDING_MENIR" MutuallyExclusiveBuilding="BUILDING_SEAPORT"/>
+    <Row Building="BUILDING_SEAPORT" MutuallyExclusiveBuilding="BUILDING_MENIR"/>
+    <Row Building="BUILDING_CROMELEQUE" MutuallyExclusiveBuilding="BUILDING_SEAPORT"/>
+    <Row Building="BUILDING_SEAPORT" MutuallyExclusiveBuilding="BUILDING_CROMELEQUE"/>
+    <Row Building="BUILDING_ANTA" MutuallyExclusiveBuilding="BUILDING_SEAPORT"/>
+    <Row Building="BUILDING_SEAPORT" MutuallyExclusiveBuilding="BUILDING_ANTA"/>
+
+    <Row Building="BUILDING_MENIR" MutuallyExclusiveBuilding="BUILDING_COLOSSUS"/>
+    <Row Building="BUILDING_COLOSSUS" MutuallyExclusiveBuilding="BUILDING_MENIR"/>
+    <Row Building="BUILDING_CROMELEQUE" MutuallyExclusiveBuilding="BUILDING_COLOSSUS"/>
+    <Row Building="BUILDING_COLOSSUS" MutuallyExclusiveBuilding="BUILDING_CROMELEQUE"/>
+    <Row Building="BUILDING_ANTA" MutuallyExclusiveBuilding="BUILDING_COLOSSUS"/>
+    <Row Building="BUILDING_COLOSSUS" MutuallyExclusiveBuilding="BUILDING_ANTA"/>
+
+    <Row Building="BUILDING_MENIR" MutuallyExclusiveBuilding="BUILDING_GREAT_LIGHTHOUSE"/>
+    <Row Building="BUILDING_GREAT_LIGHTHOUSE" MutuallyExclusiveBuilding="BUILDING_MENIR"/>
+    <Row Building="BUILDING_CROMELEQUE" MutuallyExclusiveBuilding="BUILDING_GREAT_LIGHTHOUSE"/>
+    <Row Building="BUILDING_GREAT_LIGHTHOUSE" MutuallyExclusiveBuilding="BUILDING_CROMELEQUE"/>
+    <Row Building="BUILDING_ANTA" MutuallyExclusiveBuilding="BUILDING_GREAT_LIGHTHOUSE"/>
+    <Row Building="BUILDING_GREAT_LIGHTHOUSE" MutuallyExclusiveBuilding="BUILDING_ANTA"/>
+
+
+    <Row Building="BUILDING_MENIR" MutuallyExclusiveBuilding="BUILDING_CROMELEQUE"/>
+    <Row Building="BUILDING_MENIR" MutuallyExclusiveBuilding="BUILDING_ANTA"/>
+    <Row Building="BUILDING_CROMELEQUE" MutuallyExclusiveBuilding="BUILDING_MENIR"/>
+    <Row Building="BUILDING_CROMELEQUE" MutuallyExclusiveBuilding="BUILDING_ANTA"/>
+    <Row Building="BUILDING_ANTA" MutuallyExclusiveBuilding="BUILDING_MENIR"/>
+    <Row Building="BUILDING_ANTA" MutuallyExclusiveBuilding="BUILDING_CROMELEQUE"/>
+
+    <Row Building="BUILDING_MENIR" MutuallyExclusiveBuilding="BUILDING_FOREIGN_COLOSSO"/>
+    <Row Building="BUILDING_FOREIGN_COLOSSO" MutuallyExclusiveBuilding="BUILDING_MENIR"/>
+    <Row Building="BUILDING_CROMELEQUE" MutuallyExclusiveBuilding="BUILDING_COLOSSO"/>
+    <Row Building="BUILDING_COLOSSO" MutuallyExclusiveBuilding="BUILDING_CROMELEQUE"/>
+    <Row Building="BUILDING_ANTA" MutuallyExclusiveBuilding="BUILDING_COLOSSO"/>
+    <Row Building="BUILDING_COLOSSO" MutuallyExclusiveBuilding="BUILDING_ANTA"/>
+
+    <Row Building="BUILDING_MENIR" MutuallyExclusiveBuilding="BUILDING_GRANDE_FOREIGN_FAROL"/>
+    <Row Building="BUILDING_GRANDE_FOREIGN_FAROL" MutuallyExclusiveBuilding="BUILDING_MENIR"/>
+    <Row Building="BUILDING_CROMELEQUE" MutuallyExclusiveBuilding="BUILDING_GRANDE_FAROL"/>
+    <Row Building="BUILDING_GRANDE_FAROL" MutuallyExclusiveBuilding="BUILDING_CROMELEQUE"/>
+    <Row Building="BUILDING_ANTA" MutuallyExclusiveBuilding="BUILDING_GRANDE_FAROL"/>
+    <Row Building="BUILDING_GRANDE_FAROL" MutuallyExclusiveBuilding="BUILDING_ANTA"/>
+
+    <Row Building="BUILDING_MEGALITH" MutuallyExclusiveBuilding="BUILDING_FAROL"/>
+    <Row Building="BUILDING_FAROL" MutuallyExclusiveBuilding="BUILDING_MEGALITH"/>
+    <Row Building="BUILDING_MEGALITH" MutuallyExclusiveBuilding="BUILDING_ESTALEIRO"/>
+    <Row Building="BUILDING_ESTALEIRO" MutuallyExclusiveBuilding="BUILDING_MEGALITH"/>
+    <Row Building="BUILDING_MEGALITH" MutuallyExclusiveBuilding="BUILDING_PORTOMARITIMO"/>
+    <Row Building="BUILDING_PORTOMARITIMO" MutuallyExclusiveBuilding="BUILDING_MEGALITH"/>
+
+    <Row Building="BUILDING_MEGALITH" MutuallyExclusiveBuilding="BUILDING_FOREIGN_COLOSSO"/>
+    <Row Building="BUILDING_FOREIGN_COLOSSO" MutuallyExclusiveBuilding="BUILDING_MEGALITH"/>
+    <Row Building="BUILDING_MEGALITH" MutuallyExclusiveBuilding="BUILDING_COLOSSO"/>
+    <Row Building="BUILDING_COLOSSO" MutuallyExclusiveBuilding="BUILDING_MEGALITH"/>
+    <Row Building="BUILDING_MEGALITH" MutuallyExclusiveBuilding="BUILDING_GRANDE_FOREIGN_FAROL"/>
+    <Row Building="BUILDING_GRANDE_FOREIGN_FAROL" MutuallyExclusiveBuilding="BUILDING_MEGALITH"/>
+    <Row Building="BUILDING_MEGALITH" MutuallyExclusiveBuilding="BUILDING_GRANDE_FAROL"/>
+    <Row Building="BUILDING_GRANDE_FAROL" MutuallyExclusiveBuilding="BUILDING_MEGALITH"/>
+
+  </MutuallyExclusiveBuildings>
+
+
+
+  <Modifiers>
+    <Row>
+      <ModifierId>FAROL_TRADE_ROUTE_CAPACITY</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+      <SubjectRequirementSetId>FAROL_TRADE_ROUTE_CAPACITY_REQUIREMENTS</SubjectRequirementSetId>
+    </Row>
+    <Row>
+      <ModifierId>NATIONAL_ESCOLA_SAGRES</ModifierId>
+      <ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>NATIONAL_ESCOLA_SAGRES2</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_GRANT_YIELD_BASED_ON_CURRENT_YIELD_RATE</ModifierType>
+      <RunOnce>true</RunOnce>
+      <Permanent>true</Permanent>
+    </Row>
+  </Modifiers>
+  <ModifierArguments>
+    <Row>
+      <ModifierId>FAROL_TRADE_ROUTE_CAPACITY</ModifierId>
+      <Name>Amount</Name>
+      <Value>1</Value>
+    </Row>
+    <Row>
+      <ModifierId>NATIONAL_ESCOLA_SAGRES</ModifierId>
+      <Name>Amount</Name>
+      <Value>15</Value>
+    </Row>
+    <Row>
+      <ModifierId>NATIONAL_ESCOLA_SAGRES</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_SCIENCE</Value>
+    </Row>
+    <Row>
+      <ModifierId>NATIONAL_ESCOLA_SAGRES2</ModifierId>
+      <Name>YieldToGrant</Name>
+      <Value>YIELD_SCIENCE</Value>
+    </Row>
+    <Row>
+      <ModifierId>NATIONAL_ESCOLA_SAGRES2</ModifierId>
+      <Name>YieldToBaseOn</Name>
+      <Value>YIELD_CULTURE</Value>
+    </Row>
+    <Row>
+      <ModifierId>NATIONAL_ESCOLA_SAGRES2</ModifierId>
+      <Name>Multiplier</Name>
+      <Value>5</Value>
+    </Row>
+  </ModifierArguments>
+  <BuildingModifiers>
+    <Row>
+      <BuildingType>BUILDING_FAROL</BuildingType>
+      <ModifierId>FAROL_TRADE_ROUTE_CAPACITY</ModifierId>
+    </Row>
+    <Row>
+      <BuildingType>BUILDING_FOREIGN_FAROL</BuildingType>
+      <ModifierId>FAROL_TRADE_ROUTE_CAPACITY</ModifierId>
+    </Row>
+    <Row>
+      <BuildingType>BUILDING_NATIONAL_ESCOLA_SAGRES</BuildingType>
+      <ModifierId>NATIONAL_ESCOLA_SAGRES</ModifierId>
+    </Row>
+    <Row>
+      <BuildingType>BUILDING_NATIONAL_ESCOLA_SAGRES</BuildingType>
+      <ModifierId>NATIONAL_ESCOLA_SAGRES2</ModifierId>
+    </Row>
+    <Row>
+      <BuildingType>BUILDING_FAROL</BuildingType>
+      <ModifierId>LIGHTHOUSE_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+    </Row>
+    <Row>
+      <BuildingType>BUILDING_ESTALEIRO</BuildingType>
+      <ModifierId>SHIPYARD_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+    </Row>
+    <Row>
+      <BuildingType>BUILDING_PORTOMARITIMO</BuildingType>
+      <ModifierId>SEAPORT_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+    </Row>
+    <Row>
+      <BuildingType>BUILDING_PORTOMARITIMO</BuildingType>
+      <ModifierId>SEAPORT_TRAINED_CORPS_ARMY_DISCOUNT</ModifierId>
+    </Row>
+    <Row>
+      <BuildingType>BUILDING_FOREIGN_FAROL</BuildingType>
+      <ModifierId>LIGHTHOUSE_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+    </Row>
+    <Row>
+      <BuildingType>BUILDING_FOREIGN_ESTALEIRO</BuildingType>
+      <ModifierId>SHIPYARD_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+    </Row>
+    <Row>
+      <BuildingType>BUILDING_FOREIGN_PORTOMARITIMO</BuildingType>
+      <ModifierId>SEAPORT_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+    </Row>
+    <Row>
+      <BuildingType>BUILDING_FOREIGN_PORTOMARITIMO</BuildingType>
+      <ModifierId>SEAPORT_TRAINED_CORPS_ARMY_DISCOUNT</ModifierId>
+    </Row>
+
+
+    <Row>
+      <BuildingType>BUILDING_GRANDE_FAROL</BuildingType>
+      <ModifierId>GREATLIGHTHOUSE_ADJUST_SEA_MOVEMENT</ModifierId>
+    </Row>
+    <Row>
+      <BuildingType>BUILDING_GRANDE_FAROL</BuildingType>
+      <ModifierId>GREATLIGHTHOUSE_ADJUST_EMBARKED_MOVEMENT</ModifierId>
+    </Row>
+    <Row>
+      <BuildingType>BUILDING_GRANDE_FOREIGN_FAROL</BuildingType>
+      <ModifierId>GREATLIGHTHOUSE_ADJUST_SEA_MOVEMENT</ModifierId>
+    </Row>
+    <Row>
+      <BuildingType>BUILDING_GRANDE_FOREIGN_FAROL</BuildingType>
+      <ModifierId>GREATLIGHTHOUSE_ADJUST_EMBARKED_MOVEMENT</ModifierId>
+    </Row>
+
+    <Row>
+      <BuildingType>BUILDING_COLOSSO</BuildingType>
+      <ModifierId>COLOSSUS_ADDTRADEROUTE</ModifierId>
+    </Row>
+
+    <Row>
+      <BuildingType>BUILDING_FOREIGN_COLOSSO</BuildingType>
+      <ModifierId>COLOSSUS_ADDTRADEROUTE</ModifierId>
+    </Row>
+
+    <Row>
+      <BuildingType>BUILDING_COLOSSO</BuildingType>
+      <ModifierId>COLOSSUS_GRANT_TRADER</ModifierId>
+    </Row>
+
+    <Row>
+      <BuildingType>BUILDING_FOREIGN_COLOSSO</BuildingType>
+      <ModifierId>COLOSSUS_GRANT_TRADER</ModifierId>
+    </Row>
+  </BuildingModifiers>
+  <RequirementSets>
+    <Row>
+      <RequirementSetId>FAROL_TRADE_ROUTE_CAPACITY_REQUIREMENTS</RequirementSetId>
+      <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+    </Row>
+  </RequirementSets>
+  <RequirementSetRequirements>
+    <Row>
+      <RequirementSetId>FAROL_TRADE_ROUTE_CAPACITY_REQUIREMENTS</RequirementSetId>
+      <RequirementId>TRADE_REQUIRES_NO_MARKET</RequirementId>
+    </Row>
+  </RequirementSetRequirements>
+
+  <RequirementArguments>
+    <Row>
+      <RequirementId>TRADE_REQUIRES_NO_MARKET</RequirementId>
+      <Name>BuildingType</Name>
+      <Value>BUILDING_MARKET</Value>
+    </Row>
+  </RequirementArguments>
+
+  <Requirements>
+    <Row>
+      <RequirementId>TRADE_REQUIRES_NO_MARKET</RequirementId>
+      <RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+      <Inverse>true</Inverse>
+    </Row>
+  </Requirements>
+</GameInfo>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+
+  <Types>
+    <Row Type="ABILITY_NAU" Kind="KIND_ABILITY"/>
+    <Row Type="ABILITY_NAU_ENTER_FOREIGN_LANDS" Kind="KIND_ABILITY"/>
+    <Row Type="ABILITY_CARAVELA_DESCOBRIR_MOVEMENT" Kind="KIND_ABILITY"/>
+    <Row Type="ABILITY_CARAVELA" Kind="KIND_ABILITY"/>
+    <Row Type="ABILITY_NAU_COMBAT" Kind="KIND_ABILITY"/>
+    <Row Type="ABILITY_NAU_MOVEMENT" Kind="KIND_ABILITY"/>
+    <Row Type="ABILITY_NAU_TRATO" Kind="KIND_ABILITY"/>
+
+    <Row Type="ABILITY_GREAT_EXPLORER" Kind="KIND_ABILITY"/>
+
+
+  </Types>
+
+  <TypeTags>
+    <Row Type="ABILITY_NAU" Tag="CLASS_NAU"/>
+    <Row Type="ABILITY_NAU_ENTER_FOREIGN_LANDS" Tag="CLASS_NAU_EXPLORE"/>
+    <Row Type="ABILITY_CARAVELA_DESCOBRIR_MOVEMENT" Tag="CLASS_CARAVELA_DESCOBRIR"/>
+    <Row Type="ABILITY_CARAVELA" Tag="CLASS_CARAVELA"/>
+    <Row Type="ABILITY_NAU_COMBAT" Tag="CLASS_NAU_COMBAT"/>
+    <Row Type="ABILITY_NAU_MOVEMENT" Tag="CLASS_NAU_MOVEMENT"/>
+    <Row Type="ABILITY_NAU_TRATO" Tag="CLASS_NAU_TRATO"/>
+
+    <Row Type="ABILITY_GREAT_EXPLORER" Tag="CLASS_GREAT_EXPLORER"/>
+    
+
+
+  </TypeTags>
+  <UnitAbilities>
+    <Row UnitAbilityType="ABILITY_NAU" Name="Double force" Description="Two or more together"/>
+    <Row UnitAbilityType="ABILITY_NAU_ENTER_FOREIGN_LANDS" Name="Enter Foreign Territory" Description="Enter Foreign Territory without war" Inactive="true" />
+    <Row UnitAbilityType="ABILITY_CARAVELA_DESCOBRIR_MOVEMENT" Name="1 more movement and sight in coastal tiles" Description="Nore movement and sight in coastal tiles for exploring the new world"/>
+    <Row UnitAbilityType="ABILITY_CARAVELA" Name="+ 5 combat in open ocean" Description="More combat in open ocean, to defend the convoys to india was this main ship job"/>
+    <Row UnitAbilityType="ABILITY_NAU_COMBAT" Name="+ 5 combat in coast" Description="More combat in coastal tiles, to open a trade route trough force if needed"/>
+    <Row UnitAbilityType="ABILITY_NAU_MOVEMENT" Name="+ 1 movement in open sea" Description="Starts with the 'Volta do mar' promotion, which gives +1 movement if there are no land tiles in sight range when it begins its turn." Inactive="true"/>
+    <Row UnitAbilityType="ABILITY_NAU_TRATO" Name="Immune to plunder in Sea" Description="Known as the Black Ships, never plundred, only 4 sunk by natural causes"/>
+    
+    
+    <Row UnitAbilityType="ABILITY_GREAT_EXPLORER" Name="No embark/disembark costs" Description="Great explorers with their great experience have no embark/disembark movement costs"/>
+ 
+  </UnitAbilities>
+
+  <UnitAbilityModifiers>
+
+
+    <Row>
+      <UnitAbilityType>ABILITY_NAU</UnitAbilityType>
+      <ModifierId>NAU_NEIGHBOR_COMBAT</ModifierId>
+    </Row>
+    <Row>
+      <UnitAbilityType>ABILITY_NAU_ENTER_FOREIGN_LANDS</UnitAbilityType>
+      <ModifierId>MOD_ENTER_FOREIGN_LANDS</ModifierId>
+    </Row>
+    <Row>
+      <UnitAbilityType>ABILITY_CARAVELA_DESCOBRIR_MOVEMENT</UnitAbilityType>
+      <ModifierId>LONGSHIP_FASTER_COAST</ModifierId>
+    </Row>
+
+    <Row>
+      <UnitAbilityType>ABILITY_CARAVELA_DESCOBRIR_MOVEMENT</UnitAbilityType>
+      <ModifierId>CARAVELA_DESCOBRIR_VISIBILITY_COAST</ModifierId>
+    </Row>
+
+    <Row>
+      <UnitAbilityType>ABILITY_CARAVELA</UnitAbilityType>
+      <ModifierId>CARAVELA_OCEAN_COMBAT</ModifierId>
+    </Row>
+
+    <Row>
+      <UnitAbilityType>ABILITY_NAU_COMBAT</UnitAbilityType>
+      <ModifierId>NAU_COAST_COMBAT</ModifierId>
+    </Row>
+
+    <Row>
+      <UnitAbilityType>ABILITY_NAU_MOVEMENT</UnitAbilityType>
+      <ModifierId>NAU_FASTER_OCEAN</ModifierId>
+    </Row>
+
+    <Row>
+      <UnitAbilityType>ABILITY_NAU_TRATO</UnitAbilityType>
+      <ModifierId>NAU_TRATO_TRADE_ROUTE_PLUNDER_IMMUNITY_SEA</ModifierId>
+    </Row>
+
+
+
+    <Row>
+      <UnitAbilityType>ABILITY_GREAT_EXPLORER</UnitAbilityType>
+      <ModifierId>REDCOAT_DISEMBARK</ModifierId>
+    </Row>
+
+    <Row>
+      <UnitAbilityType>ABILITY_GREAT_EXPLORER</UnitAbilityType>
+      <ModifierId>NAU_FASTER_OCEAN</ModifierId>
+    </Row>
+
+    <Row>
+      <UnitAbilityType>ABILITY_GREAT_EXPLORER</UnitAbilityType>
+      <ModifierId>LONGSHIP_FASTER_COAST</ModifierId>
+    </Row>
+
+  </UnitAbilityModifiers>
+
+  <Modifiers>
+    <Row>
+      <ModifierId>NAU_NEIGHBOR_COMBAT</ModifierId>
+      <ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+      <SubjectRequirementSetId>NAU_PLOT_IS_NAU_REQUIREMENTS</SubjectRequirementSetId>
+    </Row>
+
+    <Row>
+      <ModifierId>CARAVELA_DESCOBRIR_VISIBILITY_COAST</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_SIGHT</ModifierType>
+      <SubjectRequirementSetId>LONGSHIP_PLOT_IS_COAST</SubjectRequirementSetId>
+    </Row>
+
+    <Row>
+      <ModifierId>CARAVELA_OCEAN_COMBAT</ModifierId>
+      <ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+      <SubjectRequirementSetId>UBOAT_PLOT_IS_OCEAN_REQUIREMENTS</SubjectRequirementSetId>
+    </Row>
+
+    <Row>
+      <ModifierId>NAU_COAST_COMBAT</ModifierId>
+      <ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+      <SubjectRequirementSetId>UBOAT_PLOT_IS_OCEAN_REQUIREMENTS</SubjectRequirementSetId>
+    </Row>
+
+    <Row>
+      <ModifierId>NAU_FASTER_OCEAN</ModifierId>
+      <ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+      <SubjectRequirementSetId>UBOAT_PLOT_IS_OCEAN_REQUIREMENTS</SubjectRequirementSetId>
+    </Row>
+
+    <Row>
+      <ModifierId>NAU_TRATO_TRADE_ROUTE_PLUNDER_IMMUNITY_SEA</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+      <SubjectRequirementSetId>UNIT_IS_NAU_TRATO</SubjectRequirementSetId>
+    </Row>
+    
+  
+
+  
+
+  </Modifiers>
+
+  <ModifierArguments>
+    <Row>
+      <ModifierId>NAU_NEIGHBOR_COMBAT</ModifierId>
+      <Name>Amount</Name>
+      <Value>10</Value>
+    </Row>
+
+    <Row>
+      <ModifierId>CARAVELA_DESCOBRIR_VISIBILITY_COAST</ModifierId>
+      <Name>Amount</Name>
+      <Value>1</Value>
+    </Row>
+
+    <Row>
+      <ModifierId>CARAVELA_OCEAN_COMBAT</ModifierId>
+      <Name>Amount</Name>
+      <Value>5</Value>
+    </Row>
+
+    <Row>
+      <ModifierId>NAU_COAST_COMBAT</ModifierId>
+      <Name>Amount</Name>
+      <Value>5</Value>
+    </Row>
+
+    <Row>
+      <ModifierId>NAU_FASTER_OCEAN</ModifierId>
+      <Name>Amount</Name>
+      <Value>1</Value>
+    </Row>
+    
+       <Row>
+      <ModifierId>NAU_FASTER_OCEAN</ModifierId>
+      <Name>DomainType</Name>
+      <Value>DOMAIN_SEA</Value>
+    </Row>
+
+    <Row>
+      <ModifierId>NAU_TRATO_TRADE_ROUTE_PLUNDER_IMMUNITY_SEA</ModifierId>
+      <Name>AbilityType</Name>
+      <Value>ABILITY_TRADE_ROUTE_PLUNDER_IMMUNITY_SEA</Value>
+    </Row>
+
+  
+
+  </ModifierArguments>
+
+  <RequirementSets>
+    <Row>
+      <RequirementSetId>NAU_PLOT_IS_NAU_REQUIREMENTS</RequirementSetId>
+      <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+    </Row>
+
+    <Row>
+      <RequirementSetId>UNIT_IS_NAU_TRATO</RequirementSetId>
+      <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+    </Row>
+
+   
+
+
+  </RequirementSets>
+
+  <RequirementSetRequirements>
+    <Row>
+      <RequirementSetId>NAU_PLOT_IS_NAU_REQUIREMENTS</RequirementSetId>
+      <RequirementId>REQUIRES_UNIT_NEXT_TO_NAU</RequirementId>
+    </Row>
+
+    <Row>
+      <RequirementSetId>UNIT_IS_NAU_TRATO</RequirementSetId>
+      <RequirementId>REQUIRES_UNIT_IS_NAU_TRATO</RequirementId>
+    </Row>
+
+   
+   
+  </RequirementSetRequirements>
+
+  <Requirements>
+    <Row>
+      <RequirementId>REQUIRES_UNIT_NEXT_TO_NAU</RequirementId>
+      <RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+    </Row>
+
+    <Row>
+      <RequirementId>REQUIRES_UNIT_IS_NAU_TRATO</RequirementId>
+      <RequirementType>REQUIREMENT_UNIT_TYPE_MATCHES</RequirementType>
+    </Row>
+
+
+  
+  </Requirements>
+
+  <RequirementArguments>
+    <Row>
+      <RequirementId>REQUIRES_UNIT_NEXT_TO_NAU</RequirementId>
+      <Name>UnitType</Name>
+      <Value>UNIT_NAU</Value>
+    </Row>
+    <Row>
+      <RequirementId>REQUIRES_UNIT_IS_NAU_TRATO</RequirementId>
+      <Name>UnitType</Name>
+      <Value>UNIT_NAU_TRATO</Value>
+    </Row>
+  </RequirementArguments>
+
+  <ModifierStrings>
+    <Row ModifierId="NAU_NEIGHBOR_COMBAT" Context="Preview" Text="Double combat"/>
+    <Row ModifierId="CARAVELA_DESCOBRIR_VISIBILITY_COAST"  Context="Preview" Text="+1 Visibility"/>
+    <Row ModifierId="CARAVELA_OCEAN_COMBAT" Context="Preview" Text="+ 5 Combat in Open Sea"/>
+    <Row ModifierId="NAU_COAST_COMBAT" Context="Preview" Text="+ 5 Combat in Coastal tiles"/>
+    <Row ModifierId="NAU_FASTER_OCEAN" Context="Preview" Text="+ 1 Movement in open sea"/>
+    <Row ModifierId="NAU_TRATO_TRADE_ROUTE_PLUNDER_IMMUNITY_SEA" Context="Preview" Text="Immune to sea plunder"/>
+  
+  </ModifierStrings>
+
+</GameInfo>

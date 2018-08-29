@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+  <Types>
+    <Row Type="DISTRICT_BAIRRO_ALTO" Kind="KIND_DISTRICT"/>
+    <Row Type="DISTRICT_PORTO" Kind="KIND_DISTRICT"/>
+    <Row Type="DISTRICT_FOREIGN_PORTO" Kind="KIND_DISTRICT"/>
+  </Types>
+  <Districts>
+   
+    <Row DistrictType="DISTRICT_BAIRRO_ALTO" Name="LOC_DISTRICT_BAIRRO_ALTO_NAME" Description="LOC_DISTRICT_BAIRRO_ALTO_DESCRIPTION"  PrereqCivic="CIVIC_HUMANISM" PlunderType="NO_PLUNDER" AdvisorType="ADVISOR_GENERIC" Cost="30" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="1000" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="true" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Housing="9" CityStrengthModifier="2"  Entertainment="4" Appeal="2" TraitType="TRAIT_PORTUGAL_DUMMY" CityCenter="true" OnePerCity="true" />
+    <Row DistrictType="DISTRICT_PORTO" Name="LOC_DISTRICT_PORTO_NAME" Description="LOC_DISTRICT_PORTO_DESCRIPTION" PrereqTech="TECH_SAILING" PlunderType="PLUNDER_GOLD" PlunderAmount="50" AdvisorType="ADVISOR_GENERIC" Cost="60" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="25" RequiresPlacement="true" RequiresPopulation="true" Coast="true" Aqueduct="false" FreeEmbark="true" NoAdjacentCity="false" AdjacentToLand="true" InternalOnly="false" ZOC="false" TradeEmbark="true" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="DOMAIN_SEA" TravelTime="2" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_DISTRICT_PORTO" OnePerCity="true"/>
+    <Row DistrictType="DISTRICT_FOREIGN_PORTO" Name="LOC_DISTRICT_PORTO_NAME" Description="LOC_DISTRICT_PORTO_DESCRIPTION" PrereqTech="TECH_SAILING" PlunderType="PLUNDER_GOLD" PlunderAmount="1" AdvisorType="ADVISOR_GENERIC" Cost="60" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="25" RequiresPlacement="true" RequiresPopulation="true" Coast="true" Aqueduct="false" FreeEmbark="true" NoAdjacentCity="false" AdjacentToLand="true" InternalOnly="false" ZOC="false" TradeEmbark="true" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="DOMAIN_SEA" TravelTime="2" CityStrengthModifier="2" TraitType="TRAIT_LEADER_DISTRICT_FOREIGN_PORTO" OnePerCity="true"/>
+ 
+
+  </Districts>
+  <District_Adjacencies>
+    <Row DistrictType="DISTRICT_BAIRRO_ALTO" YieldChangeId="District_Culture_City_Center"/>
+    <Row DistrictType="DISTRICT_PORTO" YieldChangeId="SeaResource_Gold"/>
+    <Row DistrictType="DISTRICT_PORTO" YieldChangeId="District_Gold"/>
+    <Row DistrictType="DISTRICT_PORTO" YieldChangeId="Harbor_City_Gold"/>
+    <Row DistrictType="DISTRICT_FOREIGN_PORTO" YieldChangeId="SeaResource_Gold"/>
+    <Row DistrictType="DISTRICT_FOREIGN_PORTO" YieldChangeId="District_Gold"/>
+    <Row DistrictType="DISTRICT_FOREIGN_PORTO" YieldChangeId="Harbor_City_Gold"/>
+  </District_Adjacencies>
+  <District_ValidTerrains>
+    <Row DistrictType="DISTRICT_BAIRRO_ALTO" TerrainType="TERRAIN_GRASS_HILLS"/>
+    <Row DistrictType="DISTRICT_BAIRRO_ALTO" TerrainType="TERRAIN_PLAINS_HILLS"/>
+    <Row DistrictType="DISTRICT_BAIRRO_ALTO" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+    <Row DistrictType="DISTRICT_BAIRRO_ALTO" TerrainType="TERRAIN_SNOW_HILLS"/>
+    <Row DistrictType="DISTRICT_BAIRRO_ALTO" TerrainType="TERRAIN_DESERT_HILLS"/>
+  </District_ValidTerrains>
+  <District_GreatPersonPoints>
+    <Row DistrictType="DISTRICT_BAIRRO_ALTO" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="2"/>
+    <Row DistrictType="DISTRICT_BAIRRO_ALTO" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="2"/>
+    <Row DistrictType="DISTRICT_BAIRRO_ALTO" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="2"/>
+    <Row DistrictType="DISTRICT_BAIRRO_ALTO" GreatPersonClassType="GREAT_PERSON_CLASS_EXPLORER" PointsPerTurn="1"/>
+    <Row DistrictType="DISTRICT_PORTO" GreatPersonClassType="GREAT_PERSON_CLASS_EXPLORER" PointsPerTurn="4"/>
+    <Row DistrictType="DISTRICT_FOREIGN_PORTO" GreatPersonClassType="GREAT_PERSON_CLASS_EXPLORER" PointsPerTurn="3"/>
+    <Row DistrictType="DISTRICT_FOREIGN_PORTO" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+  </District_GreatPersonPoints>
+  <District_TradeRouteYields>
+    <Row DistrictType="DISTRICT_BAIRRO_ALTO" YieldType="YIELD_FOOD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
+    <Row DistrictType="DISTRICT_BAIRRO_ALTO" YieldType="YIELD_CULTURE" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>
+    <Row DistrictType="DISTRICT_PORTO" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
+    <Row DistrictType="DISTRICT_PORTO" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="3"/>
+    <Row DistrictType="DISTRICT_FOREIGN_PORTO" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
+    <Row DistrictType="DISTRICT_FOREIGN_PORTO" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="3"/>
+  </District_TradeRouteYields>
+  <District_CitizenYieldChanges>
+    <Row DistrictType="DISTRICT_BAIRRO_ALTO" YieldType="YIELD_CULTURE" YieldChange="3"/>
+    <Row DistrictType="DISTRICT_PORTO" YieldType="YIELD_GOLD" YieldChange="2"/>
+    <Row DistrictType="DISTRICT_PORTO" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+    <Row DistrictType="DISTRICT_FOREIGN_PORTO" YieldType="YIELD_GOLD" YieldChange="2"/>
+    <Row DistrictType="DISTRICT_FOREIGN_PORTO" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+  </District_CitizenYieldChanges>
+
+  <DistrictReplaces>
+    <Row CivUniqueDistrictType="DISTRICT_PORTO" ReplacesDistrictType="DISTRICT_HARBOR"/>
+    <Row CivUniqueDistrictType="DISTRICT_FOREIGN_PORTO" ReplacesDistrictType="DISTRICT_HARBOR"/>
+  </DistrictReplaces>
+
+
+  <Adjacency_YieldChanges>
+  </Adjacency_YieldChanges>
+
+  <District_CitizenGreatPersonPoints>
+  </District_CitizenGreatPersonPoints>
+
+  <DistrictModifiers>
+
+
+    <Row>
+      <DistrictType>DISTRICT_PORTO</DistrictType>
+      <ModifierId>ROYAL_NAVY_DOCKYARD_GRANT_MOVEMENT_BONUS</ModifierId>
+    </Row>
+    <Row>
+      <DistrictType>DISTRICT_PORTO</DistrictType>
+      <ModifierId>ROYAL_NAVY_DOCKYARD_GOLD_FROM_FOREIGN_CONTINENT</ModifierId>
+    </Row>
+
+    <Row>
+      <DistrictType>DISTRICT_FOREIGN_PORTO</DistrictType>
+      <ModifierId>ROYAL_NAVY_DOCKYARD_GRANT_MOVEMENT_BONUS</ModifierId>
+    </Row>
+    <Row>
+      <DistrictType>DISTRICT_FOREIGN_PORTO</DistrictType>
+      <ModifierId>ROYAL_NAVY_DOCKYARD_GOLD_FROM_FOREIGN_CONTINENT</ModifierId>
+    </Row>
+    <Row>
+      <DistrictType>DISTRICT_BAIRRO_ALTO</DistrictType>
+      <ModifierId>BAIRRO_ALTO_FOOD</ModifierId>
+    </Row>
+    <Row>
+      <DistrictType>DISTRICT_BAIRRO_ALTO</DistrictType>
+      <ModifierId>BAIRRO_ALTO_CULTURE</ModifierId>
+    </Row>
+  </DistrictModifiers>
+  <Modifiers>
+    <Row>
+      <ModifierId>BAIRRO_ALTO_FOOD</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_YIELD_CHANGE</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>BAIRRO_ALTO_CULTURE</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_YIELD_CHANGE</ModifierType>
+    </Row>
+  </Modifiers>
+  <ModifierArguments>
+    <Row>
+      <ModifierId>BAIRRO_ALTO_FOOD</ModifierId>
+      <Name>Amount</Name>
+      <Value>2</Value>
+    </Row>
+    <Row>
+      <ModifierId>BAIRRO_ALTO_FOOD</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_FOOD</Value>
+    </Row>
+    <Row>
+      <ModifierId>BAIRRO_ALTO_CULTURE</ModifierId>
+      <Name>Amount</Name>
+      <Value>4</Value>
+    </Row>
+    <Row>
+      <ModifierId>BAIRRO_ALTO_CULTURE</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_CULTURE</Value>
+    </Row>
+  </ModifierArguments>
+</GameInfo>

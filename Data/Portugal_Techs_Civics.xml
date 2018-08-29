@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameInfo>
+
+  <Types>
+    <Row Type="TECH_NAUTICAL_SCIENCE" Kind="KIND_TECH"/>
+  </Types>
+  <Technologies>
+    <Update>
+      <Where TechnologyType="TECH_SHIPBUILDING"/>
+      <Set BarbarianFree="false"/>
+    </Update>
+    <Update>
+      <Where TechnologyType="TECH_SHIPBUILDING"/>
+      <Set UITreeRow="-2"/>
+    </Update>
+    <Update>
+      <Where TechnologyType="TECH_CELESTIAL_NAVIGATION"/>
+      <Set UITreeRow="-3"/>
+    </Update>
+    <Update>
+      <Where TechnologyType="TECH_SAILING"/>
+      <Set UITreeRow="-2"/>
+    </Update>
+    <Update>
+      <Where TechnologyType="TECH_ASTROLOGY"/>
+      <Set UITreeRow="-3"/>
+    </Update>
+    <Row TechnologyType="TECH_NAUTICAL_SCIENCE" Name="LOC_NAUTICAL_SCIENCE_NAME" Cost="390" AdvisorType="ADVISOR_TECHNOLOGY" EraType="ERA_MEDIEVAL" UITreeRow="-3"/>
+  </Technologies>
+  <Civics>
+    <Update>
+      <Where CivicType="CIVIC_DEFENSIVE_TACTICS"/>
+      <Set UITreeRow="-3"/>
+    </Update>
+    <Update>
+      <Where CivicType="CIVIC_MILITARY_TRAINING"/>
+      <Set UITreeRow="-1"/>
+    </Update>
+    <Update>
+      <Where CivicType="CIVIC_NAVAL_TRADITION"/>
+      <Set UITreeRow="-3"/>
+    </Update>
+    <Update>
+      <Where CivicType="CIVIC_FEUDALISM"/>
+      <Set UITreeRow="-2"/>
+    </Update>
+    <Update>
+      <Where CivicType="CIVIC_MERCENARIES"/>
+      <Set UITreeRow="-1"/>
+    </Update>
+    <Update>
+      <Where CivicType="CIVIC_MEDIEVAL_FAIRES"/>
+      <Set UITreeRow="-2"/>
+    </Update>
+    <Update>
+      <Where CivicType="CIVIC_CLASS_STRUGGLE"/>
+      <Set UITreeRow="3"/>
+    </Update>
+    <Update>
+      <Where CivicType="CIVIC_SCORCHED_EARTH"/>
+      <Set UITreeRow="3"/>
+    </Update>
+    <Update>
+      <Where CivicType="CIVIC_OPERA_BALLET"/>
+      <Set UITreeRow="1"/>
+    </Update>
+
+    <Update>
+      <Where CivicType="CIVIC_PROFESSIONAL_SPORTS"/>
+      <Set UITreeRow="1"/>
+    </Update>
+
+    <Update>
+      <Where CivicType="CIVIC_CAPITALISM"/>
+      <Set UITreeRow="0"/>
+    </Update>
+    <Update>
+      <Where CivicType="CIVIC_SPACE_RACE"/>
+      <Set UITreeRow="0"/>
+    </Update>
+    <Update>
+      <Where CivicType="CIVIC_GLOBALIZATION"/>
+      <Set UITreeRow="-3"/>
+    </Update>
+   <Update>
+      <Where CivicType="CIVIC_URBANIZATION"/>
+      <Set UITreeRow="1"/>
+    </Update>
+  <Update>
+      <Where CivicType="CIVIC_CIVIL_ENGINEERING"/>
+      <Set UITreeRow="2"/>
+    </Update>
+        <Update>
+      <Where CivicType="CIVIC_OPERA_BALLET"/>
+      <Set UITreeRow="-1"/>
+    </Update>
+  </Civics>
+
+  <TechnologyPrereqs>
+    <Delete Technology="TECH_CELESTIAL_NAVIGATION" />
+    <Delete Technology="TECH_MATHEMATICS" />
+    <Delete Technology="TECH_MILITARY_TACTICS" />
+    <Delete Technology="TECH_SHIPBUILDING" />
+    <Delete Technology="TECH_CARTOGRAPHY" />
+    <Delete Technology="TECH_MASS_PRODUCTION" />
+    <Row Technology="TECH_SHIPBUILDING" PrereqTech="TECH_SAILING"/>
+    <Row Technology="TECH_CELESTIAL_NAVIGATION" PrereqTech="TECH_SAILING"/>
+    <Row Technology="TECH_CELESTIAL_NAVIGATION" PrereqTech="TECH_ASTROLOGY"/>
+    <Row Technology="TECH_MATHEMATICS" PrereqTech="TECH_CURRENCY"/>
+    <Row Technology="TECH_MATHEMATICS" PrereqTech="TECH_IRRIGATION"/>
+    <Row Technology="TECH_MILITARY_TACTICS" PrereqTech="TECH_MATHEMATICS"/>
+    <Row Technology="TECH_NAUTICAL_SCIENCE" PrereqTech="TECH_CELESTIAL_NAVIGATION"/>
+    <Row Technology="TECH_NAUTICAL_SCIENCE" PrereqTech="TECH_SHIPBUILDING"/>
+    <Row Technology="TECH_NAUTICAL_SCIENCE" PrereqTech="TECH_MILITARY_TACTICS"/>
+    <Row Technology="TECH_CARTOGRAPHY" PrereqTech="TECH_NAUTICAL_SCIENCE"/>
+    <Row Technology="TECH_MASS_PRODUCTION" PrereqTech="TECH_EDUCATION"/>
+    <Row Technology="TECH_MASS_PRODUCTION" PrereqTech="TECH_NAUTICAL_SCIENCE"/>
+    <Row Technology="TECH_ROBOTICS" PrereqTech="TECH_TELECOMMUNICATIONS"/>
+    <Row Technology="TECH_FUTURE_TECH" PrereqTech="TECH_GUIDANCE_SYSTEMS"/>
+    <Row Technology="TECH_FUTURE_TECH" PrereqTech="TECH_STEALTH_TECHNOLOGY"/>
+  </TechnologyPrereqs>
+  <CivicPrereqs>
+    <Row Civic="CIVIC_EXPLORATION" PrereqCivic="CIVIC_NAVAL_TRADITION"/>
+    <Row Civic="CIVIC_COLONIALISM" PrereqCivic="CIVIC_EXPLORATION"/>
+    <Row Civic="CIVIC_COLD_WAR" PrereqCivic="CIVIC_NUCLEAR_PROGRAM"/>
+    <Row Civic="CIVIC_GLOBALIZATION" PrereqCivic="CIVIC_CULTURAL_HERITAGE"/>
+    <Row Civic="CIVIC_SCORCHED_EARTH" PrereqCivic="CIVIC_REFORMED_CHURCH"/>
+    <Row Civic="CIVIC_MOBILIZATION" PrereqCivic="CIVIC_SCORCHED_EARTH"/>
+    <Row Civic="CIVIC_TOTALITARIANISM" PrereqCivic="CIVIC_CAPITALISM"/>
+    <Row Civic="CIVIC_COLD_WAR" PrereqCivic="CIVIC_TOTALITARIANISM"/>
+    <Row Civic="CIVIC_COLD_WAR" PrereqCivic="CIVIC_SUFFRAGE"/>
+    <Row Civic="CIVIC_SOCIAL_MEDIA" PrereqCivic="CIVIC_CLASS_STRUGGLE"/>
+    <Row Civic="CIVIC_MASS_MEDIA" PrereqCivic="CIVIC_OPERA_BALLET"/>
+  </CivicPrereqs>
+  <TechnologyQuotes>
+    <Row TechnologyType="TECH_NAUTICAL_SCIENCE" Quote="LOC_TECH_NAUTICAL_SCIENCE_QUOTE_1" QuoteAudio="Play_Education_Quote_1"/>
+    <Row TechnologyType="TECH_NAUTICAL_SCIENCE" Quote="LOC_TECH_NAUTICAL_SCIENCE_QUOTE_2" QuoteAudio="Play_Education_Quote_2"/>
+  </TechnologyQuotes>
+  <Boosts>
+    <Update>
+      <Where TechnologyType="TECH_CARTOGRAPHY"/>
+      <Set DistrictType="DISTRICT_COMMERCIAL_HUB"/>
+    </Update>
+    <Update>
+      <Where CivicType="CIVIC_EXPLORATION"/>
+      <Set Unit1Type="UNIT_DHOW" />
+    </Update>
+    <Update>
+      <Where TechnologyType="TECH_STEAM_POWER"/>
+      <Set BuildingType="BUILDING_STOCK_EXCHANGE" />
+    </Update>
+    <Update>
+      <Where TechnologyType="TECH_STEAM_POWER"/>
+      <Set NumItems="1" />
+    </Update>
+    
+    
+    
+  
+    <Row TechnologyType="TECH_NAUTICAL_SCIENCE" Boost="50" TriggerDescription="LOC_BOOST_TRIGGER_NAUTICAL_SCIENCE" TriggerLongDescription="LOC_BOOST_TRIGGER_LONGDESC_NAUTICAL_SCIENCE" BoostClass="BOOST_TRIGGER_CULTURVATE_CIVIC" BoostingCivicType="CIVIC_NAVAL_TRADITION"/>
+
+  </Boosts>
+</GameInfo>

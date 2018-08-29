@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+  <Types>
+    <Row Type="UNIT_NAU" Kind="KIND_UNIT"/>
+    <Row Type="UNIT_CARAVELA" Kind="KIND_UNIT"/>
+    <Row Type="UNIT_BOTAFOGO" Kind="KIND_UNIT"/>
+    <Row Type="UNIT_GREAT_EXPLORER" Kind="KIND_UNIT"/>
+    <Row Type="UNIT_CARAVELA_EXPLORADORA" Kind="KIND_UNIT"/>
+    <Row Type="UNIT_NAU_TRATO" Kind="KIND_UNIT"/>
+    <Row Type="UNIT_FLOR_MAR" Kind="KIND_UNIT"/>
+ 
+    
+
+    <!-- Recon-->
+    <Row Type="UNIT_PASTOR_LUSITANO" Kind="KIND_UNIT"/>
+
+    <Row Type="UNIT_DHOW" Kind="KIND_UNIT"/>
+    <Row Type="UNIT_BARCA" Kind="KIND_UNIT"/>
+    <Row Type="UNIT_JUNK" Kind="KIND_UNIT"/>
+
+    <Row Type="UNIT_MONGE_JERONIMO" Kind="KIND_UNIT"/>
+
+  </Types>
+  <UnitAiInfos>
+    <Row UnitType="UNIT_NAU" AiType="UNITAI_COMBAT"/>
+    <Row UnitType="UNIT_NAU" AiType="UNITAI_EXPLORE"/>
+    <Row UnitType="UNIT_NAU" AiType="UNITTYPE_RANGED"/>
+    <Row UnitType="UNIT_NAU" AiType="UNITTYPE_NAVAL"/>
+    <Row UnitType="UNIT_NAU_TRATO" AiType="UNITTYPE_NAVAL"/>
+    <Row UnitType="UNIT_NAU_TRATO" AiType="UNITTYPE_TRADE"/>
+    <Row UnitType="UNIT_FLOR_MAR" AiType="UNITAI_COMBAT"/>
+    <Row UnitType="UNIT_FLOR_MAR" AiType="UNITTYPE_RANGED"/>
+    <Row UnitType="UNIT_FLOR_MAR" AiType="UNITTYPE_NAVAL"/>
+    <Row UnitType="UNIT_CARAVELA" AiType="UNITAI_COMBAT"/>
+    <Row UnitType="UNIT_CARAVELA" AiType="UNITAI_EXPLORE"/>
+    <Row UnitType="UNIT_CARAVELA" AiType="UNITTYPE_MELEE"/>
+    <Row UnitType="UNIT_CARAVELA" AiType="UNITTYPE_NAVAL"/>
+    <Row UnitType="UNIT_CARAVELA_EXPLORADORA" AiType="UNITAI_COMBAT"/>
+    <Row UnitType="UNIT_CARAVELA_EXPLORADORA" AiType="UNITAI_EXPLORE"/>
+    <Row UnitType="UNIT_CARAVELA_EXPLORADORA" AiType="UNITTYPE_MELEE"/>
+    <Row UnitType="UNIT_CARAVELA_EXPLORADORA" AiType="UNITTYPE_NAVAL"/>
+    <Row UnitType="UNIT_BOTAFOGO" AiType="UNITAI_COMBAT"/>
+    <Row UnitType="UNIT_BOTAFOGO" AiType="UNITTYPE_RANGED"/>
+    <Row UnitType="UNIT_BOTAFOGO" AiType="UNITTYPE_NAVAL"/>
+    <Row UnitType="UNIT_GREAT_EXPLORER" AiType="UNITTYPE_CIVILIAN_LEADER"/>
+    <Row UnitType="UNIT_GREAT_EXPLORER" AiType="UNITAI_LEADER"/>
+    <Row UnitType="UNIT_GREAT_EXPLORER" AiType="UNITTYPE_NAVAL"/>
+    <!-- Recon-->
+    <Row UnitType="UNIT_PASTOR_LUSITANO" AiType="UNITAI_EXPLORE"/>
+    <Row UnitType="UNIT_PASTOR_LUSITANO" AiType="UNITTYPE_LAND_COMBAT"/>
+
+    <Row UnitType="UNIT_DHOW" AiType="UNITAI_COMBAT"/>
+    <Row UnitType="UNIT_DHOW" AiType="UNITAI_EXPLORE"/>
+    <Row UnitType="UNIT_DHOW" AiType="UNITTYPE_MELEE"/>
+    <Row UnitType="UNIT_DHOW" AiType="UNITTYPE_NAVAL"/>
+
+    <Row UnitType="UNIT_BARCA" AiType="UNITAI_COMBAT"/>
+    <Row UnitType="UNIT_BARCA" AiType="UNITAI_EXPLORE"/>
+    <Row UnitType="UNIT_BARCA" AiType="UNITTYPE_MELEE"/>
+    <Row UnitType="UNIT_BARCA" AiType="UNITTYPE_NAVAL"/>
+
+    <Row UnitType="UNIT_JUNK" AiType="UNITAI_COMBAT"/>
+    <Row UnitType="UNIT_JUNK" AiType="UNITAI_EXPLORE"/>
+    <Row UnitType="UNIT_JUNK" AiType="UNITTYPE_MELEE"/>
+    <Row UnitType="UNIT_JUNK" AiType="UNITTYPE_NAVAL"/>
+  </UnitAiInfos>
+  <TypeTags>
+    <Row Type="UNIT_CARAVELA" Tag="CLASS_NAVAL_MELEE"/>
+    <Row Type="UNIT_CARAVELA" Tag="CLASS_NAVAL_RAIDER"/>
+    <Row Type="UNIT_CARAVELA" Tag="CLASS_CARAVELA"/>
+    <Row Type="UNIT_CARAVELA_EXPLORADORA" Tag="CLASS_NAVAL_MELEE"/>
+    <Row Type="UNIT_CARAVELA_EXPLORADORA" Tag="CLASS_NAU_EXPLORE"/>
+    <Row Type="UNIT_CARAVELA_EXPLORADORA" Tag="CLASS_CARAVELA_DESCOBRIR"/>
+    <Row Type="UNIT_CARAVELA_EXPLORADORA" Tag="CLASS_NAU_MOVEMENT"/>
+
+    <Row Type="UNIT_NAU" Tag="CLASS_NAVAL_RANGED"/>
+    <Row Type="UNIT_NAU" Tag="CLASS_NAVAL_RAIDER"/>
+    <Row Type="UNIT_NAU" Tag="CLASS_NAU"/>
+    <Row Type="UNIT_NAU" Tag="CLASS_NAU_EXPLORE"/>
+    <Row Type="UNIT_NAU" Tag="CLASS_CARAVELA_DESCOBRIR"/>
+    <Row Type="UNIT_NAU" Tag="CLASS_NAU_COMBAT"/>
+
+    <Row Type="UNIT_NAU" Tag="CLASS_NAU_MOVEMENT"/>
+    <Row Type="UNIT_FLOR_MAR" Tag="CLASS_NAVAL_RANGED"/>
+    <Row Type="UNIT_FLOR_MAR" Tag="CLASS_NAVAL_RAIDER"/>
+    <Row Type="UNIT_FLOR_MAR" Tag="CLASS_NAU"/>
+    <Row Type="UNIT_FLOR_MAR" Tag="CLASS_REVEAL_STEALTH"/>
+    <Row Type="UNIT_FLOR_MAR" Tag="CLASS_NAU_COMBAT"/>
+    <Row Type="UNIT_FLOR_MAR" Tag="CLASS_CAPTURE_SHIPS"/>
+    <Row Type="UNIT_FLOR_MAR" Tag="CLASS_NAU_MOVEMENT"/>
+    <Row Type="UNIT_BOTAFOGO" Tag="CLASS_NAVAL_RANGED"/>
+    <Row Type="UNIT_NAU_TRATO" Tag="CLASS_TRADER"/>
+    <Row Type="UNIT_NAU_TRATO" Tag="CLASS_NAU_MOVEMENT"/>
+    <Row Type="UNIT_NAU_TRATO" Tag="CLASS_NAU_TRATO"/>
+    
+    <Row Type="UNIT_PASTOR_LUSITANO" Tag="CLASS_RECON"/>
+    <Row Type="UNIT_PASTOR_LUSITANO" Tag="CLASS_REVEAL_STEALTH"/>
+
+
+    <Row Type="UNIT_DHOW" Tag="CLASS_NAVAL_MELEE"/>
+    <Row Type="UNIT_DHOW" Tag="CLASS_NAU_EXPLORE"/>
+
+    <Row Type="UNIT_BARCA" Tag="CLASS_NAVAL_MELEE"/>
+    <Row Type="UNIT_BARCA" Tag="CLASS_NAU_EXPLORE"/>
+
+    <Row Type="UNIT_JUNK" Tag="CLASS_NAVAL_MELEE"/>
+    <Row Type="UNIT_JUNK" Tag="CLASS_NAU_EXPLORE"/>
+
+
+    <Row Type="UNIT_GREAT_EXPLORER" Tag="CLASS_GREAT_EXPLORER"/>
+
+    <Row Type="UNIT_MONGE_JERONIMO" Tag="CLASS_LANDCIVILIAN"/>
+    <Row Type="UNIT_MONGE_JERONIMO" Tag="CLASS_RELIGIOUS"/>
+    <Row Type="UNIT_MONGE_JERONIMO" Tag="CLASS_MISSIONARY"/>
+  </TypeTags>
+  <Tags>
+    <Row Tag="CLASS_NAU" Vocabulary="ABILITY_CLASS"/>
+    <Row Tag="CLASS_NAU_EXPLORE" Vocabulary="ABILITY_CLASS"/>
+    <Row Tag="CLASS_CARAVELA_DESCOBRIR" Vocabulary="ABILITY_CLASS"/>
+    <Row Tag="CLASS_CARAVELA" Vocabulary="ABILITY_CLASS"/>
+    <Row Tag="CLASS_NAU_COMBAT" Vocabulary="ABILITY_CLASS"/>
+    <Row Tag="CLASS_NAU_MOVEMENT" Vocabulary="ABILITY_CLASS"/>
+    <Row Tag="CLASS_NAU_TRATO" Vocabulary="ABILITY_CLASS"/>
+
+
+    <Row Tag="CLASS_GREAT_EXPLORER" Vocabulary="ABILITY_CLASS"/>
+
+    
+
+
+  </Tags>
+  <Units>
+    <Row UnitType="UNIT_GREAT_EXPLORER" BuildCharges="1"  BaseMoves="5" Cost="1" BaseSightRange="3" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_GREAT_EXPLORER_NAME" Description="LOC_UNIT_GREAT_EXPLORER_DESCRIPTION" CanCapture="False" CanRetreatWhenCaptured="True" CanTrain="False" TraitType="TRAIT_CIVILIZATION_UNIT_GRANDE_EXPLORADOR"/>
+
+    <Row UnitType="UNIT_CARAVELA_EXPLORADORA"         PrereqCivic="CIVIC_EXPLORATION"               Maintenance="2" Combat="50"   BuildCharges="1"        BaseMoves="4" Cost="130" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_CARAVELA_EXPLORADORA_NAME" Description="LOC_UNIT_CARAVELA_EXPLORADORA_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE"   MandatoryObsoleteTech="TECH_COMBINED_ARMS" TraitType="TRAIT_CIVILIZATION_UNIT_CARAVELA_DESCOBRIR"/>
+    <Row UnitType="UNIT_CARAVELA"                 PrereqTech="TECH_CARTOGRAPHY"                         Maintenance="4" Combat="55"                             BaseMoves="4" Cost="250" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_CARAVELA_NAME" Description="LOC_UNIT_CARAVELA_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE"                           MandatoryObsoleteTech="TECH_COMBINED_ARMS" TraitType="TRAIT_CIVILIZATION_UNIT_CARAVELA"/>
+    <Row UnitType="UNIT_NAU"                      PrereqTech="TECH_CARTOGRAPHY"                         Maintenance="4" Combat="40" RangedCombat="55" Range="2" BaseMoves="4" Cost="260" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_NAU_NAME" Description="LOC_UNIT_NAU_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED"                                    MandatoryObsoleteTech="TECH_LASERS"        TraitType="TRAIT_CIVILIZATION_UNIT_NAU"/>
+    <Row UnitType="UNIT_FLOR_MAR"                 PrereqTech="TECH_MASS_PRODUCTION"                          Maintenance="4" Combat="45" RangedCombat="55" Range="2" BaseMoves="4" Cost="290" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_FLOR_MAR_NAME" Description="LOC_UNIT_FLOR_MAR_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED"                          MandatoryObsoleteTech="TECH_LASERS"        TraitType="TRAIT_CIVILIZATION_UNIT_FLOR_MAR"/>
+    <Row UnitType="UNIT_BOTAFOGO"                 PrereqTech="TECH_GUNPOWDER"                           Maintenance="5" Combat="40" RangedCombat="65" Range="3" BaseMoves="3" Cost="300" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_BOTAFOGO_NAME" Description="LOC_UNIT_BOTAFOGO_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED"                          MandatoryObsoleteTech="TECH_LASERS"        TraitType="TRAIT_CIVILIZATION_UNIT_BOTAFOGO"/>
+
+    <Row UnitType="UNIT_NAU_TRATO"                PrereqCivic="CIVIC_DIPLOMATIC_SERVICE"         IgnoreMoves="true" MakeTradeRoute="true" BaseMoves="5" Cost="300" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_NAU_TRATO_NAME" Description="LOC_UNIT_NAU_TRATO_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" Maintenance="6" Combat="40" RangedCombat="55" Range="2" MandatoryObsoleteTech="TECH_LASERS" TraitType="TRAIT_CIVILIZATION_UNIT_NAU_TRATO"/>
+
+    <Row UnitType="UNIT_PASTOR_LUSITANO" BaseMoves="4" Cost="20" AdvisorType="ADVISOR_GENERIC" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_PASTOR_LUSITANO_NAME" Description="LOC_UNIT_PASTOR_LUSITANO_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER" PromotionClass="PROMOTION_CLASS_RECON" Combat="15"  TraitType="TRAIT_CIVILIZATION_UNIT_PASTOR_LUSITANO"/>
+
+
+    <Row UnitType="UNIT_DHOW"          PrereqTech="TECH_NAUTICAL_SCIENCE"                Maintenance="1" Combat="35"       BaseMoves="3" Cost="70" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_DHOW_NAME" Description="LOC_UNIT_DHOW_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE"   MandatoryObsoleteTech="TECH_COMBINED_ARMS" />
+    <Row UnitType="UNIT_BARCA"          PrereqTech="TECH_NAUTICAL_SCIENCE"                Maintenance="1" Combat="40"       BaseMoves="3" Cost="80" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_BARCA_NAME" Description="LOC_UNIT_BARCA_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE"   MandatoryObsoleteTech="TECH_COMBINED_ARMS" TraitType="TRAIT_CIVILIZATION_UNIT_BARCA" />
+    <Row UnitType="UNIT_JUNK"          PrereqTech="TECH_MILITARY_TACTICS"                Maintenance="1" Combat="45"       BaseMoves="3" Cost="95" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_JUNK_NAME" Description="LOC_UNIT_JUNK_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE"   MandatoryObsoleteTech="TECH_COMBINED_ARMS" TraitType="TRAIT_CIVILIZATION_UNIT_JUNK" />
+
+
+    <Row UnitType="UNIT_MONGE_JERONIMO"  PrereqCivic="CIVIC_REFORMED_CHURCH" BaseMoves="4" Cost="75" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_MONGE_JERONIMO_NAME" Description="LOC_UNIT_MONGE_JERONIMO_DESCRIPTION" CanCapture="False" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="6" PurchaseYield="YIELD_FAITH" PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS" ReligiousStrength="120" SpreadCharges="3" MustPurchase="TRUE" TraitType="TRAIT_LEADER_UNIT_MONGE_JERONIMO"/>
+  </Units>
+  <UnitReplaces>
+    <Row CivUniqueUnitType="UNIT_BARCA" ReplacesUnitType="UNIT_DHOW"/>
+    <Row CivUniqueUnitType="UNIT_JUNK" ReplacesUnitType="UNIT_DHOW"/>
+    <Row CivUniqueUnitType="UNIT_CARAVELA_EXPLORADORA" ReplacesUnitType="UNIT_CARAVEL"/>
+    <Row CivUniqueUnitType="UNIT_CARAVELA" ReplacesUnitType="UNIT_CARAVEL"/>
+    <Row CivUniqueUnitType="UNIT_GREAT_EXPLORER" ReplacesUnitType="UNIT_GREAT_ADMIRAL"/>
+    <Row CivUniqueUnitType="UNIT_PASTOR_LUSITANO" ReplacesUnitType="UNIT_SCOUT"/>
+  </UnitReplaces>
+
+  <Unit_BuildingPrereqs>
+    <Row Unit="UNIT_MONGE_JERONIMO" PrereqBuilding="BUILDING_SHRINE"/>
+
+  </Unit_BuildingPrereqs>
+</GameInfo>

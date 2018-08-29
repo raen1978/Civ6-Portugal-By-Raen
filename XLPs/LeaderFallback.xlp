@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="LeaderFallback"/>
+	<m_PackageName text="LeaderFallback"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_ALBUQUERQUE"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_ALBUQUERQUE"/>
+		</Element>
+    <Element>
+      <m_EntryID text="FALLBACK_NEUTRAL_JOAO_II"/>
+      <m_ObjectName text="FALLBACK_NEUTRAL_JOAO_II"/>
+    </Element>
+		
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_MANUEL_I"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_MANUEL_I"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>

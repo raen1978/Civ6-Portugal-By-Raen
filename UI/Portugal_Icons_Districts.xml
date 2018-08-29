@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+  <IconTextureAtlases>
+    
+    
+    <Row Name="ICON_ATLAS_DISTRICTS_PORTUGAL" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BAIRRO_ALTO_38.dds"/>
+    <Row Name="ICON_ATLAS_DISTRICTS_PORTUGAL" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BAIRRO_ALTO_128.dds"/>
+
+    <Row Name="ICON_ATLAS_DISTRICTS_PORTUGAL" IconSize="32" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_BAIRRO_ALTO_32.dds"/>
+    <Row Name="ICON_ATLAS_DISTRICTS_PORTUGAL" IconSize="45" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_BAIRRO_ALTO_45.dds"/>
+    <Row Name="ICON_ATLAS_DISTRICTS_PORTUGAL" IconSize="50" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_BAIRRO_ALTO_50.dds"/>
+    <Row Name="ICON_ATLAS_DISTRICTS_PORTUGAL" IconSize="55" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_BAIRRO_ALTO_55.dds"/>
+    <Row Name="ICON_ATLAS_DISTRICTS_PORTUGAL" IconSize="64" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_BAIRRO_ALTO_64.dds"/>
+    <Row Name="ICON_ATLAS_DISTRICTS_PORTUGAL" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BAIRRO_ALTO_80.dds"/>
+    <Row Name="ICON_ATLAS_DISTRICTS_PORTUGAL" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BAIRRO_ALTO_256.dds"/>
+
+    <Row Name="ICON_ATLAS_DISTRICTS_FOW_PORTUGAL" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BAIRRO_ALTO_256.dds"/>
+
+  
+    
+  </IconTextureAtlases>
+  <IconDefinitions>
+    <Row Name="ICON_DISTRICT_BAIRRO_ALTO"     Atlas="ICON_ATLAS_DISTRICTS_PORTUGAL" Index="0"/>
+    <Row Name="ICON_DISTRICT_BAIRRO_ALTO_FOW"     Atlas="ICON_ATLAS_DISTRICTS_FOW_PORTUGAL" Index="0"/>
+
+    <Row Name="ICON_DISTRICT_PORTO"                  Atlas="ICON_ATLAS_DISTRICTS" Index="4"/>
+    <Row Name="ICON_DISTRICT_PORTO_FOW"                Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="4"/>
+    <Row Name="ICON_DISTRICT_FOREIGN_PORTO"                  Atlas="ICON_ATLAS_DISTRICTS" Index="4"/>
+    <Row Name="ICON_DISTRICT_FOREIGN_PORTO_FOW"                Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="4"/>
+
+    <Row Name="ICON_PROJECT_DISCOVERIES"                Atlas="ICON_ATLAS_PROJECTS" Index="12"/>
+    <Row Name="ICON_PROJECT_NAU_TRATO"                Atlas="ICON_ATLAS_PROJECTS" Index="12"/>
+    <Row Name="ICON_PROJECT_MARCHAS_POPULARES"                Atlas="ICON_ATLAS_PROJECTS" Index="10"/>
+
+    
+  </IconDefinitions>
+</GameInfo>
+

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+  <IconTextureAtlases>
+
+    <Row Name="ICON_ATLAS_BUILDINGS_PADRAO" IconSize="38" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_PADRAO_38.dds"/>
+    <Row Name="ICON_ATLAS_BUILDINGS_PADRAO" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PADRAO_128.dds"/>
+    <Row Name="ICON_ATLAS_BUILDINGS_PADRAO" IconSize="32" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_PADRAO_32.dds"/>
+    <Row Name="ICON_ATLAS_BUILDINGS_PADRAO" IconSize="45" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_PADRAO_45.dds"/>
+    <Row Name="ICON_ATLAS_BUILDINGS_PADRAO" IconSize="50" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_PADRAO_50.dds"/>
+    <Row Name="ICON_ATLAS_BUILDINGS_PADRAO" IconSize="55" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_PADRAO_55.dds"/>
+    <Row Name="ICON_ATLAS_BUILDINGS_PADRAO" IconSize="64" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_PADRAO_64.dds"/>
+    <Row Name="ICON_ATLAS_BUILDINGS_PADRAO" IconSize="80" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_PADRAO_80.dds"/>
+    <Row Name="ICON_ATLAS_BUILDINGS_PADRAO" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PADRAO_256.dds"/>
+
+
+
+    <Row Name="ICON_ATLAS_DISTRICTS_FEITORIA" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_FEITORIA_38.dds"/>
+    <Row Name="ICON_ATLAS_DISTRICTS_FEITORIA" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_FEITORIA_128.dds"/>
+
+    <Row Name="ICON_ATLAS_DISTRICTS_FEITORIA" IconSize="32" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_FEITORIA_32.dds"/>
+    <Row Name="ICON_ATLAS_DISTRICTS_FEITORIA" IconSize="45" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_FEITORIA_45.dds"/>
+    <Row Name="ICON_ATLAS_DISTRICTS_FEITORIA" IconSize="50" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_FEITORIA_50.dds"/>
+    <Row Name="ICON_ATLAS_DISTRICTS_FEITORIA" IconSize="55" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_FEITORIA_55.dds"/>
+    <Row Name="ICON_ATLAS_DISTRICTS_FEITORIA" IconSize="64" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_FEITORIA_64.dds"/>
+    <Row Name="ICON_ATLAS_DISTRICTS_FEITORIA" IconSize="80" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_FEITORIA_80.dds"/>
+    <Row Name="ICON_ATLAS_DISTRICTS_FEITORIA" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_FEITORIA_256.dds"/>
+
+
+
+  </IconTextureAtlases>
+  
+  <IconDefinitions>
+
+
+    <Row Name="ICON_IMPROVEMENT_PADRAO"               	Atlas="ICON_ATLAS_BUILDINGS_PADRAO"   Index="0"/>
+    <Row Name="ICON_IMPROVEMENT_FEITORIA"               	Atlas="ICON_ATLAS_DISTRICTS_FEITORIA"   Index="0"/>
+
+    <Row Name="ICON_IMPROVEMENT_NAUTICAL_VENTURE"               	 Atlas="ICON_ATLAS_UNITS" Index="9"/>
+    
+
+
+
+
+    <Row Name="ICON_BUILDING_FAROL"           Atlas="ICON_ATLAS_BUILDINGS" Index="10"/>
+    <Row Name="ICON_BUILDING_ESTALEIRO"             Atlas="ICON_ATLAS_BUILDINGS" Index="22"/>
+    <Row Name="ICON_BUILDING_PORTOMARITIMO"              Atlas="ICON_ATLAS_BUILDINGS" Index="33"/>
+
+    <Row Name="ICON_BUILDING_FAROL_FOW"          Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="10"/>
+    <Row Name="ICON_BUILDING_ESTALEIRO_FOW"            Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="22"/>
+    <Row Name="ICON_BUILDING_PORTOMARITIMO_FOW"             Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="33"/>
+
+
+    <Row Name="ICON_BUILDING_FOREIGN_FAROL"           Atlas="ICON_ATLAS_BUILDINGS" Index="10"/>
+    <Row Name="ICON_BUILDING_FOREIGN_ESTALEIRO"             Atlas="ICON_ATLAS_BUILDINGS" Index="22"/>
+    <Row Name="ICON_BUILDING_FOREIGN_PORTOMARITIMO"              Atlas="ICON_ATLAS_BUILDINGS" Index="33"/>
+
+    <Row Name="ICON_BUILDING_FOREIGN_FAROL_FOW"          Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="10"/>
+    <Row Name="ICON_BUILDING_FOREIGN_ESTALEIRO_FOW"            Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="22"/>
+    <Row Name="ICON_BUILDING_FOREIGN_PORTOMARITIMO_FOW"             Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="33"/>
+
+
+    <Row Name="ICON_BUILDING_NATIONAL_ESCOLA_SAGRES"      		Atlas="ICON_ATLAS_BUILDINGS" Index="21"/>
+    <Row Name="ICON_BUILDING_NATIONAL_ESCOLA_SAGRES_FOW"      	Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="21"/>
+    <Row Name="ICON_BUILDING_NATIONAL_CASA_INDIA"      		Atlas="ICON_ATLAS_BUILDINGS" Index="20"/>
+    <Row Name="ICON_BUILDING_NATIONAL_CASA_INDIA_FOW"      	Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="20"/>
+
+
+    <Row Name="ICON_BUILDING_GRANDE_FAROL"        Atlas="ICON_ATLAS_WONDERS" Index="4"/>
+    <Row Name="ICON_BUILDING_GRANDE_FAROL_FOW"    Atlas="ICON_ATLAS_WONDERS_FOW" Index="4"/>
+
+    <Row Name="ICON_BUILDING_GRANDE_FOREIGN_FAROL"        Atlas="ICON_ATLAS_WONDERS" Index="4"/>
+    <Row Name="ICON_BUILDING_GRANDE_FOREIGN_FAROL_FOW"    Atlas="ICON_ATLAS_WONDERS_FOW" Index="4"/>
+
+    <Row Name="ICON_BUILDING_COLOSSO"                Atlas="ICON_ATLAS_WONDERS" Index="5"/>
+    <Row Name="ICON_BUILDING_COLOSSO_FOW"            Atlas="ICON_ATLAS_WONDERS_FOW" Index="5"/>
+    
+    <Row Name="ICON_BUILDING_FOREIGN_COLOSSO"                Atlas="ICON_ATLAS_WONDERS" Index="5"/>
+    <Row Name="ICON_BUILDING_FOREIGN_COLOSSO_FOW"            Atlas="ICON_ATLAS_WONDERS_FOW" Index="5"/>
+
+    <Row Name="ICON_BUILDING_NATIONAL_MOSTEIRO_JERONIMOS"               Atlas="ICON_ATLAS_WONDERS" Index="24"/>
+    <Row Name="ICON_BUILDING_NATIONAL_MOSTEIRO_JERONIMOS_FOW"           Atlas="ICON_ATLAS_WONDERS_FOW" Index="24"/>
+
+
+    <Row Name="ICON_BUILDING_MENIR"             Atlas="ICON_ATLAS_BUILDINGS" Index="0"/>
+    <Row Name="ICON_BUILDING_MENIR_FOW"            Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="0"/>
+    <Row Name="ICON_BUILDING_CROMELEQUE"             Atlas="ICON_ATLAS_BUILDINGS" Index="0"/>
+    <Row Name="ICON_BUILDING_CROMELEQUE_FOW"            Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="0"/>
+    <Row Name="ICON_BUILDING_ANTA"             Atlas="ICON_ATLAS_BUILDINGS" Index="0"/>
+    <Row Name="ICON_BUILDING_ANTA_FOW"            Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="0"/>
+    <Row Name="ICON_BUILDING_MEGALITH"             Atlas="ICON_ATLAS_BUILDINGS" Index="0"/>
+    <Row Name="ICON_BUILDING_MEGALITH_FOW"            Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="0"/>
+
+  </IconDefinitions>
+</GameInfo>

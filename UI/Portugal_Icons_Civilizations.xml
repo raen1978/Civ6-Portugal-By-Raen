@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+  <IconTextureAtlases>
+    <!--Baked in color  missing 32 and 44?!-->
+
+    <Row Name="ICON_ATLAS_CIVILIZATION_PORTUGAL" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PORTUGAL_22.dds"/>
+    <Row Name="ICON_ATLAS_CIVILIZATION_PORTUGAL" IconSize="30"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PORTUGAL_30.dds"/>
+    <Row Name="ICON_ATLAS_CIVILIZATION_PORTUGAL" IconSize="36"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PORTUGAL_36.dds"/>
+    <Row Name="ICON_ATLAS_CIVILIZATION_PORTUGAL" IconSize="48"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PORTUGAL_48.dds"/>
+
+    <Row Name="ICON_ATLAS_CIVILIZATION_PORTUGAL" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PORTUGAL_32.dds"/>
+    <Row Name="ICON_ATLAS_CIVILIZATION_PORTUGAL" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PORTUGAL_45.dds"/>
+    <Row Name="ICON_ATLAS_CIVILIZATION_PORTUGAL" IconSize="44"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PORTUGAL_44.dds"/>
+    <Row Name="ICON_ATLAS_CIVILIZATION_PORTUGAL" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PORTUGAL_50.dds"/>
+    <Row Name="ICON_ATLAS_CIVILIZATION_PORTUGAL" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PORTUGAL_55.dds"/>
+    <Row Name="ICON_ATLAS_CIVILIZATION_PORTUGAL" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PORTUGAL_64.dds"/>
+    <Row Name="ICON_ATLAS_CIVILIZATION_PORTUGAL" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PORTUGAL_80.dds"/>
+    <Row Name="ICON_ATLAS_CIVILIZATION_PORTUGAL" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PORTUGAL_256.dds"/>
+  </IconTextureAtlases>
+
+  <IconDefinitions>
+    <Row Name="ICON_CIVILIZATION_PORTUGAL"      Atlas="ICON_ATLAS_CIVILIZATION_PORTUGAL" Index="0"/>
+
+
+
+    <!-- Techs and Civics -->
+    <Row Name="ICON_TECH_NAUTICAL_SCIENCE"			Index="14" Atlas="ICON_ATLAS_CIVICS"/>
+    <Row Name="ICON_TECH_NAUTICAL_SCIENCE_FOW"			Index="14" Atlas="ICON_ATLAS_CIVICS_FOW"/>
+
+  </IconDefinitions>
+</GameInfo>

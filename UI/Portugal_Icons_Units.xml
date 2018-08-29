@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+  <IconTextureAtlases>
+
+
+    <Row Name="ICON_ATLAS_UNITS_PORTUGAL" IconSize="32"   IconsPerRow="1" IconsPerColumn="1"    Filename="ICON_NAU_32.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_PORTUGAL" IconSize="38" IconsPerRow="1" IconsPerColumn="1"      Filename="ICON_NAU_38.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_PORTUGAL" IconSize="45"   IconsPerRow="1" IconsPerColumn="1"    Filename="ICON_NAU_45.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_PORTUGAL" IconSize="50"   IconsPerRow="1" IconsPerColumn="1"    Filename="ICON_NAU_50.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_PORTUGAL" IconSize="55"   IconsPerRow="1" IconsPerColumn="1"    Filename="ICON_NAU_55.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_PORTUGAL" IconSize="64"   IconsPerRow="1" IconsPerColumn="1"    Filename="ICON_NAU_64.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_PORTUGAL" IconSize="80"   IconsPerRow="1" IconsPerColumn="1"    Filename="ICON_NAU_80.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_PORTUGAL" IconSize="256"  IconsPerRow="1" IconsPerColumn="1"    Filename="ICON_NAU_256.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_FOW_PORTUGAL" IconSize="32" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_NAU_32.dds"/>
+
+
+
+
+    <Row Name="ICON_ATLAS_UNITS_NAU_TRATO" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_NAU_TRATO_32.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_NAU_TRATO" IconSize="38" IconsPerRow="1" IconsPerColumn="1"     Filename="ICON_NAU_TRATO_38.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_NAU_TRATO" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_NAU_TRATO_45.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_NAU_TRATO" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_NAU_TRATO_50.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_NAU_TRATO" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_NAU_TRATO_55.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_NAU_TRATO" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_NAU_TRATO_64.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_NAU_TRATO" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_NAU_TRATO_80.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_NAU_TRATO" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_NAU_TRATO_256.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_FOW_NAU_TRATO" IconSize="32" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_NAU_TRATO_32.dds"/>
+
+
+
+    <Row Name="ICON_ATLAS_UNITS_FLOR_MAR" IconSize="32"  IconsPerRow="1" IconsPerColumn="1"     Filename="ICON_FLOR_MAR_32.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_FLOR_MAR" IconSize="38" IconsPerRow="1" IconsPerColumn="1"      Filename="ICON_FLOR_MAR_38.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_FLOR_MAR" IconSize="45" IconsPerRow="1" IconsPerColumn="1"      Filename="ICON_FLOR_MAR_45.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_FLOR_MAR" IconSize="50" IconsPerRow="1" IconsPerColumn="1"      Filename="ICON_FLOR_MAR_50.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_FLOR_MAR" IconSize="55" IconsPerRow="1" IconsPerColumn="1"      Filename="ICON_FLOR_MAR_55.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_FLOR_MAR" IconSize="64" IconsPerRow="1" IconsPerColumn="1"      Filename="ICON_FLOR_MAR_64.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_FLOR_MAR" IconSize="80" IconsPerRow="1" IconsPerColumn="1"      Filename="ICON_FLOR_MAR_80.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_FLOR_MAR" IconSize="256" IconsPerRow="1" IconsPerColumn="1"     Filename="ICON_FLOR_MAR_256.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_FOW_FLOR_MAR" IconSize="32" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_FLOR_MAR_32.dds"/>
+
+
+
+
+    <Row Name="ICON_ATLAS_UNITS_CARAVELA" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CARAVELA_32.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_CARAVELA" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CARAVELA_38.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_CARAVELA" IconSize="45" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_CARAVELA_45.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_CARAVELA" IconSize="50" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_CARAVELA_50.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_CARAVELA" IconSize="55" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_CARAVELA_55.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_CARAVELA" IconSize="64" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_CARAVELA_64.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_CARAVELA" IconSize="80" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_CARAVELA_80.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_CARAVELA" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CARAVELA_256.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_FOW_CARAVELA" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CARAVELA_32.dds"/>
+
+
+
+
+    <Row Name="ICON_ATLAS_UNITS_CARAVELA_EXPLORADORA" IconSize="32"  IconsPerRow="1" IconsPerColumn="1"      Filename="ICON_CARAVELA_EXPLORADORA_32.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_CARAVELA_EXPLORADORA" IconSize="38" IconsPerRow="1" IconsPerColumn="1"       Filename="ICON_CARAVELA_EXPLORADORA_38.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_CARAVELA_EXPLORADORA" IconSize="45" IconsPerRow="1" IconsPerColumn="1"       Filename="ICON_CARAVELA_EXPLORADORA_45.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_CARAVELA_EXPLORADORA" IconSize="50" IconsPerRow="1" IconsPerColumn="1"       Filename="ICON_CARAVELA_EXPLORADORA_50.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_CARAVELA_EXPLORADORA" IconSize="55" IconsPerRow="1" IconsPerColumn="1"       Filename="ICON_CARAVELA_EXPLORADORA_55.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_CARAVELA_EXPLORADORA" IconSize="64" IconsPerRow="1" IconsPerColumn="1"       Filename="ICON_CARAVELA_EXPLORADORA_64.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_CARAVELA_EXPLORADORA" IconSize="80" IconsPerRow="1" IconsPerColumn="1"       Filename="ICON_CARAVELA_EXPLORADORA_80.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_CARAVELA_EXPLORADORA" IconSize="256" IconsPerRow="1" IconsPerColumn="1"      Filename="ICON_CARAVELA_EXPLORADORA_256.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_FOW_CARAVELA_EXPLORADORA" IconSize="32" IconsPerRow="1" IconsPerColumn="1"   Filename="ICON_CARAVELA_EXPLORADORA_32.dds"/>
+
+
+
+
+    <Row Name="ICON_ATLAS_UNITS_BOTAFOGO" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BOTAFOGO_32.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_BOTAFOGO" IconSize="38" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_BOTAFOGO_38.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_BOTAFOGO" IconSize="45" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_BOTAFOGO_45.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_BOTAFOGO" IconSize="50" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_BOTAFOGO_50.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_BOTAFOGO" IconSize="55" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_BOTAFOGO_55.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_BOTAFOGO" IconSize="64" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_BOTAFOGO_64.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_BOTAFOGO" IconSize="80" IconsPerRow="1" IconsPerColumn="1"  Filename="ICON_BOTAFOGO_80.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_BOTAFOGO" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BOTAFOGO_256.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_FOW_BOTAFOGO" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BOTAFOGO_32.dds"/>
+
+
+    <Row Name="ICON_ATLAS_UNITS_GREAT_EXPLORER" IconSize="32"  IconsPerRow="1" IconsPerColumn="1"      Filename="ICON_GREAT_EXPLORER_32.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_GREAT_EXPLORER" IconSize="38" IconsPerRow="1" IconsPerColumn="1"       Filename="ICON_GREAT_EXPLORER_38.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_GREAT_EXPLORER" IconSize="45" IconsPerRow="1" IconsPerColumn="1"       Filename="ICON_GREAT_EXPLORER_45.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_GREAT_EXPLORER" IconSize="50" IconsPerRow="1" IconsPerColumn="1"       Filename="ICON_GREAT_EXPLORER_50.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_GREAT_EXPLORER" IconSize="55" IconsPerRow="1" IconsPerColumn="1"       Filename="ICON_GREAT_EXPLORER_55.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_GREAT_EXPLORER" IconSize="64" IconsPerRow="1" IconsPerColumn="1"       Filename="ICON_GREAT_EXPLORER_64.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_GREAT_EXPLORER" IconSize="80" IconsPerRow="1" IconsPerColumn="1"       Filename="ICON_GREAT_EXPLORER_80.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_GREAT_EXPLORER" IconSize="256" IconsPerRow="1" IconsPerColumn="1"      Filename="ICON_GREAT_EXPLORER_256.dds"/>
+    <Row Name="ICON_ATLAS_UNITS_FOW_GREAT_EXPLORER" IconSize="32" IconsPerRow="1" IconsPerColumn="1"   Filename="ICON_GREAT_EXPLORER_32.dds"/>
+
+  </IconTextureAtlases>
+
+  <IconDefinitions>
+    <Row Name="ICON_UNIT_NAU"                   Atlas="ICON_ATLAS_UNITS_PORTUGAL" Index="0"/>
+    <Row Name="ICON_UNIT_NAU_FOW"               Atlas="ICON_ATLAS_UNITS_FOW_PORTUGAL" Index="0"/>
+    <Row Name="ICON_UNIT_NAU_WHITE"             Index="58" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"/>
+    <Row Name="ICON_UNIT_NAU_BLACK"             Index="58" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"/>
+    <Row Name="ICON_UNIT_NAU_PORTRAIT"                    Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="56"/>
+
+    <Row Name="ICON_UNIT_NAU_TRATO"             Atlas="ICON_ATLAS_UNITS_NAU_TRATO" Index="0"/>
+    <Row Name="ICON_UNIT_NAU_TRATO_FOW"         Atlas="ICON_ATLAS_UNITS_FOW_NAU_TRATO" Index="0"/>
+    <Row Name="ICON_UNIT_NAU_TRATO_WHITE"       Index="58" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"/>
+    <Row Name="ICON_UNIT_NAU_TRATO_BLACK"       Index="58" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"/>
+    <Row Name="ICON_UNIT_NAU_TRATO_PORTRAIT"                    Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="56"/>
+
+    <Row Name="ICON_UNIT_FLOR_MAR"              Atlas="ICON_ATLAS_UNITS_FLOR_MAR" Index="0"/>
+    <Row Name="ICON_UNIT_FLOR_MAR_FOW"          Atlas="ICON_ATLAS_UNITS_FOW_FLOR_MAR" Index="0"/>
+    <Row Name="ICON_UNIT_FLOR_MAR_WHITE"        Index="58" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"/>
+    <Row Name="ICON_UNIT_FLOR_MAR_BLACK"        Index="58" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"/>
+    <Row Name="ICON_UNIT_FLOR_MAR_PORTRAIT"                    Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="56"/>
+
+    <Row Name="ICON_UNIT_CARAVELA"              Atlas="ICON_ATLAS_UNITS_CARAVELA" Index="0"/>
+    <Row Name="ICON_UNIT_CARAVELA_FOW"          Atlas="ICON_ATLAS_UNITS_FOW_CARAVELA" Index="0"/>
+    <Row Name="ICON_UNIT_CARAVELA_WHITE"        Index="55" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"/>
+    <Row Name="ICON_UNIT_CARAVELA_BLACK"        Index="55" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"/>
+    <Row Name="ICON_UNIT_CARAVELA_PORTRAIT"                      Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="53"/>
+
+
+    <Row Name="ICON_UNIT_CARAVELA_EXPLORADORA"              Atlas="ICON_ATLAS_UNITS_CARAVELA_EXPLORADORA" Index="0"/>
+    <Row Name="ICON_UNIT_CARAVELA_EXPLORADORA_FOW"          Atlas="ICON_ATLAS_UNITS_FOW_CARAVELA_EXPLORADORA" Index="0"/>
+    <Row Name="ICON_UNIT_CARAVELA_EXPLORADORA_WHITE"        Index="55" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"/>
+    <Row Name="ICON_UNIT_CARAVELA_EXPLORADORA_BLACK"        Index="55" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"/>
+    <Row Name="ICON_UNIT_CARAVELA_EXPLORADORA_PORTRAIT"     Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="53"/>
+
+    <Row Name="ICON_UNIT_BOTAFOGO"              Atlas="ICON_ATLAS_UNITS_BOTAFOGO" Index="0"/>
+    <Row Name="ICON_UNIT_BOTAFOGO_FOW"          Atlas="ICON_ATLAS_UNITS_FOW_BOTAFOGO" Index="0"/>
+    <Row Name="ICON_UNIT_BOTAFOGO_WHITE"        Index="57" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"/>
+    <Row Name="ICON_UNIT_BOTAFOGO_BLACK"        Index="57" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"/>
+    <Row Name="ICON_UNIT_BOTAFOGO_PORTRAIT"     Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="55"/>
+
+    <Row Name="ICON_UNIT_GREAT_EXPLORER"                Atlas="ICON_ATLAS_UNITS_GREAT_EXPLORER" Index="0"/>
+    <Row Name="ICON_UNIT_GREAT_EXPLORER_FOW"            Atlas="ICON_ATLAS_UNITS_FOW_GREAT_EXPLORER" Index="0"/>
+    <Row Name="ICON_UNIT_GREAT_EXPLORER_WHITE"          Index="9" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"/>
+    <Row Name="ICON_UNIT_GREAT_EXPLORER_BLACK"          Index="9" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"/>
+    <Row Name="ICON_UNIT_GREAT_EXPLORER_PORTRAIT"        Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="9"/>
+
+
+    <Row Name="ICON_UNIT_PASTOR_LUSITANO"                       Atlas="ICON_ATLAS_UNITS" Index="19"/>
+    <Row Name="ICON_UNIT_PASTOR_LUSITANO_FOW"                    Atlas="ICON_ATLAS_UNITS_FOW" Index="19"/>
+
+    <Row Name="ICON_UNIT_DHOW"                   Atlas="ICON_ATLAS_UNITS" Index="27"/>
+    <Row Name="ICON_UNIT_DHOW_FOW"                   Atlas="ICON_ATLAS_UNITS_FOW" Index="27"/>
+
+    <Row Name="ICON_UNIT_BARCA"                   Atlas="ICON_ATLAS_UNITS" Index="27"/>
+    <Row Name="ICON_UNIT_BARCA_FOW"                   Atlas="ICON_ATLAS_UNITS_FOW" Index="27"/>
+
+    <Row Name="ICON_UNIT_JUNK"                   Atlas="ICON_ATLAS_UNITS" Index="27"/>
+    <Row Name="ICON_UNIT_JUNK_FOW"                   Atlas="ICON_ATLAS_UNITS_FOW" Index="27"/>
+
+    <!-- TODO: Customize icons. -->
+
+
+    <Row Name="ICON_GREATWORK_DUARTE_PACHECO_PEREIRA"       	Atlas="ICON_ATLAS_GREATWORKS"			Index="0"/>
+    <Row Name="ICON_GREATWORK_FRANCISCO_ALVARES"            	Atlas="ICON_ATLAS_GREATWORKS"			Index="0"/>
+    <Row Name="ICON_GREATWORK_LUIS_VAZ_CAMOES"              	Atlas="ICON_ATLAS_GREATWORKS"			Index="0"/>
+    <Row Name="ICON_GREATWORK_ANTONIO_VIEIRA"               	Atlas="ICON_ATLAS_GREATWORKS"			Index="0"/>
+    <Row Name="ICON_GREATWORK_MARTIM_AFONSO_DE_SOUSA"       	Atlas="ICON_ATLAS_GREATWORKS"			Index="0"/>
+    <Row Name="ICON_GREATWORK_ROBERTO_IVENS"                	Atlas="ICON_ATLAS_GREATWORKS"			Index="0"/>
+    <Row Name="ICON_GREATWORK_FERDINAND_MAGELLAN2"           	Atlas="ICON_ATLAS_GREATWORKS"			Index="0"/>
+  
+    <Row Name="ICON_GREATWORK_RUY_AFONSO_DE_SOUSA"          	Atlas="ICON_ATLAS_GREATWORKS"			Index="0"/>
+    <Row Name="ICON_GREATWORK_FERNAO_MENDES_PINTO"          	Atlas="ICON_ATLAS_GREATWORKS"			Index="0"/>
+    <Row Name="ICON_GREATWORK_SERPA_PINTO"                  	Atlas="ICON_ATLAS_GREATWORKS"			Index="0"/>
+
+    <Row Name="ICON_GREATWORK_AHMAD_IBN_MAJID"                  	Atlas="ICON_ATLAS_GREATWORKS"			Index="0"/>
+
+    <Row Name="ICON_UNIT_MONGE_JERONIMO"               Atlas="ICON_ATLAS_UNITS" Index="4"/>
+    <Row Name="ICON_UNIT_MONGE_JERONIMO_FOW"               Atlas="ICON_ATLAS_UNITS_FOW" Index="4"/>
+    
+  </IconDefinitions>
+</GameInfo>
+

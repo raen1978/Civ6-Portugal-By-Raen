@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>253</build>
+		<revision>293</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="ICON_ALBUQUERQUE_256"/>
+			<m_ObjectName       text="ICON_ALBUQUERQUE_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ALBUQUERQUE_32"/>
+			<m_ObjectName       text="ICON_ALBUQUERQUE_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ALBUQUERQUE_45"/>
+			<m_ObjectName       text="ICON_ALBUQUERQUE_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ALBUQUERQUE_50"/>
+			<m_ObjectName       text="ICON_ALBUQUERQUE_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ALBUQUERQUE_55"/>
+			<m_ObjectName       text="ICON_ALBUQUERQUE_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ALBUQUERQUE_64"/>
+			<m_ObjectName       text="ICON_ALBUQUERQUE_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_ALBUQUERQUE_80"/>
+			<m_ObjectName       text="ICON_ALBUQUERQUE_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BAIRRO_ALTO_128"/>
+			<m_ObjectName       text="ICON_BAIRRO_ALTO_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BAIRRO_ALTO_256"/>
+			<m_ObjectName       text="ICON_BAIRRO_ALTO_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BAIRRO_ALTO_32"/>
+			<m_ObjectName       text="ICON_BAIRRO_ALTO_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BAIRRO_ALTO_38"/>
+			<m_ObjectName       text="ICON_BAIRRO_ALTO_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BAIRRO_ALTO_45"/>
+			<m_ObjectName       text="ICON_BAIRRO_ALTO_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BAIRRO_ALTO_50"/>
+			<m_ObjectName       text="ICON_BAIRRO_ALTO_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BAIRRO_ALTO_55"/>
+			<m_ObjectName       text="ICON_BAIRRO_ALTO_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BAIRRO_ALTO_64"/>
+			<m_ObjectName       text="ICON_BAIRRO_ALTO_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BAIRRO_ALTO_80"/>
+			<m_ObjectName       text="ICON_BAIRRO_ALTO_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BOTAFOGO_256"/>
+			<m_ObjectName       text="ICON_BOTAFOGO_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BOTAFOGO_32"/>
+			<m_ObjectName       text="ICON_BOTAFOGO_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BOTAFOGO_38"/>
+			<m_ObjectName       text="ICON_BOTAFOGO_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BOTAFOGO_45"/>
+			<m_ObjectName       text="ICON_BOTAFOGO_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BOTAFOGO_50"/>
+			<m_ObjectName       text="ICON_BOTAFOGO_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BOTAFOGO_55"/>
+			<m_ObjectName       text="ICON_BOTAFOGO_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BOTAFOGO_64"/>
+			<m_ObjectName       text="ICON_BOTAFOGO_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BOTAFOGO_80"/>
+			<m_ObjectName       text="ICON_BOTAFOGO_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CARAVELA_256"/>
+			<m_ObjectName       text="ICON_CARAVELA_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CARAVELA_32"/>
+			<m_ObjectName       text="ICON_CARAVELA_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CARAVELA_38"/>
+			<m_ObjectName       text="ICON_CARAVELA_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CARAVELA_45"/>
+			<m_ObjectName       text="ICON_CARAVELA_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CARAVELA_50"/>
+			<m_ObjectName       text="ICON_CARAVELA_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CARAVELA_55"/>
+			<m_ObjectName       text="ICON_CARAVELA_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CARAVELA_64"/>
+			<m_ObjectName       text="ICON_CARAVELA_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CARAVELA_80"/>
+			<m_ObjectName       text="ICON_CARAVELA_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CARAVELA_EXPLORADORA_256"/>
+			<m_ObjectName       text="ICON_CARAVELA_EXPLORADORA_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CARAVELA_EXPLORADORA_32"/>
+			<m_ObjectName       text="ICON_CARAVELA_EXPLORADORA_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CARAVELA_EXPLORADORA_38"/>
+			<m_ObjectName       text="ICON_CARAVELA_EXPLORADORA_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CARAVELA_EXPLORADORA_45"/>
+			<m_ObjectName       text="ICON_CARAVELA_EXPLORADORA_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CARAVELA_EXPLORADORA_50"/>
+			<m_ObjectName       text="ICON_CARAVELA_EXPLORADORA_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CARAVELA_EXPLORADORA_55"/>
+			<m_ObjectName       text="ICON_CARAVELA_EXPLORADORA_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CARAVELA_EXPLORADORA_64"/>
+			<m_ObjectName       text="ICON_CARAVELA_EXPLORADORA_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CARAVELA_EXPLORADORA_80"/>
+			<m_ObjectName       text="ICON_CARAVELA_EXPLORADORA_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FEITORIA_128"/>
+			<m_ObjectName       text="ICON_FEITORIA_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FEITORIA_256"/>
+			<m_ObjectName       text="ICON_FEITORIA_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FEITORIA_32"/>
+			<m_ObjectName       text="ICON_FEITORIA_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FEITORIA_38"/>
+			<m_ObjectName       text="ICON_FEITORIA_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FEITORIA_45"/>
+			<m_ObjectName       text="ICON_FEITORIA_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FEITORIA_50"/>
+			<m_ObjectName       text="ICON_FEITORIA_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FEITORIA_55"/>
+			<m_ObjectName       text="ICON_FEITORIA_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FEITORIA_64"/>
+			<m_ObjectName       text="ICON_FEITORIA_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FEITORIA_80"/>
+			<m_ObjectName       text="ICON_FEITORIA_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FLOR_MAR_128"/>
+			<m_ObjectName       text="ICON_FLOR_MAR_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FLOR_MAR_256"/>
+			<m_ObjectName       text="ICON_FLOR_MAR_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FLOR_MAR_32"/>
+			<m_ObjectName       text="ICON_FLOR_MAR_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FLOR_MAR_38"/>
+			<m_ObjectName       text="ICON_FLOR_MAR_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FLOR_MAR_45"/>
+			<m_ObjectName       text="ICON_FLOR_MAR_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FLOR_MAR_50"/>
+			<m_ObjectName       text="ICON_FLOR_MAR_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FLOR_MAR_55"/>
+			<m_ObjectName       text="ICON_FLOR_MAR_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FLOR_MAR_64"/>
+			<m_ObjectName       text="ICON_FLOR_MAR_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_FLOR_MAR_80"/>
+			<m_ObjectName       text="ICON_FLOR_MAR_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREAT_EXPLORER_256"/>
+			<m_ObjectName       text="ICON_GREAT_EXPLORER_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREAT_EXPLORER_32"/>
+			<m_ObjectName       text="ICON_GREAT_EXPLORER_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREAT_EXPLORER_38"/>
+			<m_ObjectName       text="ICON_GREAT_EXPLORER_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREAT_EXPLORER_45"/>
+			<m_ObjectName       text="ICON_GREAT_EXPLORER_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREAT_EXPLORER_50"/>
+			<m_ObjectName       text="ICON_GREAT_EXPLORER_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREAT_EXPLORER_55"/>
+			<m_ObjectName       text="ICON_GREAT_EXPLORER_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREAT_EXPLORER_64"/>
+			<m_ObjectName       text="ICON_GREAT_EXPLORER_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREAT_EXPLORER_80"/>
+			<m_ObjectName       text="ICON_GREAT_EXPLORER_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_JOAO_II_256"/>
+			<m_ObjectName       text="ICON_JOAO_II_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_JOAO_II_32"/>
+			<m_ObjectName       text="ICON_JOAO_II_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_JOAO_II_45"/>
+			<m_ObjectName       text="ICON_JOAO_II_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_JOAO_II_50"/>
+			<m_ObjectName       text="ICON_JOAO_II_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_JOAO_II_55"/>
+			<m_ObjectName       text="ICON_JOAO_II_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_JOAO_II_64"/>
+			<m_ObjectName       text="ICON_JOAO_II_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_JOAO_II_80"/>
+			<m_ObjectName       text="ICON_JOAO_II_80"/>
+		</Element>
+
+		<Element>
+			<m_EntryID text="ICON_MANUEL_I_256"/>
+			<m_ObjectName       text="ICON_MANUEL_I_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANUEL_I_32"/>
+			<m_ObjectName       text="ICON_MANUEL_I_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANUEL_I_45"/>
+			<m_ObjectName       text="ICON_MANUEL_I_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANUEL_I_50"/>
+			<m_ObjectName       text="ICON_MANUEL_I_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANUEL_I_55"/>
+			<m_ObjectName       text="ICON_MANUEL_I_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANUEL_I_64"/>
+			<m_ObjectName       text="ICON_MANUEL_I_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_MANUEL_I_80"/>
+			<m_ObjectName       text="ICON_MANUEL_I_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_NAU_256"/>
+			<m_ObjectName       text="ICON_NAU_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_NAU_32"/>
+			<m_ObjectName       text="ICON_NAU_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_NAU_38"/>
+			<m_ObjectName       text="ICON_NAU_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_NAU_45"/>
+			<m_ObjectName       text="ICON_NAU_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_NAU_50"/>
+			<m_ObjectName       text="ICON_NAU_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_NAU_55"/>
+			<m_ObjectName       text="ICON_NAU_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_NAU_64"/>
+			<m_ObjectName       text="ICON_NAU_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_NAU_80"/>
+			<m_ObjectName       text="ICON_NAU_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_NAU_TRATO_256"/>
+			<m_ObjectName       text="ICON_NAU_TRATO_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_NAU_TRATO_32"/>
+			<m_ObjectName       text="ICON_NAU_TRATO_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_NAU_TRATO_38"/>
+			<m_ObjectName       text="ICON_NAU_TRATO_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_NAU_TRATO_45"/>
+			<m_ObjectName       text="ICON_NAU_TRATO_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_NAU_TRATO_50"/>
+			<m_ObjectName       text="ICON_NAU_TRATO_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_NAU_TRATO_55"/>
+			<m_ObjectName       text="ICON_NAU_TRATO_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_NAU_TRATO_64"/>
+			<m_ObjectName       text="ICON_NAU_TRATO_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_NAU_TRATO_80"/>
+			<m_ObjectName       text="ICON_NAU_TRATO_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PADRAO_128"/>
+			<m_ObjectName       text="ICON_PADRAO_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PADRAO_256"/>
+			<m_ObjectName       text="ICON_PADRAO_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PADRAO_32"/>
+			<m_ObjectName       text="ICON_PADRAO_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PADRAO_38"/>
+			<m_ObjectName       text="ICON_PADRAO_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PADRAO_45"/>
+			<m_ObjectName       text="ICON_PADRAO_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PADRAO_50"/>
+			<m_ObjectName       text="ICON_PADRAO_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PADRAO_55"/>
+			<m_ObjectName       text="ICON_PADRAO_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PADRAO_64"/>
+			<m_ObjectName       text="ICON_PADRAO_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PADRAO_80"/>
+			<m_ObjectName       text="ICON_PADRAO_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PORTUGAL_256"/>
+			<m_ObjectName       text="ICON_PORTUGAL_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PORTUGAL_32"/>
+			<m_ObjectName       text="ICON_PORTUGAL_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PORTUGAL_45"/>
+			<m_ObjectName       text="ICON_PORTUGAL_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PORTUGAL_50"/>
+			<m_ObjectName       text="ICON_PORTUGAL_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PORTUGAL_55"/>
+			<m_ObjectName       text="ICON_PORTUGAL_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PORTUGAL_64"/>
+			<m_ObjectName       text="ICON_PORTUGAL_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PORTUGAL_80"/>
+			<m_ObjectName       text="ICON_PORTUGAL_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PORTUGAL_22"/>
+			<m_ObjectName       text="ICON_PORTUGAL_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PORTUGAL_30"/>
+			<m_ObjectName       text="ICON_PORTUGAL_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PORTUGAL_36"/>
+			<m_ObjectName       text="ICON_PORTUGAL_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PORTUGAL_48"/>
+			<m_ObjectName       text="ICON_PORTUGAL_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PORTUGAL_44"/>
+			<m_ObjectName       text="ICON_PORTUGAL_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_ALBUQUERQUE_BACKGROUND"/>
+			<m_ObjectName       text="LEADER_ALBUQUERQUE_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_ALBUQUERQUE_NEUTRAL"/>
+			<m_ObjectName       text="LEADER_ALBUQUERQUE_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_JOAO_II_BACKGROUND"/>
+			<m_ObjectName       text="LEADER_JOAO_II_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_JOAO_II_NEUTRAL"/>
+			<m_ObjectName       text="LEADER_JOAO_II_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_MANUEL_I_BACKGROUND"/>
+			<m_ObjectName       text="LEADER_MANUEL_I_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_MANUEL_I_NEUTRAL"/>
+			<m_ObjectName       text="LEADER_MANUEL_I_NEUTRAL"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>

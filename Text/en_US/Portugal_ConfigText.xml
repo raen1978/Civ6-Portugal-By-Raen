@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<GameData>
+  <BaseGameText>
+
+
+
+
+  <Row Tag="LOC_BUILDING_MENIR_NAME">
+      <Text>Menir</Text>
+    </Row>
+
+  <Row Tag="LOC_BUILDING_CROMELEQUE_NAME">
+      <Text>Cromeleque</Text>
+    </Row>
+
+  <Row Tag="LOC_BUILDING_ANTA_NAME">
+      <Text>Anta</Text>
+    </Row>
+
+
+    <Row Tag="LOC_BUILDING_MEGALITH_NAME">
+      <Text>Megalith</Text>
+    </Row>
+
+   
+    <Row Tag="LOC_POLICY_CONNECTIVE_JUSTICE_NAME">
+      <Text>Connective Justice</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_CONNECTIVE_JUSTICE_DESCRIPTION">
+      <Text>+50% [ICON_Faith] Faith points per Shrine and Temple</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FAIR_TRADE_NAME">
+      <Text>Fair Trade</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_FAIR_TRADE_DESCRIPTION">
+      <Text>Your [ICON_TradeRoute] Trade routes with another cities provide +1 [ICON_FOOD] food for you and +1 [ICON_PRODUCTION] production for them</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SILENT_WAR_NAME">
+      <Text>Silent War</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SILENT_WAR_DESCRIPTION">
+      <Text>Your Spy level is increased by 1 for offensive operations</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MARE_NOSTRUM_NAME">
+      <Text>Mare Nostrum</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_MARE_NOSTRUM_DESCRIPTION">
+      <Text>
+        + 2 influence points per turn towards earning Envoys.
+      </Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SPICES_TRADE_NAME">
+      <Text>Spices Trade</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_SPICES_TRADE_DESCRIPTION">
+      <Text>
+        +10% [ICON_FOOD] Food and [ICON_GOLD] Gold per City-State you are the Suzerain of
+      </Text>
+    </Row>
+    <Row Tag="LOC_POLICY_TRADE_MONOPOLY_NAME">
+      <Text>Trade Monopoly</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_TRADE_MONOPOLY_DESCRIPTION">
+      <Text>
+        Open Borders with all City-States. Enemy Spy level reduced by 1 in your lands.
+      </Text>
+    </Row>
+    <Row Tag="LOC_POLICY_POSTCOLONIAL_COMMUNITY_NAME">
+      <Text>Postcolonial Community</Text>
+    </Row>
+    <Row Tag="LOC_POLICY_POSTCOLONIAL_COMMUNITY_DESCRIPTION">
+      <Text>Your [ICON_TradeRoute] Trade routes to an ally's city provide +4 [ICON_SCIENCE] Science for them and +4 [ICON_GOLD] Gold to you. Both parties gain +1 [ICON_CULTURE] Culture with the trade.</Text>
+    </Row>
+
+
+    <Row Tag="LOC_LEADER_MANUEL_I_NAME">
+      <Text>Manuel I</Text>
+    </Row>
+
+    <Row Tag="LOC_TRAIT_LEADER_MANUELINE_STYLE_NAME">
+      <Text>Manueline Style</Text>
+    </Row>
+
+    <Row Tag="LOC_TRAIT_LEADER_MANUELINE_STYLE_DESCRIPTION">
+      <Text>International Trade Routes to other civilizations provide +4 Culture for Portugal, 1 extra diplomacy slot, -50% of war weariness</Text>
+    </Row>
+
+
+    <Row Tag="LOC_NATIONAL_ESCOLA_SAGRES">
+      <Text>Escola de Sagres</Text>
+    </Row>
+
+    <Row Tag="LOC_NATIONAL_ESCOLA_SAGRES_NAME">
+      <Text>Escola de Sagres</Text>
+    </Row>
+
+
+    <Row Tag="LOC_NATIONAL_ESCOLA_SAGRES_DESCRIPTION">
+      <Text>+15% [ICON_Science] Science in this city. Extra Culture, Science and Production. Generates Grande Explorador and Great Scientist. [NEWLINE][NEWLINE]National Wonder. Only one copy of this building may be built in your civilization. May only be built by Caravela Latina Anchored at Porto (with a Estaleiro) and in an adjacent Campus places Escola de Sagres NATIONAL WONDER, Campus must be adjacent to a Cliff.</Text>
+    </Row>
+
+
+    <Row Tag="LOC_NATIONAL_CASA_INDIA_NAME">
+      <Text>Casa da Índia</Text>
+    </Row>
+
+
+    <Row Tag="LOC_NATIONAL_CASA_INDIA_DESCRIPTION">
+      <Text>
+        +30% [ICON_Gold] Gold in this city. Extra Culture, Gold and Production. Generates Great explorer and Great Merchant. [NEWLINE][NEWLINE]National Wonder. Only one copy of this building may be built in your civilization. May only be built by Nau anchored at Porto (with a Porto Maritimo) and in an adjacent Commercial Hub places Casa da India NATIONAL WONDER, Commercial Hub must be adjacent to City Center.
+      </Text>
+    </Row>
+
+    
+    
+    <Row Tag="LOC_NATIONAL_MOSTEIRO_JERONIMOS_NAME">
+      <Text>Mosteiro dos Jerónimos</Text>
+    </Row>
+
+    <Row Tag="LOC_NATIONAL_MOSTEIRO_JERONIMOS_DESCRIPTION">
+      <Text>
+        +45% [ICON_Faith] Faith in this city. Extra Faith, Culture and Production. Generates Great explorer and Great Prophet. [NEWLINE][NEWLINE]National Wonder. Only one copy of this building may be built in your civilization. May only be built by Nau anchored at Porto (with a Porto Maritimo) and in an adjacent Holy Site places Mosteiro dos Gerónimos NATIONAL WONDER, Holy Site must be adjacent to City Center.
+      </Text>
+    </Row>
+
+
+    <Row Tag="LOC_UNIT_MONGE_JERONIMO_NAME">
+      <Text>Monge Jerónimo</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_MONGE_JERONIMO_DESCRIPTION">
+      <Text>
+        Unique Monk Missionary. 120 religious strength. Cannot enter other nations' territory without Open Borders. Has +35 Religious Strength bonus in friendly territory (But not if near cities that follow the Inquisitor's religion).
+      </Text>
+    </Row>
+    
+    
+ 
+    <Row Tag="LOC_IMPROVEMENT_NAUTICAL_VENTURE_NAME">
+      <Text>Sea Venture</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_NAUTICAL_VENTURE_DESCRIPTION">
+      <Text>Increases Science, Culture and even Gold from ventures and trade overboards</Text>
+    </Row>
+    
+    <Row Tag="LOC_UNIT_DHOW_NAME">
+      <Text>Dhow</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_DHOW_DESCRIPTION">
+      <Text>Naval Melee units that unlocks at Nautical Science. 35 melee strength and 3 movements.</Text>
+    </Row>
+
+
+
+    <Row Tag="LOC_UNIT_BARCA_NAME">
+      <Text>Barca</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BARCA_DESCRIPTION">
+      <Text>
+        Replaces Dhow with +5 melee strength.
+      </Text>
+    </Row>
+    
+    <Row Tag="LOC_UNIT_JUNK_NAME">
+      <Text>Junk</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_JUNK_DESCRIPTION">
+      <Text>Replaces Dhow and unlocks at Military Tactics. +10 melee strength and -1 movement.</Text>
+    </Row>
+
+
+    <Row Tag="LOC_NAUTICAL_SCIENCE_NAME">
+      <Text>Nautical Science</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_NAUTICAL_SCIENCE">
+      <Text>Have the Naval Tradition civic.</Text>
+    </Row>
+    <Row Tag="LOC_BOOST_TRIGGER_LONGDESC_NAUTICAL_SCIENCE">
+      <Text>The teachings from your sea quests and naval tradition have inspired a renewed interest in sea exploring in your realm.</Text>
+    </Row>
+
+    <Replace Tag="LOC_BUILDING_LIGHTHOUSE_DESCRIPTION">
+      <Text>+25% combat experience for all naval units trained in this city. +1 [ICON_FOOD] Food on all Coast tiles for this city. +1 [ICON_TradeRoute] Trade Route capacity, if this city does not yet have a Market building.</Text>
+    </Replace>
+    
+    
+    
+    <Replace Tag="LOC_BOOST_TRIGGER_CARTOGRAPHY">
+      <Text>Build 2 Commercial Hubs.</Text>
+    </Replace>
+    <Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_CARTOGRAPHY">
+      <Text>With so many ships leaving of your empire you long to need commecial hubs for the goods gain in exploration</Text>
+    </Replace>
+
+    <Replace Tag="LOC_BOOST_TRIGGER_EXPLORATION">
+      <Text>Build 2 dhows/barcas/junks.</Text>
+    </Replace>
+    <Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_EXPLORATION">
+      <Text>The lessons you have learned from dhows (in middle east to india), caravels (in Europe) and junks (in china) exploration have led to a new way of governing your people.</Text>
+    </Replace>
+
+    <Replace Tag="LOC_BOOST_TRIGGER_STEAM_POWER">
+      <Text>Build 1 Stock Exchange.</Text>
+    </Replace>
+    <Replace Tag="LOC_BOOST_TRIGGER_LONGDESC_STEAM_POWER">
+      <Text>Let us apply our industrial acumen to your newly-constructed Stock Exchange. Steam-powered naval vessels could rule the seas.</Text>
+    </Replace>
+    
+
+    <Replace Tag="LOC_CIVILIZATION_LISBON_NAME">
+      <Text>Macau</Text>
+    </Replace>
+    <Replace Tag="LOC_CITY_NAME_LISBON">
+      <Text>Macau</Text>
+    </Replace>
+    <Replace Tag="LOC_CITY_NAME_LISBON_1">
+      <Text>Macau</Text>
+    </Replace>
+    <Replace Tag="LOC_CIVILIZATION_LISBON_DESCRIPTION">
+      <Text>Macau city-state</Text>
+    </Replace>
+    <Replace Tag="LOC_CIVILIZATION_LISBON_ADJECTIVE">
+      <Text>Macau</Text>
+      <Gender>Masculine:an</Gender>
+    </Replace>
+    <Replace Tag="LOC_LEADER_TRAIT_LISBON_NAME">
+      <Text>Macau Suzerain Bonus</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_LISBON_CHAPTER_HISTORY_PARA_1">
+      <Text>The history of Macau is traced back to the Qin dynasty (221–206 BC), when the region now called Macau came under the jurisdiction of Panyu County, Nanhai Prefecture (modern Guangdong). The first recorded Chinese inhabitants of the area were people seeking refuge in Macau from invading Mongols during the Southern Song. Under the Ming dynasty (1368–1644), fishermen migrated to Macau from Guangdong and Fujian. The Macau native people were Tanka boat people.</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_LISBON_CHAPTER_HISTORY_PARA_2">
+      <Text> Macau did not develop as a major settlement until the Portuguese arrived in the 16th century. In 1513, Jorge Álvares became the first Portuguese to land in China. In 1535, Portuguese traders obtained the rights to anchor ships in Macau's harbours and to carry out trading activities, though not the right to stay onshore. Around 1552–1553, they obtained temporary permission to erect storage sheds onshore, in order to dry out goods drenched by sea water; they soon built rudimentary stone houses around the area now called Nam Van.</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_LISBON_CHAPTER_HISTORY_PARA_3">
+      <Text>In 1557, the Portuguese established a permanent settlement in Macau, paying an annual rent of 500 taels (18.9 kilograms / 41.6 pounds) of silver. The Portuguese continued to pay an annual tribute up to 1863 in order to stay in Macau.</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_LISBON_CHAPTER_HISTORY_PARA_4">
+      <Text>The main Portuguese feitorias were in Goa, Malacca, Ormuz, Ternate, and Macau. They were mainly driven by the trade of gold and slaves on the coast of Guinea, spices in the Indian Ocean, and sugar cane in the New World. They were also used for local triangular trade between several territories, like Goa-Macau-Nagasaki, trading products such as sugar, pepper, coconut, timber, horses, grain, feathers from exotic Indonesian birds, precious stones, silks and porcelain from the East, among many other products. In the Indian Ocean, the trade in Portuguese feitorias was enforced and increased by a merchant ship licensing system: the cartazes.</Text>
+    </Replace>
+    
+
+    
+
+
+
+    <Row Tag="LOC_DISTRICT_PORTO_NAME">
+      <Text>Porto</Text>
+    </Row>
+
+    <Row Tag="LOC_DISTRICT_PORTO_DESCRIPTION">
+      <Text>A district for naval activity in your city. Also removes the [ICON_Movement] Movement penalty for embarking and disembarking to and from this tile. Must be built on Coast or Lake Terrain adjacent to land. +1 [ICON_TradeRoute] Trade Route capacity, if this city does not yet have a Commercial Hub district.</Text>
+    </Row>
+
+    <Row Tag="LOC_BUILDING_FAROL_NAME">
+      <Text>Farol</Text>
+    </Row>
+
+    <Row Tag="LOC_BUILDING_ESTALEIRO_NAME">
+      <Text>Estaleiro</Text>
+    </Row>
+
+    <Row Tag="LOC_BUILDING_PORTOMARITIMO_NAME">
+      <Text>Porto Marítimo</Text>
+    </Row>
+    
+    <Row Tag="LOC_PROJECT_DISCOVERIES_DESCRIPTION">
+      <Text>District-based project which provides [ICON_Gold] Gold every turn and [ICON_GreatAdmiral] Great Explorer points once finished.</Text>
+    </Row>
+
+
+    <Row Tag="LOC_PROJECT_DISCOVERIES_NAME">
+      <Text>Harbor Shipping to the Exploration of the New World</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_DISCOVERIES_SHORT_NAME">
+      <Text>Discover the New World</Text>
+    </Row>
+
+
+    <Row Tag="LOC_PROJECT_NAU_TRATO_DESCRIPTION">
+      <Text>District-based project which provides [ICON_Gold] Gold every turn and [ICON_GreatMerchant] Great Merchant points once finished.</Text>
+    </Row>
+
+
+    <Row Tag="LOC_PROJECT_NAU_TRATO_NAME">
+      <Text>Harbor Shipping to the trading Nau do Trato</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_NAU_TRATO_SHORT_NAME">
+      <Text>Nau do Trato trading</Text>
+    </Row>
+
+
+
+    <Row Tag="LOC_PROJECT_MARCHAS_POPULARES_DESCRIPTION">
+      <Text>District-based project which provides [ICON_Culture] Gold every turn and [ICON_GreatArtist] Great Artist points once finished.</Text>
+    </Row>
+
+
+    <Row Tag="LOC_PROJECT_MARCHAS_POPULARES_NAME">
+      <Text>Marchas Populares Year Event</Text>
+    </Row>
+    <Row Tag="LOC_PROJECT_MARCHAS_POPULARES_SHORT_NAME">
+      <Text>Marchas Populares</Text>
+    </Row>
+    
+    
+    
+    <!--Great People-->
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AFONSO_DE_ALBUQUERQUE_NAME">
+      <Text>Afonso de Albuquerque</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_INFANTE_DOM_HENRIQUE_NAME">
+      <Text>Infante Dom Henrique</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_JOAO_GONCALVES_ZARCO_NAME">
+      <Text>João Gonçalves Zarco</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_TRISTAO_VAZ_TEIXEIRA_NAME">
+      <Text>Tristão Vaz Teixeira</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GONCALO_VELHO_CABRAL_NAME">
+      <Text>Gonçalo Velho Cabral</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GIL_EANES_NAME">
+      <Text>Gil Eanes</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_NUNO_TRISTAO_NAME">
+      <Text>Nuno Tristão</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_BARTOLOMEU_DIAS_NAME">
+      <Text>Bartolomeu Dias</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DIOGO_CAO_NAME">
+      <Text>Diogo Cão</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_JOAO_CORTE_REAL_NAME">
+      <Text>João Vaz Corte-Real</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PERO_DA_COVILHA_NAME">
+      <Text>Pero da Covilhã</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_VASCO_DA_GAMA_NAME">
+      <Text>Vasco da Gama</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PEDRO_ALVARES_CABRAL_NAME">
+      <Text>Pedro Álvares Cabral</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_JOAO_DA_NOVA_NAME">
+      <Text>João da Nova</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FRANCISCO_DE_ALMEIDA_NAME">
+      <Text>Francisco de Almeida</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_TRISTAO_DA_CUNHA_NAME">
+      <Text>Tristão da Cunha</Text>
+    </Row>
+    
+     <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FRANCISCO_ALVARES_NAME">
+      <Text>Francisco Álvares</Text>
+    </Row>
+
+    
+        <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AHMAD_IBN_MAJID_NAME">
+      <Text>Ahmad ibn Mājid</Text>
+    </Row>
+    
+      
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_LUIS_VAZ_CAMOES_NAME">
+      <Text>Luís Vaz de Camões</Text>
+    </Row>
+
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_ANTONIO_VIEIRA_NAME">
+      <Text>Padre António Vieira</Text>
+    </Row>
+
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_JOAO_PEREIRA_DE_SOUSA_NAME">
+      <Text>João Pereira de Sousa</Text>
+    </Row>
+    
+   
+
+
+
+
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_JORGE_ALVARES_NAME">
+      <Text>Jorge Álvares</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PAULO_DIAS_DE_NOVAIS_NAME">
+      <Text>Paulo Dias de Novais</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_MARTIM_AFONSO_DE_SOUSA_NAME">
+      <Text>Martim Afonso de Sousa</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DUARTE_PACHECO_PEREIRA_NAME">
+      <Text>Duarte Pacheco Pereira</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FERDINAND_MAGELLAN2_NAME">
+      <Text>Fernão de Magalhães</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_ROBERTO_IVENS_NAME">
+      <Text>Roberto Ivens</Text>
+    </Row>
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HERMENEGILDO_CAPELO_NAME">
+      <Text>Hermenegildo Capelo</Text>
+    </Row>
+
+
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_DOM_FUAS_ROUPINHO_NAME">
+      <Text>D. Fuas Roupinho</Text>
+    </Row>
+
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_RUY_AFONSO_DE_SOUSA_NAME">
+      <Text>Ruy Afonso de Sousa</Text>
+    </Row>
+
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FERNAO_MENDES_PINTO_NAME">
+      <Text>Fernão Mendes Pinto</Text>
+    </Row>
+
+    <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_SERPA_PINTO_NAME">
+      <Text>Serpa Pinto</Text>
+    </Row>
+
+    <Row Tag="LOC_GREATPERSON_INFANTE_DOM_HENRIQUE_ACTIVE">
+      <Text>Instantly creates a Caravela Latina. Allows all naval units to move over ocean tiles without the normal technology requirement.</Text>
+    </Row>
+
+    <Row Tag="LOC_GREATPERSON_JOAO_PEREIRA_DE_SOUSA_ACTIVE">
+      <Text>Instantly creates a Botafogo with 50% of experience</Text>
+    </Row>
+    
+    <Row Tag="LOC_GREATPERSON_AHMAD_IBN_MAJID_ACTIVE">
+      <Text>Instantly creates a Dhow with 25% of experience, and great work of Lessons on the Foundation of the Sea and Navigation.</Text>
+    </Row>
+
+    <Row Tag="LOC_GREATPERSON_DOM_FUAS_ROUPINHO_ACTIVE">
+      <Text>Instantly creates a Galley with 25% of experience</Text>
+    </Row>
+
+    
+    <Row Tag="LOC_GREATPERSON_JOAO_GONCALVES_ZARCO_ACTIVE">
+      <Text>Forms a Fleet out of a military naval unit.</Text>
+    </Row>
+
+    <Row Tag="LOC_GREATPERSON_TRISTAO_VAZ_TEIXEIRA_ACTIVE">
+      <Text>Accumulate 50% less war weariness than usual.</Text>
+    </Row>
+
+    <Row Tag="LOC_GREATPERSON_GONCALO_VELHO_CABRAL_ACTIVE">
+      <Text>Gain {Amount} [ICON_Envoy] {Amount : plural 1?Envoy; other?Envoys;}.</Text>
+    </Row>
+
+
+    <Row Tag="LOC_GREATPERSON_GIL_EANES_ACTIVE">
+      <Text>Grants 1 promotion level and +25% combat experience to a military naval unit.</Text>
+    </Row>
+
+    <Row Tag="LOC_GREATPERSON_BARTOLOMEU_DIAS_ACTIVE">
+      <Text>+85% flanking bonus for all naval units.</Text>
+    </Row>
+
+    <Row Tag="LOC_GREATPERSON_NUNO_TRISTAO_ACTIVE">
+      <Text>Gain 100 [ICON_Gold] Gold (on Standard speed). Military units get +50% rewards for plundering sea [ICON_TradeRoute] Trade Routes.</Text>
+    </Row>
+
+    
+    <Row Tag="LOC_GREATPERSON_LOPO_SOARES_DE_ALBERGARIA_ACTIVE">
+      <Text>Gain 1000 [ICON_Gold] Gold (on Standard speed). Also Creates Caravela Redonda instantly with 75% of experience</Text>
+    </Row>
+    
+      
+    <Row Tag="LOC_GREATPERSON_DIOGO_CAO_ACTIVE">
+      <Text>Gain {Amount} [ICON_Envoy] {Amount : plural 1?Envoy; other?Envoys;}.</Text>
+    </Row>
+
+    <Row Tag="LOC_GREATPERSON_JOAO_CORTE_REAL_ACTIVE">
+      <Text>Gain 200 [ICON_Gold] Gold (on Standard speed).</Text>
+    </Row>
+
+    <Row Tag="LOC_GREATPERSON_PERO_DA_COVILHA_ACTIVE">
+      <Text>+{Amount} {Amount : plural 1?level; other?levels;} of diplomatic visibility with all other civilizations.</Text>
+    </Row>
+
+    <Row Tag="LOC_GREATPERSON_VASCO_DA_GAMA_ACTIVE">
+      <Text>+50% [ICON_Production] Production towards units of the Naval Raider promotion class.</Text>
+    </Row>
+
+    <Row Tag="LOC_GREATPERSON_PEDRO_ALVARES_CABRAL_ACTIVE">
+      <Text>+{Amount} {Amount : plural 1?level; other?levels;} of diplomatic visibility with all other civilizations.</Text>
+    </Row>
+
+    <Row Tag="LOC_GREATPERSON_JOAO_DA_NOVA_ACTIVE">
+      <Text>Forms an Armada out of a military naval unit. Grants 1 promotion level and +50% combat experience to a military naval unit.</Text>
+    </Row>
+
+    <Row Tag="LOC_GREATPERSON_AFONSO_DE_ALBUQUERQUE_ACTIVE">
+      <Text>Instantly creates a Caravela Flor do Mar with 25% of experience</Text>
+    </Row>
+
+    <Row Tag="LOC_GREATPERSON_FRANCISCO_DE_ALMEIDA_ACTIVE">
+      <Text>Gain 250 [ICON_Gold] Gold (on Standard speed). Military units get +60% rewards for plundering sea [ICON_TradeRoute] Trade Routes.</Text>
+    </Row>
+
+
+    <Row Tag="LOC_GREATPERSON_TRISTAO_DA_CUNHA_ACTIVE">
+      <Text>Gain 350 [ICON_Gold] Gold (on Standard speed).</Text>
+    </Row>
+
+    <Row Tag="LOC_GREATPERSON_JORGE_ALVARES_ACTIVE">
+      <Text>+{Amount} {Amount : plural 1?level; other?levels;} of diplomatic visibility with all other civilizations.</Text>
+    </Row>
+
+    <Row Tag="LOC_GREATPERSON_PAULO_DIAS_DE_NOVAIS_ACTIVE">
+      <Text>Gain 400 [ICON_Gold] Gold (on Standard speed). Military units get +70% rewards for plundering sea [ICON_TradeRoute] Trade Routes.</Text>
+    </Row>
+
+    <Row Tag="LOC_GREATPERSON_MARTIM_AFONSO_DE_SOUSA_ACTIVE">
+      <Text>Grants 1 promotion level and +75% combat experience to a military naval unit.</Text>
+    </Row>
+
+    <Row Tag="LOC_GREATPERSON_DUARTE_PACHECO_PEREIRA_ACTIVE">
+      <Text>Grants 1 promotion level and +100% combat experience to a military naval unit.</Text>
+    </Row>
+
+    <Row Tag="LOC_GREATWORK_DUARTE_PACHECO_PEREIRA_NAME">
+      <Text>Esmeraldo de Situ Orbis</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_FRANCISCO_ALVARES_NAME">
+      <Text>A True Relation of the Lands of Prester John of the Indies</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_LUIS_VAZ_CAMOES_NAME">
+      <Text>Lusíadas</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_ANTONIO_VIEIRA_NAME">
+      <Text>Sermões</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_MARTIM_AFONSO_DE_SOUSA_NAME">
+      <Text>Entradas e Bandeiras</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_ROBERTO_IVENS_NAME">
+      <Text>De Benguela às Terras de Iaca</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_FERDINAND_MAGELLAN2_NAME">
+      <Text>Circumnavigation of the globe</Text>
+    </Row>
+
+    <Row Tag="LOC_GREATWORK_FERNAO_MENDES_PINTO_NAME">
+      <Text>Peregrinação</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_RUY_AFONSO_DE_SOUSA_NAME">
+      <Text>Treaty of Tordesilhas</Text>
+    </Row>
+    <Row Tag="LOC_GREATWORK_SERPA_PINTO_NAME">
+      <Text>Como eu atravessei a África</Text>
+    </Row>
+    
+    <Row Tag="LOC_GREATWORK_AHMAD_IBN_MAJID_NAME">
+      <Text>Kitab al-Fawa'id</Text>
+    </Row>
+   
+     <Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_LOPO_SOARES_DE_ALBERGARIA_NAME">
+      <Text>Lopo Soares de Albergaria</Text>
+    </Row>
+
+
+
+    <Row Tag="LOC_GREATPERSON_FERDINAND_MAGELLAN2_ACTIVE">
+      <Text>+{Amount} {Amount : plural 1?level; other?levels;} of diplomatic visibility with all other civilizations.</Text>
+    </Row>
+
+    <Row Tag="LOC_GREATPERSON_ROBERTO_IVENS_ACTIVE">
+      <Text>Triggers the [ICON_TechBoosted] Eureka moment for {Amount} random {Amount : plural 1?technology; other?technologies;} from the Industrial or Modern era.</Text>
+    </Row>
+
+    <Row Tag="LOC_GREATPERSON_HERMENEGILDO_CAPELO_ACTIVE">
+      <Text>Grants 1 promotion level and +200% combat experience to a military naval unit.</Text>
+    </Row>
+
+
+
+    <Row Tag="LOC_CIVILIZATION_PORTUGAL_NAME">
+      <Text>Portugal</Text>
+    </Row>
+    <Row Tag="LOC_CIVILIZATION_PORTUGAL_DESCRIPTION">
+      <Text>Portugal Civilization</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_ALBUQUERQUE_NAME">
+      <Text>Afonso de Albuquerque</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_JOAO_II_NAME">
+      <Text>João II</Text>
+    </Row>
+    <!--Traits -->
+    <Row Tag="LOC_TRAIT_CIVILIZATION_EARLY_GLOBALIZATION_NAME">
+      <Text>Lusiads</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_EARLY_GLOBALIZATION_DESCRIPTION">
+      <Text>
+        Provides an envoy with a City-State when you establish a Trade Route. Each International City provides a free trading post. After researching Nautical Science and Exploration, Naval units gain the ability to enter ocean tiles, and can form into fleets or Armadas, respectively.
+      </Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_MARE_CLAUSUM_NAME">
+      <Text>Mare Clausum</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_MARE_CLAUSUM_DESCRIPTION">
+      <Text>
+        Mare Clausum Receive +2 [ICON_Gold] Gold for each Feitoria. All Ranged Naval Units receive +1 [ICON_Range] Range and All Naval units Heal at a faster rate.
+      </Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_HENRY_LEGACY_NAME">
+      <Text>Sea Devotion</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_HENRY_LEGACY_DESCRIPTION">
+      <Text>
+        Portuguese renaissance naval units are able to enter in city states territories regardless of your level of influence with them, start with the 'Volta do mar' ability, which gives +1 [ICON_Movement] movement in open sea, and can be purchased at half price.
+      </Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_PADRAO_NAME">
+      <Text>Padrão</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_PADRAO_DESCRIPTION">
+      <Text>
+           Improves all coastal hills with adjacent Luxury. Claims the tile it's on and grants +1 Movement for Naval Units starting their turns next to it. May only be built by the Caravela Latina.
+      </Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_FEITORIA_NAME">
+      <Text>Feitoria</Text>
+    </Row>
+    <Row Tag="LOC_IMPROVEMENT_FEITORIA_DESCRIPTION">
+      <Text>
+        Improves all plain tiles in a coast of a City-State, claiming the tile it's on. Provides extra amenities and gold for each trade route with the city-state, and even more if Portugal is the Sovereign. This improvement provides significant yields in food, production, and gold to its tile. May only be built by Nau.
+      </Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_BAIRRO_ALTO_NAME">
+      <Text>Bairro Alto</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_BAIRRO_ALTO_DESCRIPTION">
+      <Text>
+        Provides extra amenities and extra housing but also extra culture and food in its tile and in adjacent ones. Helps to generate great writers, great musisians, great artists and great explorers.[NEWLINE][NEWLINE]National District. Only one copy of this district may be built in your civilization. May only be built by Nau Anchored at Porto (with a Porto Maritimo) placing Bairro Alto in hills of that city, having an adjacent City Center, and subsequently Commercial Hub and the Porto.
+      </Text>
+    </Row>
+
+    <Row Tag="LOC_DISTRICT_FEITORIA_NAME">
+      <Text>Feitoria</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_FEITORIA_DESCRIPTION">
+      <Text>Feitoria is an establishment for factors or merchants carrying on business in foreign lands.</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_NAU_NAME">
+      <Text>Nau</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_NAU_DESCRIPTION">
+      <Text>
+        Unique ranged [ICON_Range] naval unit that unlocks at Cartography. May pillage coastal tiles. Upon moving adjacent to a coastal plain terrain of a city-state, places a Feitoria on it. Anchored at Porto (with Porto Maritimo), adjacent to a commercial hub and subsequently to city center, places Bairro Alto National District in a Hill adjacent to city center. Receives a bonus vs cities and gold when a city is captured within two tiles of a Nau based on the number of luxuries around the City.
+      </Text>
+    </Row>
+
+
+    <Row Tag="LOC_UNIT_NAU_JOAO_DESCRIPTION">
+      <Text>
+        Unique ranged [ICON_Range] naval unit that unlocks at Cartography. May pillage coastal tiles. Upon moving adjacent to a coastal plain terrain of a city-state, places a Feitoria on it. Anchored at Porto (with Porto Maritimo), adjacent to a commercial hub and subsequently to city center, places Bairro Alto National District in a Hill adjacent to city center.
+      </Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_NAU_MANUEL_DESCRIPTION">
+      <Text>
+        Unique ranged [ICON_Range] naval unit that unlocks at Cartography. May pillage coastal tiles. Upon moving adjacent to a coastal plain terrain of a city-state, places a Feitoria on it. Anchored at Porto (with Porto Maritimo), adjacent to a commercial hub and subsequently to city center, places Bairro Alto National District in a Hill adjacent to city center. Also anchored at Porto (with Porto Maritimo), adjacent to a holy site hub and subsequently to city center, places Mosteiros dos Jerónimos National Wonder in Holy Site.
+      </Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_NAU_ALBUQUERQUE_DESCRIPTION">
+      <Text>
+        Unique ranged [ICON_Range] naval unit that unlocks at Cartography. May pillage coastal tiles. Upon moving adjacent to a coastal plain terrain of a city-state, places a Feitoria on it. Anchored at Porto (with Porto Maritimo), adjacent to a commercial hub and subsequently to city center, places Bairro Alto National District in a Hill adjacent to city center. Also anchored at Porto (with Porto Maritimo), adjacent to a commercial hub and subsequently to city center, places Casa da India National Wonder in Commercial Hub.
+      </Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_NAU_TRATO_NAME">
+      <Text>Nau do Trato</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_NAU_TRATO_DESCRIPTION">
+      <Text>Nau known as blackship to trade with Japan</Text>
+    </Row>
+
+
+    <Row Tag="LOC_UNIT_CARAVELA_NAME">
+      <Text>Caravela Redonda</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CARAVELA_DESCRIPTION">
+      <Text>
+        Replaces Caravel with +5 [ICON_Strength] Combat Strength. Gains additional strength when within two tiles of an embarked Trader Unit, and increases the Combat of adjacent Naval Units by +5 [ICON_Strength].
+      </Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BOTAFOGO_NAME">
+      <Text>Botafogo</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BOTAFOGO_DESCRIPTION">
+      <Text>Portuguese "spitfire" Galleon, strongest war ship at the time, replaces frigate</Text>
+    </Row>
+
+
+
+    <Row Tag="LOC_UNIT_GRANDE_EXPLORADOR_NAME">
+      <Text>Grande Explorador</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GRANDE_EXPLORADOR_DESCRIPTION">
+      <Text>Replaces great admiral but its a land unit instead with no Embark/Disembark Cost. Like great admirals some build units (Portuguese ones) instantly and other bonus on activation. Aditionally, some make great writings</Text>
+    </Row>
+
+
+    <Row Tag="LOC_UNIT_CARAVELA_EXPLORADORA_NAME">
+      <Text>Caravela Latina</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CARAVELA_EXPLORADORA_DESCRIPTION">
+      <Text>
+        Replaces Caravel and Unlocks with Exploration. +1 [ICON_Movement] Movement on coast and navigates Ocean Irregardless of the Tech. Upon moving adjacent to an uncrowded Coastal hill with an adjacent Luxury or Resource, places a Padrao on it. Anchored at Porto (with a Estaleiro) and in an adjacent Campus with a subsequent CLIFF, places Escola de Sagres NATIONAL WONDER in Campus.
+      </Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_CARAVELA_DESCOBRIR_NAME">
+      <Text>Caravela Latina</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CARAVELA_DESCOBRIR_DESCRIPTION">
+      <Text>Portuguese first invented caravel to explore the seas</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_GREAT_EXPLORER_NAME">
+      <Text>Grande Explorador</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_GREAT_EXPLORER_DESCRIPTION">
+      <Text>Great portuguese explorers of the seas for reaching the new world and global trade</Text>
+    </Row>
+
+
+    <Row Tag="LOC_UNIT_FLOR_MAR_NAME">
+      <Text>Flor do Mar</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_FLOR_MAR_DESCRIPTION">
+      <Text>Great Nau with the most longevity, favorite of Afonso de Albuquerque</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_PASTOR_LUSITANO_NAME">
+      <Text>Pastor Lusitano</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_PASTOR_LUSITANO_DESCRIPTION">
+      <Text>
+        Replaces Scout. +1 movement	+5 strenght	+1 view.
+      </Text>
+    </Row>
+    <!--POrtugal Citizens-->
+     <Row Tag="LOC_CITIZEN_PORTUGAL_MALE_1">
+      <Text>Antão</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_MALE_2">
+      <Text>Bartolomeu</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_MALE_3">
+      <Text>Tristão</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_MALE_4">
+      <Text>Fernão</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_MALE_5">
+      <Text>Pêro</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_MALE_6">
+      <Text>Ruy</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_MALE_7">
+      <Text>Dagoberto</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_MALE_8">
+      <Text>Esaú</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_MALE_9">
+      <Text>Idelfonso</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_MALE_10">
+      <Text>Getúlio</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_FEMALE_1">
+      <Text>Quitéria</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_FEMALE_2">
+      <Text>Sancha</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_FEMALE_3">
+      <Text>Antonina</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_FEMALE_4">
+      <Text>Precília</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_FEMALE_5">
+      <Text>Severina</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_FEMALE_6">
+      <Text>Vicência</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_FEMALE_7">
+      <Text>Dorotéia</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_FEMALE_8">
+      <Text>Francília</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_FEMALE_9">
+      <Text>Erméria</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_FEMALE_10">
+      <Text>Tolentina</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_MODERN_MALE_1">
+      <Text>Alberto</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_MODERN_MALE_2">
+      <Text>Carlos</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_MODERN_MALE_3">
+      <Text>Nuno</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_MODERN_MALE_4">
+      <Text>Pedro</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_MODERN_MALE_5">
+      <Text>Rui</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_MODERN_MALE_6">
+      <Text>Gonçalo</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_MODERN_MALE_7">
+      <Text>Francisco</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_MODERN_MALE_8">
+      <Text>Tiago</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_MODERN_MALE_9">
+      <Text>Bruno</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_MODERN_MALE_10">
+      <Text>Mário</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_MODERN_FEMALE_1">
+      <Text>Ana</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_MODERN_FEMALE_2">
+      <Text>Rita</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_MODERN_FEMALE_3">
+      <Text>Mariana</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_MODERN_FEMALE_4">
+      <Text>Lara</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_MODERN_FEMALE_5">
+      <Text>Sílvia</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_MODERN_FEMALE_6">
+      <Text>Carolina</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_MODERN_FEMALE_7">
+      <Text>Inês</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_MODERN_FEMALE_8">
+      <Text>Joana</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_MODERN_FEMALE_9">
+      <Text>Patrícia</Text>
+    </Row>
+    <Row Tag="LOC_CITIZEN_PORTUGAL_MODERN_FEMALE_10">
+      <Text>Filipa</Text>
+    </Row>
+
+
+  </BaseGameText>
+</GameData>

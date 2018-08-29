@@ -1,6 +1,6 @@
 "# Civ6-Portugal-By-Raen" 
 
-Download Latest Release for manual intall:
+Download Latest Release for manual intall (and access source code):
 https://github.com/raen1978/Civ6-Portugal-By-Raen/releases
 
 Published at Steam:
